@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "course": "MCA",
+        "session": "2015-2018",
+        "designation": "Software Engineer",
+        "organization": "Tech Corp",
+        "linkedin": "https://linkedin.com/johndoe",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MCA001"
+    },
+    {
+        "id": 2,
+        "name": "Emily Clark",
+        "course": "PhD",
+        "session": "2012-2016",
+        "designation": "Research Scientist",
+        "organization": "Research Labs",
+        "linkedin": "https://linkedin.com/emilyclark",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "PHD001"
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "course": "BTech",
+        "session": "2015-2018",
+        "designation": "Software Developer",
+        "organization": "Code Innovations",
+        "linkedin": "https://linkedin.com/michaelbrown",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "BTECH001"
+    },
+    {
+        "id": 4,
+        "name": "Sophia Johnson",
+        "course": "MTech",
+        "session": "2012-2016",
+        "designation": "System Analyst",
+        "organization": "Tech Solutions",
+        "linkedin": "https://linkedin.com/sophiajohnson",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MTECH001"
+    },
+    {
+        "id": 5,
+        "name": "William Davis",
+        "course": "MCA",
+        "session": "2015-2018",
+        "designation": "Frontend Developer",
+        "organization": "Web Builders",
+        "linkedin": "https://linkedin.com/williamdavis",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MCA002"
+    },
+    {
+        "id": 6,
+        "name": "Olivia Wilson",
+        "course": "PhD",
+        "session": "2012-2016",
+        "designation": "Data Scientist",
+        "organization": "Data Analytics Inc.",
+        "linkedin": "https://linkedin.com/oliviawilson",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "PHD002"
+    },
+    {
+        "id": 7,
+        "name": "James Miller",
+        "course": "BTech",
+        "session": "2015-2018",
+        "designation": "Backend Developer",
+        "organization": "Tech Group",
+        "linkedin": "https://linkedin.com/jamesmiller",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "BTECH002"
+    },
+    {
+        "id": 8,
+        "name": "Isabella Taylor",
+        "course": "MTech",
+        "session": "2012-2016",
+        "designation": "Cloud Engineer",
+        "organization": "Cloud Services",
+        "linkedin": "https://linkedin.com/isabellataylor",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MTECH002"
+    },
+    {
+        "id": 9,
+        "name": "Benjamin Anderson",
+        "course": "MCA",
+        "session": "2015-2018",
+        "designation": "Full Stack Developer",
+        "organization": "Innovatech",
+        "linkedin": "https://linkedin.com/benjaminanderson",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MCA003"
+    },
+    {
+        "id": 10,
+        "name": "Ava Thomas",
+        "course": "PhD",
+        "session": "2012-2016",
+        "designation": "UX Researcher",
+        "organization": "User Experience Labs",
+        "linkedin": "https://linkedin.com/avathomas",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "PHD003"
+    },
+    {
+        "id": 11,
+        "name": "Elijah Martinez",
+        "course": "BTech",
+        "session": "2015-2018",
+        "designation": "Mobile Developer",
+        "organization": "App Ventures",
+        "linkedin": "https://linkedin.com/elijahmartinez",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "BTECH003"
+    },
+    {
+        "id": 12,
+        "name": "Mia Robinson",
+        "course": "MTech",
+        "session": "2012-2016",
+        "designation": "Network Engineer",
+        "organization": "Global Networks",
+        "linkedin": "https://linkedin.com/miarobinson",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MTECH003"
+    },
+    {
+        "id": 13,
+        "name": "Noah Lee",
+        "course": "MCA",
+        "session": "2015-2018",
+        "designation": "Database Administrator",
+        "organization": "DataSecure",
+        "linkedin": "https://linkedin.com/noahlee",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MCA004"
+    },
+    {
+        "id": 14,
+        "name": "Zoe King",
+        "course": "PhD",
+        "session": "2012-2016",
+        "designation": "Biostatistician",
+        "organization": "Healthcare Analytics",
+        "linkedin": "https://linkedin.com/zoeking",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "PHD004"
+    },
+    {
+        "id": 15,
+        "name": "Liam Scott",
+        "course": "BTech",
+        "session": "2015-2018",
+        "designation": "Game Developer",
+        "organization": "Game Studio",
+        "linkedin": "https://linkedin.com/liamscott",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "BTECH004"
+    },
+    {
+        "id": 16,
+        "name": "Chloe Young",
+        "course": "MTech",
+        "session": "2012-2016",
+        "designation": "AI Researcher",
+        "organization": "AI Labs",
+        "linkedin": "https://linkedin.com/chloeyoung",
+        "image": "https://via.placeholder.com/100",
+        "rollNumber": "MTECH004"
+    }
+]

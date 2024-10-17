@@ -4,13 +4,12 @@ import banner from '../images/banner.png'
 import sir from "../images/vishalSir.webp"
 import alumni from "../images/alumni.jpg"
 
-
 export const Home = () => {
     return (
         <div className='  w-full bg-no-repeat h-full mt-20 flex flex-col gap-40' >
             <div className='relative w-full h-full'>
                 <div className='w-full  mt-20 '>
-                    <img src={banner} alt='students' className='w-full ' />\
+                    <img src={banner} alt='students' className='w-full ' />
                 </div>
                 <div className='absolute inset-0 flex flex-col justify-start pt-9 items-center text-center bg-opacity-50 bg-white'>
                     <h1 className='text-4xl md:text-6xl lg:text-8xl leading-none font-extrabold font-mons uppercase text-[#0091CD]'>
@@ -48,11 +47,7 @@ export const Home = () => {
                         <img src={sir} alt='Punjabi University' className='w-full h-full' />
                     </div>
                 </div>
-
-
             </div>
-
-
         </div>
     )
 }
