@@ -1303,7 +1303,8 @@
         "Occupation": "Assistant professor of computer applications",
         "InsituteName": "Tara Vivek College Gajjanmajra",
         "Skill ": "1.5 years",
-        "Batch": "May-18"
+        "Batch": "May-18",
+        "Course": "MCA"
     },
     {
         "Name": "Varunpreet Singh",
@@ -1315,7 +1316,8 @@
         "Occupation": "Research Assistant",
         "InsituteName": "Thapar University Patiala",
         "Skill ": "Data Science",
-        "Batch": 2016
+        "Batch": 2016,
+        "Course": "M.TECH"
     },
     {
         "Name": "MANJINDER KAUR",
@@ -1326,7 +1328,8 @@
         "Profession": "Govt employee",
         "Occupation": "DISTRICT IT MANAGER",
         "InsituteName": "Department of governance reforms",
-        "Batch": 2015
+        "Batch": 2015,
+        "Course": "M.TECH"
     },
     {
         "Name": "Pushpinder Singh",
@@ -1338,7 +1341,8 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "University College Ghanaur (Patiala)",
         "Skill ": "Image Processing, OCR, Mobile Applications",
-        "Batch": 2023
+        "Batch": 2023,
+        "Course": "PHD"
     },
     {
         "Name": "Vaneet Pal kaur",
@@ -1350,7 +1354,8 @@
         "Occupation": "Senior Manager",
         "InsituteName": "CHEORS",
         "Skill ": "Health Economics and Outcome Research",
-        "Batch": 2014
+        "Batch": 2014,
+        "Course": "M Pharmacy"
     },
     {
         "Name": "Chiragdeep Singh",
@@ -1361,7 +1366,8 @@
         "Profession": "Own Business \/ Startup",
         "Occupation": "Owner",
         "InsituteName": "Durable Suitcase House, Chirag Sales",
-        "Batch": "2012-2015"
+        "Batch": "2012-2015",
+        "Course": "MCA"
     },
     {
         "Name": "Rajdeep Kaur",
@@ -1372,7 +1378,8 @@
         "Profession": "Teaching",
         "Occupation": "Guest Faculty",
         "InsituteName": "Punjabi University Patiala",
-        "Batch": 2017
+        "Batch": 2017,
+        "Course": "MCA"
     },
     {
         "Name": "Mandeep Singh",
@@ -1385,7 +1392,8 @@
         "InsituteName": "Reliance Jio Infocomm Ltd.",
         "Skill ": "Automation Testing and DevOps",
         "Batch": "2012-2015",
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/mandeep-singh-87b08927?trk=contact-info"
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/mandeep-singh-87b08927?trk=contact-info",
+        "Course": "MCA"
     },
     {
         "Name": "Rohit Dhingra",
@@ -1398,7 +1406,8 @@
         "InsituteName": "Metlife",
         "Skill ": "AI , RPA",
         "Batch": 2016,
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/rohit-dhingra-79223a157"
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/rohit-dhingra-79223a157",
+        "Course": "MCA"
     },
     {
         "Name": "Sandeep Kaur",
@@ -1409,7 +1418,8 @@
         "Profession": "Industry",
         "Occupation": "Software Tester",
         "InsituteName": "List and sell Gmbh",
-        "Batch": "2015-2018"
+        "Batch": "2015-2018",
+        "Course": "MCA"
     },
     {
         "Name": "Nitin Garg",
@@ -1420,7 +1430,8 @@
         "Profession": "Government Job",
         "Occupation": "Sr. Assistant",
         "InsituteName": "Judicial Department",
-        "Batch": "2010-2013"
+        "Batch": "2010-2013",
+        "Course": "MCA"
     },
     {
         "Name": "Vishal Goyal",
@@ -1433,7 +1444,8 @@
         "InsituteName": "Shri LBS Arya Mahila College Barnala",
         "WebsiteLink": "www.lbscollegebnl.com",
         "Skill ": "Programming",
-        "Batch": "2012-2015"
+        "Batch": "2012-2015",
+        "Course": "MCA"
     },
     {
         "Name": "Mahavir Singh",
@@ -1446,7 +1458,8 @@
         "InsituteName": "Akal college for women Khamanon",
         "WebsiteLink": "https:\/\/www.akalacademy.in\/",
         "Skill ": "DBMS,C++,Java good Communication skills as well as administrative experience",
-        "Batch": "2008-2011"
+        "Batch": "2008-2011",
+        "Course": "MCA"
     },
     {
         "Name": "Arshdeep Singh",
@@ -1457,7 +1470,8 @@
         "Profession": "Teaching",
         "Occupation": "English teacher",
         "InsituteName": "School teacher",
-        "Batch": 2021
+        "Batch": 2021,
+        "Course": "MCA"
     },
     {
         "Name": "Karamjit Singh",
@@ -1468,7 +1482,8 @@
         "Profession": "Defence",
         "Occupation": "System Administrator",
         "InsituteName": "TECHNICAL SERVICES PUNJAB POLICE",
-        "Batch": "2012-2015"
+        "Batch": "2012-2015",
+        "Course": "MCA"
     },
     {
         "Name": "Gagandeep Singh",
@@ -1480,7 +1495,8 @@
         "Occupation": "Assistant Professor Computer Science",
         "InsituteName": "Baba Siri Chand Ji govt College Sardargarh, Bathinda",
         "WebsiteLink": "https:\/\/bscgcsardargarh.ac.in\/",
-        "Batch": 2015
+        "Batch": 2015,
+        "Course": "MCA"
     },
     {
         "Name": "Samita Devi",
@@ -1492,7 +1508,8 @@
         "Occupation": "Computer faculty",
         "InsituteName": "SOE phillaur",
         "Skill ": "In computer",
-        "Batch": "2009-2011"
+        "Batch": "2009-2011",
+        "Course": "MCA"
     },
     {
         "Name": "Nitika",
@@ -1503,7 +1520,8 @@
         "Profession": "Teaching",
         "Occupation": "Teacher",
         "InsituteName": "St. Xavier’s Convent School, Bathinda",
-        "Batch": 2013
+        "Batch": 2013,
+        "Course": "MCA"
     },
     {
         "Name": "Simran Deep Singh Brar",
@@ -1514,7 +1532,8 @@
         "Profession": "Self-Employed",
         "Occupation": "Owner",
         "InsituteName": "Stallion Food Co.",
-        "Batch": 2015
+        "Batch": 2015,
+        "Course": "M.TECH"
     },
     {
         "Name": "Harminder Singh",
@@ -1526,7 +1545,8 @@
         "Occupation": "Assistant Director (IT)",
         "InsituteName": "National Informatics Centre",
         "WebsiteLink": "Www.nic.in",
-        "Batch": "2010-2013"
+        "Batch": "2010-2013",
+        "Course": "MCA"
     },
     {
         "Name": "Bhavika jindal",
@@ -1537,7 +1557,8 @@
         "Profession": "Teaching",
         "Occupation": "Assistant professor",
         "InsituteName": "Mata sundri university girls college mansa",
-        "Batch": "2017-2020"
+        "Batch": "2017-2020",
+        "Course": "MCA"
     },
     {
         "Name": "Harpreet Singh",
@@ -1549,7 +1570,8 @@
         "Occupation": "Student",
         "InsituteName": "Race Academy Bathinda",
         "WebsiteLink": "https:\/\/web.raceacademyofficial.com\/",
-        "Batch": 2020
+        "Batch": 2020,
+        "Course": "MCA"
     },
     {
         "Name": "Ankur Gupta",
@@ -1560,7 +1582,8 @@
         "Profession": "PSU BANK",
         "Occupation": "Officer",
         "InsituteName": "Punjab National Bank",
-        "Batch": "2010-2013"
+        "Batch": "2010-2013",
+        "Course": "MCA"
     },
     {
         "Name": "Shivani",
@@ -1571,7 +1594,8 @@
         "Profession": "Industry",
         "Occupation": "Senior engg",
         "InsituteName": "IT",
-        "Batch": "2013-2915"
+        "Batch": "2013-2915",
+        "Course": "M.TECH"
     },
     {
         "Name": "Riya Gupta",
@@ -1582,7 +1606,8 @@
         "Profession": "Industry",
         "Occupation": "Software developer",
         "InsituteName": "Netsolutions Chandigarh",
-        "Batch": 2022
+        "Batch": 2022,
+        "Course": "MCA"
     },
     {
         "Name": "Kirtika",
@@ -1593,7 +1618,8 @@
         "Profession": "Teaching",
         "Occupation": "Assistant e",
         "InsituteName": "Multani mal modi college patiala",
-        "Batch": 2011
+        "Batch": 2011,
+        "Course": "M.TECH"
     },
     {
         "Name": "Mandeep Singh",
@@ -1604,7 +1630,8 @@
         "Profession": "Industry",
         "Occupation": "Frontend Developer",
         "InsituteName": "Wamoco Gmbh",
-        "Batch": "2013-2015"
+        "Batch": "2013-2015",
+        "Course": "MCA"
     },
     {
         "Name": "Nitesh Kumar",
@@ -1618,7 +1645,8 @@
         "WebsiteLink": "https:\/\/bankofindia.co.in\/",
         "Skill ": "Credit Rating in Financial Sector",
         "Batch": 2015,
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/nitesh-singla-346a48123"
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/nitesh-singla-346a48123",
+        "Course": "M.TECH"
     },
     {
         "Name": "Ifra",
@@ -1629,7 +1657,8 @@
         "Profession": "Housewife",
         "Occupation": "Wife",
         "InsituteName": "House",
-        "Batch": "2014-2016"
+        "Batch": "2014-2016",
+        "Course": "M.TECH"
     },
     {
         "Name": "Lovepreet Singh",
@@ -1640,7 +1669,8 @@
         "Profession": "Teaching",
         "Occupation": "Assistant Professor",
         "InsituteName": "University college barnala",
-        "Batch": "2010-2013"
+        "Batch": "2010-2013",
+        "Course": "MCA"
     },
     {
         "Name": "Shivani Wadhwa",
@@ -1654,7 +1684,8 @@
         "WebsiteLink": "https:\/\/g.co\/kgs\/RJZKdVS",
         "Skill ": "Latex Expert, blockchain expert",
         "Batch": 2024,
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/dr-shivani-wadhwa-571a64216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/dr-shivani-wadhwa-571a64216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "Course": "PHD"
     },
     {
         "Name": "Yashmeen Kaur",
@@ -1666,7 +1697,8 @@
         "Occupation": "Technical Business Analyst",
         "InsituteName": "Abrantix Pty Ltd",
         "Skill ": "Business Analysis\/ Data Analysis\/ Project Management",
-        "Batch": 2016
+        "Batch": 2016,
+        "Course": "MCA"
     },
     {
         "Name": "Neelam",
@@ -1677,7 +1709,8 @@
         "Profession": "No working",
         "Occupation": "Home",
         "InsituteName": "Neelam",
-        "Batch": "2018-2019"
+        "Batch": "2018-2019",
+        "Course": "MCA"
     },
     {
         "Name": "Jagveer Singh Nirmaan",
@@ -1688,6 +1721,7 @@
         "Profession": "Punjab govt",
         "Occupation": "Tehsil Social Justice & Empowerment Officer",
         "InsituteName": "Department of Social Justice and Empowerment",
-        "Batch": 2017
+        "Batch": 2017,
+        "Course": "M.TECH"
     }
 ]

@@ -10,7 +10,7 @@ const Details = () => {
     <div className="details">
       {alumni ? (
         <>
-          <img src={alumni.image} alt={alumni.Name} />
+          <img src={alumni.Image} alt={alumni.Name} />
           <h2>{alumni.Name}</h2>
           {/* <p><strong>Course:</strong> {alumni.course}</p> */}
           <p><strong>Session:</strong> {alumni.Batch}</p>
