@@ -10,13 +10,13 @@ const Details = () => {
     <div className="details">
       {alumni ? (
         <>
-          <img src={alumni.image} alt={alumni.name} />
-          <h2>{alumni.name}</h2>
-          <p><strong>Course:</strong> {alumni.course}</p>
-          <p><strong>Session:</strong> {alumni.session}</p>
-          <p><strong>Designation:</strong> {alumni.designation}</p>
-          <p><strong>Organization:</strong> {alumni.organization}</p>
-          <a href={alumni.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+          <img src={alumni.image} alt={alumni.Name} />
+          <h2>{alumni.Name}</h2>
+          {/* <p><strong>Course:</strong> {alumni.course}</p> */}
+          <p><strong>Session:</strong> {alumni.Batch}</p>
+          <p><strong>Designation:</strong> {alumni.Profession}</p>
+          <p><strong>Organization:</strong> {alumni.InsituteName}</p>
+          <a href={alumni.LinkedIn} target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
         </>
       ) : (
         <p>Alumni not found.</p>
