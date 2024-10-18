@@ -10,13 +10,15 @@ export const Footer = () => {
     return (
         <footer class="bg-darkBlue text-[#ffffff]  mt-12">
             <div class="mx-auto w-full max-w-[85%] p-4 py-5 lg:pt-10">
-                <div class="md:flex md:justify-between">
-                    <div class="mb-6 md:mb-0">
-                        <a href="https://flowbite.com/" class="flex items-center">
+                <div class="md:flex justify-between">
+                    <div class="mb-6 md:mb-0 flex gap-5 items-center">
+                        <a href="">
                             <img src={logo} class="" alt="Logo" />
                         </a>
+                        <p className='w-[40%]'>"Founded in 1962, Punjabi University, Patiala, is a leading institution promoting Punjabi language, culture, and education. It offers a wide range of academic programs and is committed to excellence in research and student development."</p>
                     </div>
-                    <div class="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-2 font-mons">
+
+                    <div class="grid grid-cols-2 gap-8 sm:grid-cols-2  font-mons">
                         <div>
                             <h2 class="mb-6 text-lg  font-semibold uppercase ">Explore</h2>
                             <ul class=" font-medium ">
@@ -43,16 +45,16 @@ export const Footer = () => {
                             <h2 class="mb-6 text-lg font-semibold uppercase">Contact us</h2>
                             <ul class="font-medium ">
                                 <li class="mb-4 flex items-center gap-2">
-                                    <FiMail/>
+                                    <FiMail />
                                     dcs@pbi.ac.in
                                 </li>
                                 <li className='flex items-center gap-2'>
-                                    <FaPhoneAlt/>
+                                    <FaPhoneAlt />
                                     +91-175-3046313
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto  dark:border-gray-700 lg:my-8" />
@@ -61,12 +63,12 @@ export const Footer = () => {
                     </span>
                     <div class="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="https://www.linkedin.com/school/punjabi-university-patiala/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white" target='blank'>
-                            <FaLinkedin/>
+                            <FaLinkedin />
                             <span class="sr-only">LinkedIn page</span>
                         </a>
-                        
+
                         <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                            <FaInstagram/>
+                            <FaInstagram />
                             <span class="sr-only">Instagram page</span>
                         </a>
                         {/* <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">

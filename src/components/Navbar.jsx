@@ -31,7 +31,7 @@ export const Navbar = () => {
                             <Link to='/Alumni'>Alumni</Link>
                         </li>
                         <li className='hover:underline hover:text-darkBlue decoration-2'>
-                            <Link to='/'>Events</Link>
+                            <Link to='/Events'>Events</Link>
                         </li>
                         <li className='hover:underline hover:text-darkBlue decoration-2'>
                             <Link to='/ContactUs'>Contact Us</Link>

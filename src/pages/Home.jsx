@@ -8,22 +8,34 @@ export const Home = () => {
     return (
         <div className='  w-full bg-no-repeat h-full mt-20 flex flex-col gap-40' >
             <div className='relative w-full h-full'>
-                <div className='w-full  mt-20 '>
-                    <img src={banner} alt='students' className='w-full ' />
+                <div className='w-full mt-20'>
+                    <img src={banner} alt='students' className='w-full' />
                 </div>
                 <div className='absolute inset-0 flex flex-col justify-start pt-9 items-center text-center bg-opacity-50 bg-white'>
-                    <h1 className='text-4xl md:text-6xl lg:text-8xl leading-none font-extrabold font-mons uppercase text-[#0091CD]'>
+                    <h1
+                        className='text-4xl md:text-6xl lg:text-8xl leading-none font-extrabold font-mons uppercase text-[#0091CD] 
+            animate-fadeInTop'
+                    >
                         Celebrating <br />Excellence
                     </h1>
                     <h3 className='lg:text-3xl italic font-bold text-[#000] mt-4'>
-                        "Honoring Our Distinguished Alumni"
+                        {Array.from(`"Honoring Our Distinguished Alumni"`).map((char, index) => (
+                            <span
+                                key={index}
+                                className="inline-block opacity-0 animate-typedLetter"
+                                style={{ animationDelay: `${index * 0.1}s` }} // Delay for each letter
+                            >
+                                {char === ' ' ? '\u00A0' : char}
+                            </span>
+                        ))}
                     </h3>
                 </div>
             </div>
+
             <div className='max-w-[85%] mx-auto flex flex-col gap-32'>
                 <div className=' flex gap-10 lg:gap-20 items-center md:items-start  '>
-                <div className=':w-full hidden md:flex  w-[150%]'>
-                <img src={logo} alt='Punjabi University' className='w-full' />
+                    <div className=':w-full hidden md:flex  w-[150%]'>
+                        <img src={logo} alt='Punjabi University' className='w-full' />
                     </div>
                     <div className='lg:flex flex flex-col gap-9 items-center md:items-start'>
                         <h3 className='text-4xl font-mons uppercase font-extrabold text-darkBlue '>
