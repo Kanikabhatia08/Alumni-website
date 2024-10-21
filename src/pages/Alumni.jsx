@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import data from '../data/aluminiData.json';
-import slider1 from '../images/silder1.jpg'
+import user from '../images/user.webp'
+import slider1 from '../images/slider1.jpg'
 import slider2 from '../images/slider2.jpg'
 import slider3 from '../images/slider3.jpg'
 import slider4 from '../images/slider4.jpg'
@@ -9,7 +10,7 @@ import slider4 from '../images/slider4.jpg'
 
 export default function Alumni() {
     const [filteredData, setFilteredData] = useState([]);
-    const { course } = useParams();
+    const { Course } = useParams();
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const slides = [
@@ -17,16 +18,15 @@ export default function Alumni() {
         { id: 2, image: slider2 },
         { id: 3, image: slider3 },
         { id: 4, image: slider4 },
-
     ];
 
     useEffect(() => {
-        if (course) {
-            setFilteredData(data.filter(item => item.course.toLowerCase() === course.toLowerCase()));
+        if (Course) {
+            setFilteredData(data.filter(item => item.Course.toLowerCase() === Course.toLowerCase()));
         } else {
             setFilteredData(data);
         }
-    }, [course]);
+    }, [Course]);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -66,16 +66,19 @@ export default function Alumni() {
             </div>
 
             {/* Alumni List Section */}
-            {/* <h1 className="text-center font-bold text-3xl my-6 ">
-                {course ? `${course.toUpperCase()} Alumni` : 'All Alumni'}
-            </h1> */}
-            <div className="max-w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
-                {filteredData.map((item) => (
-                    <div key={item.id} className="card bg-white shadow-lg rounded-lg overflow-hidden">
-                        <img src={item.image} alt={item.name} className="w-full h-48 object-cover" />
+            <h1 className="text-center font-bold text-3xl my-6">All Alumni</h1> 
+            <div className="max-w-[85%] justify-center mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+                {data.map((item, index) => (
+                    <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
+                        {/* Image, Name, and Designation */}
+                        <img 
+                            src={item.image || user }  // Replace with default image if no image provided
+                            alt={item.Name} 
+                            className="w-full h-fit object-cover" 
+                        />
                         <div className="p-4">
-                            <h3 className="text-xl font-bold">{item.name}</h3>
-                            <p className="text-gray-700">{item.designation}</p>
+                            <h3 className="text-xl font-bold">{item.Name}</h3>
+                            <p className="text-gray-700">{item.Occupation}</p> {/* Show occupation as designation */}
                             <Link to={`/details/${item.id}`} className="text-blue-500 hover:underline">
                                 See More
                             </Link>

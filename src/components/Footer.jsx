@@ -9,24 +9,24 @@ import { FaInstagram } from "react-icons/fa";
 export const Footer = () => {
     return (
         <footer class="bg-darkBlue text-[#ffffff]  mt-12">
-            <div class="mx-auto w-full max-w-[85%] p-4 py-5 lg:pt-10">
-                <div class="md:flex justify-between">
-                    <div class="mb-6 md:mb-0 flex gap-5 items-center">
+            <div class="mx-auto w-full max-w-[85%] p-4 py-5 pt-10">
+                <div class="lg:flex justify-between">
+                    <div class="sm:flex gap-5 items-center ">
                         <a href="">
                             <img src={logo} class="" alt="Logo" />
                         </a>
-                        <p className='w-[40%]'>"Founded in 1962, Punjabi University, Patiala, is a leading institution promoting Punjabi language, culture, and education. It offers a wide range of academic programs and is committed to excellence in research and student development."</p>
+                        <p className='w-full lg:w-[65%] mt-4 sm:mt-0 3xl:text-xl '>"Founded in 1962, Punjabi University, Patiala, is a leading institution promoting Punjabi language, culture, and education. It offers a wide range of academic programs and is committed to excellence in research and student development."</p>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-8 sm:grid-cols-2  font-mons">
+                    <div class="flex gap-20 w-full justify-start mt-10 lg:mt-0 lg:justify-end font-mons">
                         <div>
-                            <h2 class="mb-6 text-lg  font-semibold uppercase ">Explore</h2>
-                            <ul class=" font-medium ">
+                            <h2 class="mb-6 text-lg 3xl:text-2xl  font-semibold uppercase ">Explore</h2>
+                            <ul class=" font-medium 3xl:text-xl">
                                 <li class="mb-4">
                                     <a href="#" class="hover:underline">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="hover:underline">Alumni</a>
+                                    <a href="/Alumni" class="hover:underline">Alumni</a>
                                 </li>
                             </ul>
                         </div>
@@ -42,8 +42,8 @@ export const Footer = () => {
                             </ul>
                         </div> */}
                         <div>
-                            <h2 class="mb-6 text-lg font-semibold uppercase">Contact us</h2>
-                            <ul class="font-medium ">
+                            <h2 class="mb-6 text-lg 3xl:text-2xl font-semibold uppercase">Contact us</h2>
+                            <ul class="font-medium 3xl:text-xl  ">
                                 <li class="mb-4 flex items-center gap-2">
                                     <FiMail />
                                     dcs@pbi.ac.in
@@ -57,9 +57,9 @@ export const Footer = () => {
 
                     </div>
                 </div>
-                <hr class="my-6 border-gray-200 sm:mx-auto  dark:border-gray-700 lg:my-8" />
+                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div class="sm:flex sm:items-center sm:justify-between">
-                    <span class="text-sm sm:text-center ">© 2023 <a href="#" class="hover:underline">Punjabi University</a>. All Rights Reserved.
+                    <span class="text-sm 3xl:text-base sm:text-center ">© 2023 <a href="#" class="hover:underline">Punjabi University</a>. All Rights Reserved.
                     </span>
                     <div class="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="https://www.linkedin.com/school/punjabi-university-patiala/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white" target='blank'>

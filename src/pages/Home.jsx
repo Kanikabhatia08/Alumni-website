@@ -34,7 +34,7 @@ export const Home = () => {
 
             <div className='max-w-[85%] mx-auto flex flex-col gap-32'>
                 <div className=' flex gap-10 lg:gap-20 items-center md:items-start  '>
-                    <div className=':w-full hidden md:flex  w-[150%]'>
+                    <div className='w-full hidden md:flex '>
                         <img src={logo} alt='Punjabi University' className='w-full' />
                     </div>
                     <div className='lg:flex flex flex-col gap-9 items-center md:items-start'>
@@ -55,7 +55,7 @@ export const Home = () => {
                             Sir Vishal's mentorship has been pivotal in inspiring us to explore new technologies and innovative solutions. His encouragement fosters a culture of curiosity and creativity, motivating students to pursue their passions with confidence.
                             We are deeply grateful for his unwavering support and dedication, which continue to shape our academic journeys. Thank you, Sir Vishal, for your commitment to our success and for being an exceptional adviser!</p>
                     </div>
-                    <div className=':w-full hidden md:flex items-start w-[30%]'>
+                    <div className='hidden md:flex items-start h-[20%] w-[22%]'>
                         <img src={sir} alt='Punjabi University' className='w-full h-full' />
                     </div>
                 </div>
