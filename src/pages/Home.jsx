@@ -2,7 +2,7 @@ import React from 'react'
 import logo from '../images/logo.png'
 import banner from '../images/banner.png'
 import sir from "../images/vishalSir.webp"
-import alumni from "../images/alumni.jpg"
+import hod from "../images/Gagandeep-Kaur.png"
 import ParallaxSection from '../components/ParallaxSection'
 
 export const Home = () => {
@@ -48,27 +48,32 @@ export const Home = () => {
 
                 <div className=' w-full flex gap-10 lg:gap-20  items-center md:items-end '>
                     <div className='lg:flex flex flex-col gap-9 md:w-[70%] '>
-                        <h3 className='text-4xl font-mons text-center md:text-right  font-bold text-darkBlue mt-4'>
-                            Our <br /><span className='font-extrabold'> FACULTY ADVISER</span>
+                        <h3 className='text-4xl font-mons text-center md:text-right font-bold text-darkBlue mt-4'>
+                            Words of<span className='font-extrabold'> WISDOM</span>
                         </h3>
-                        <p className='text-justify flex'>Sir Vishal Goyal has been a driving force behind the creation of this website, offering invaluable guidance and insight throughout the process. His vision for a digital platform has enabled us to enhance our learning experience and foster collaboration within our community.
-                            With extensive experience in the higher education sector, Sir Vishal specializes in Natural Language Processing, E-Learning, and research. His deep understanding of these fields enriches our curriculum and equips us with essential skills for the future. As a Microsoft-certified solution developer, he not only teaches complex concepts but also demonstrates their real-world applications, making learning engaging and relevant.
-                            Sir Vishal's mentorship has been pivotal in inspiring us to explore new technologies and innovative solutions. His encouragement fosters a culture of curiosity and creativity, motivating students to pursue their passions with confidence.
-                            We are deeply grateful for his unwavering support and dedication, which continue to shape our academic journeys. Thank you, Sir Vishal, for your commitment to our success and for being an exceptional adviser!</p>
+                        <p className='text-justify flex'>
+                            Dear alumni,<br />
+
+                            We extend our heartfelt congratulations to each one of you who has carved a successful path in the IT sector. Your dedication, innovation, and resilience have not only brought you personal success but have also added immense pride to the Department of Computer Science at Punjabi University, Patiala. Each of you represents the spirit of our institution, and seeing you excel in your careers fills us with joy and admiration. Your achievements set a powerful example for current students, showing them what can be accomplished through hard work and passion.
+
+                            We consider you invaluable members of our university community and are grateful for the inspiration you provide. Remember, you are always welcome to return, share your knowledge, and reconnect with us. We look forward to celebrating many more milestones with you in the future.
+                            <br /><br />
+                            Dr. Gagandeep<br />
+                            Head & Professor<br />
+                            Department of computer Science<br />
+                            Punjabi University, Patiala
+                        </p>
                     </div>
                     <div className='hidden md:flex items-start h-[20%] w-[22%]'>
-                        <img src={sir} alt='Punjabi University' className='w-full h-full' />
+                        <img src={hod} alt='Punjabi University' className='w-full h-full' />
                     </div>
                 </div>
             </div>
 
             <div>
-                <ParallaxSection/>
+                <ParallaxSection />
             </div>
 
-            <div>
-                <h1 className='text-3xl font-bold text-center'>Celebrating Our Exceptional Alumni!</h1>
-            </div>
         </div>
     )
 }

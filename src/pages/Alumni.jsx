@@ -44,7 +44,7 @@ export default function Alumni() {
                         key={slide.id}
                         className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
                     >
-                        <img src={slide.image} alt="alumni" className="object-fit w-full h-full" />
+                        <img src={slide.image} alt={slide.image} className="object-fit w-full h-full" />
                         
                     </div>
                 ))}
@@ -72,7 +72,7 @@ export default function Alumni() {
                     <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
                         {/* Image, Name, and Designation */}
                         <img 
-                            src={item.image || user }  // Replace with default image if no image provided
+                            src={item.Image ? require(`./${item.Image}`) : user}  // Replace with default image if no image provided
                             alt={item.Name} 
                             className="w-full h-fit object-cover" 
                         />
