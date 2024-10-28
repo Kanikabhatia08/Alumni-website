@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Lorem Ipsum 1",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "position": "right",
+        "bgColor": "bg-gray-400",
+        "textColor": "text-gray-800"
+    },
+    {
+        "title": "Lorem Ipsum 2",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "position": "left",
+        "bgColor": "bg-red-400",
+        "textColor": "text-white"
+    },
+    {
+        "title": "Lorem Ipsum 3",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "position": "right",
+        "bgColor": "bg-gray-400",
+        "textColor": "text-gray-800"
+    },
+    {
+        "title": "Lorem Ipsum 4",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "position": "left",
+        "bgColor": "bg-red-400",
+        "textColor": "text-white"
+    }
+]

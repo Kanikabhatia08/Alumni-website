@@ -38,7 +38,7 @@ export default function Alumni() {
     return (
         <div className="w-full ">
             {/* Slider Section */}
-            <div className="relative w-full h-screen overflow-hidden my-20">
+            <div className="relative hidden md:block w-full h-screen overflow-hidden my-20">
                 {slides.map((slide, index) => (
                     <div
                         key={slide.id}
@@ -66,7 +66,7 @@ export default function Alumni() {
             </div>
 
             {/* Alumni List Section */}
-            <h1 className="text-center font-bold text-3xl my-6">All Alumni</h1> 
+            <h1 className="text-center font-bold text-3xl mt-24 my-6 md:my-6">All Alumni</h1> 
             <div className="max-w-[85%] justify-center mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
                 {data.map((item, index) => (
                     <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">

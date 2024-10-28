@@ -3,6 +3,7 @@ import logo from '../images/logo.png'
 import banner from '../images/banner.png'
 import sir from "../images/vishalSir.webp"
 import alumni from "../images/alumni.jpg"
+import ParallaxSection from '../components/ParallaxSection'
 
 export const Home = () => {
     return (
@@ -59,6 +60,14 @@ export const Home = () => {
                         <img src={sir} alt='Punjabi University' className='w-full h-full' />
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <ParallaxSection/>
+            </div>
+
+            <div>
+                <h1 className='text-3xl font-bold text-center'>Celebrating Our Exceptional Alumni!</h1>
             </div>
         </div>
     )
