@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/logo.png';
 import { Link, useLocation } from 'react-router-dom';
 
 export const Navbar = () => {
@@ -22,7 +21,7 @@ export const Navbar = () => {
         <div className='py-2 fixed bg-fixed w-full bg-[#ffffff] z-10 navbar duration-700'>
             <nav className='flex justify-between items-center max-w-[85%] mx-auto text-lg'>
                 <div className='w-16'>
-                    <img src={logo} alt='Punjabi University' />
+                    <img src='/images/logo.png' alt='Punjabi University' />
                 </div>
                 <div>
                     <ul className="flex gap-8 font-semibold underline-offset-8">

@@ -1,5 +1,4 @@
 import React from 'react'
-import vector from '../images/contactUs.jpg'
 
 export const ContactUs = () => {
     return (
@@ -8,7 +7,7 @@ export const ContactUs = () => {
 
             <div className='flex mx-auto justify-between'>
                 <div className=' size-[45%] lg:size-[40%] hidden md:flex mt-10 lg:mt-0   items-center '>
-                    <img src={vector} alt='contactUs' className='size-full' />
+                    <img src='images/contactUs.jpg' alt='contactUs' className='size-full' />
                 </div>
                 {/* form */}
                 <form class="w-full md:w-[45%] xl:w-[50%] text-md my-10 font-semibold">

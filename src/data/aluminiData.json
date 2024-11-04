@@ -1,41 +1,31 @@
 [
     {
-        "Name": "Akash kumar",
-        "FatherName": "Ram Naval",
-        "PhoneNo": 6283880253,
-        "Address": "patiala",
-        "Email ": "akashkumar917350@gmail.com",
-        "Profession": "Industry",
-        "Occupation": "Data Scientist",
-        "InsituteName": "Offshore software solutions",
-        "Skill ": "Data Science",
-        "Image" : ""
-    },
-    {
-        "Name": "Dr. Anish Soni",
-        "FatherName": "Sh Des Raj Soni",
-        "PhoneNo": 9812134550,
-        "Address": "#336\/1, Dogra Gate Kaithal",
-        "Email ": "soni.anishk@gmail.com",
+        "Name": "Dr. Neetika",
+        "FatherName": "Sh. Jagdish Raj Goyal",
+        "PhoneNo": 8146200320,
+        "Address": "Street No. 13, Janta Colony, Rampura Phul",
+        "Email ": "neetika_coem@pbi.ac.in",
         "Profession": "Teaching",
         "Occupation": "Assistant Professor",
-        "InsituteName": "Akal Degree College Mastuana Sangrur",
-        "WebsiteLink": "www.adcmastuana.org",
-        "Skill ": "Computer Programming",
-        "Batch": "2020-21",
-        "Image" : "images/Dr.AnishSoni.jpg"
+        "InsituteName": "COEM, Punjabi University Neighbourhood Campus, Rampura Phul",
+        "WebsiteLink": "http:\/\/punjabiuniversity.ac.in\/Pages\/Department.aspx?dsenc=122",
+        "Skill": "Data Analysis and Machine Learning",
+        "Batch": "2017-2021",
+        "Image" : "/images/neetikabansal.jpeg"
     },
     {
-        "Name": "Anshika Sharma",
-        "FatherName": "Goverdhan dass",
-        "PhoneNo": 7814377747,
-        "Address": "Chandigarh",
-        "Email ": "anshikasharmah@gmail.com",
-        "Profession": "Industry",
-        "Occupation": "Technology intern",
-        "InsituteName": "Poplify Private limited",
-        "Batch": 2024,
-        "Image" : "images/Anshikasharma.jpg"
+        "Name": "NITIN BANSAL",
+        "FatherName": "SHI SHIV CHARAN BANSAL",
+        "PhoneNo": 9888186969,
+        "Address": "325 SECOND FLOOR BLOCK 4 PUNJAB MANDI BOARD COMPLEX SECTOR 66 MOHALI",
+        "Email ": "profnitinbansal@gmail.com",
+        "Profession": "State Government",
+        "Occupation": "System Analyst (Head of Computer Engineering Cell)",
+        "InsituteName": "Punjab State Agricultural Marketing Board",
+        "WebsiteLink": "https:\/\/mandiboard.nic.in and https:\/\/emandikaran-pb.in",
+        "Skill": "E-Governance, Usage of Digital Technology in Agriculture",
+        "Batch": "2021-2022",
+        "Image" : "/images/nitinbansal.jpeg"
     },
     {
         "Name": "Sukhpreet Singh Kainth",
@@ -47,9 +37,50 @@
         "Occupation": "Intern",
         "InsituteName": "Azalio technologies",
         "WebsiteLink": "Azalio.io",
-        "Skill ": "Html , css , javascript, node js , express js , react , redux , typescript , node typescript, angular , tailwind",
+        "Skill": "Html , css , javascript, node js , express js , react , redux , typescript , node typescript, angular , tailwind",
         "Batch": "23-24",
-        "Image" : "images/SukhKainth.jpg"
+        "Image" : "/images/SukhKainth.jpg"
+    },
+    {
+        "Name": "Lisha Middha",
+        "FatherName": "Late. Inder kumar Middha",
+        "PhoneNo": 8005503265,
+        "Address": "Ganganagar, Rajasthan",
+        "Email ": "Lishamidha151@gmail.com",
+        "Profession": "Industry",
+        "Occupation": "Fullstack developer",
+        "InsituteName": "Spirent",
+        "WebsiteLink": "www.spirent.com",
+        "Skill": "Golang, kubernetes, docker, scripting, sql, react, nodejs",
+        "Batch": 2020,
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/lisha100",
+        "Image" : "/images/LishaMidha.jpg"
+    },
+    {
+        "Name": "Ashita Kamboj",
+        "FatherName": "Madan Lal Kamboj",
+        "PhoneNo": 9653131750,
+        "Address": "Ludhiana",
+        "Email ": "ashitakamboj1234@gmail.com",
+        "Profession": "Government Job",
+        "Occupation": "Revenue Patwari",
+        "InsituteName": "Department of Revenue, Rehabilitation and Disaster Management",
+        "Batch": "2015-2018",
+        "Image" : "/images/AshitaKamboj.jpg"
+    },
+    {
+        "Name": "Dr. Anish Soni",
+        "FatherName": "Sh Des Raj Soni",
+        "PhoneNo": 9812134550,
+        "Address": "#336\/1, Dogra Gate Kaithal",
+        "Email ": "soni.anishk@gmail.com",
+        "Profession": "Teaching",
+        "Occupation": "Assistant Professor",
+        "InsituteName": "Akal Degree College Mastuana Sangrur",
+        "WebsiteLink": "www.adcmastuana.org",
+        "Skill": "Computer Programming",
+        "Batch": "2020-21",
+        "Image" : "/images/Dr.AnishSoni.jpg"
     },
     {
         "Name": "Jagriti",
@@ -60,9 +91,9 @@
         "Profession": "Real Estate",
         "Occupation": "Sales Executives",
         "InsituteName": "KCC group , zirakpur",
-        "Skill ": "Executives",
+        "Skill": "Executives",
         "Batch": 2024,
-        "Image" : "images/JagritiSingh.JPG"
+        "Image" : "/images/JagritiSingh.JPG"
     },
     {
         "Name": "Dharmpreet kaur",
@@ -74,7 +105,19 @@
         "Occupation": "HR & A",
         "InsituteName": "Standard Corporation India Ltd",
         "Batch": "2022-2024",
-        "Image" : "images/DharampreetKaur.jpg"
+        "Image" : "/images/DharampreetKaur.jpg"
+    },
+    {
+        "Name": "Anshika Sharma",
+        "FatherName": "Goverdhan dass",
+        "PhoneNo": 7814377747,
+        "Address": "Chandigarh",
+        "Email ": "anshikasharmah@gmail.com",
+        "Profession": "Industry",
+        "Occupation": "Technology intern",
+        "InsituteName": "Poplify Private limited",
+        "Batch": 2024,
+        "Image" : "/images/Anshikasharma.jpg"
     },
     {
         "Name": "Bhavya",
@@ -86,9 +129,22 @@
         "Occupation": "Intern as associate software engineer",
         "InsituteName": "Chicmic Technologies LLP",
         "WebsiteLink": "https:\/\/www.chicmic.in\/",
-        "Skill ": "MEAN Stack Development",
+        "Skill": "MEAN Stack Development",
         "Batch": 2024,
-        "Image" : "images/Bhavya Dumra.jpg"
+        "Image" : "/images/Bhavya Dumra.jpg"
+    },
+    {
+        "Name": "Mandeep Singh",
+        "FatherName": "Dharampal Singh",
+        "PhoneNo": 919888525885,
+        "Address": "Bremen, Germany",
+        "Email ": "mandeep5885@gmail.com",
+        "Profession": "Industry",
+        "Occupation": "Frontend Developer",
+        "InsituteName": "Wamoco Gmbh",
+        "Batch": "2013-2015",
+        "Course": "MCA",
+        "Image" : "/images/mandeepsingh.jpg"
     },
     {
         "Name": "Dr. Shahbaz Majeed",
@@ -99,7 +155,7 @@
         "Profession": "Teaching",
         "Occupation": "Head of Department",
         "InsituteName": "Gulzar group of institution khanna",
-        "Skill ": "Machine learning",
+        "Skill": "Machine learning",
         "Batch": 2023,
         "Image" : ""
     },
@@ -114,35 +170,7 @@
         "InsituteName": "Multani Mal Modi College Patiala",
         "WebsiteLink": "modicollege.com",
         "Batch": 2018,
-        "Image" : "images/HarmohanSharma.jpeg"
-    },
-    {
-        "Name": "Dr. Neetika",
-        "FatherName": "Sh. Jagdish Raj Goyal",
-        "PhoneNo": 8146200320,
-        "Address": "Street No. 13, Janta Colony, Rampura Phul",
-        "Email ": "neetika_coem@pbi.ac.in",
-        "Profession": "Teaching",
-        "Occupation": "Assistant Professor",
-        "InsituteName": "COEM, Punjabi University Neighbourhood Campus, Rampura Phul",
-        "WebsiteLink": "http:\/\/punjabiuniversity.ac.in\/Pages\/Department.aspx?dsenc=122",
-        "Skill ": "Data Analysis and Machine Learning",
-        "Batch": "2017-2021",
-        "Image" : "images/neetikabansal.jpeg"
-    },
-    {
-        "Name": "NITIN BANSAL",
-        "FatherName": "SHI SHIV CHARAN BANSAL",
-        "PhoneNo": 9888186969,
-        "Address": "325 SECOND FLOOR BLOCK 4 PUNJAB MANDI BOARD COMPLEX SECTOR 66 MOHALI",
-        "Email ": "profnitinbansal@gmail.com",
-        "Profession": "State Government",
-        "Occupation": "System Analyst (Head of Computer Engineering Cell)",
-        "InsituteName": "Punjab State Agricultural Marketing Board",
-        "WebsiteLink": "https:\/\/mandiboard.nic.in and https:\/\/emandikaran-pb.in",
-        "Skill ": "E-Governance, Usage of Digital Technology in Agriculture",
-        "Batch": "2021-2022",
-        "Image" : "images/nitinbansal.jpeg"
+        "Image" : "/images/HarmohanSharma.jpeg"
     },
     {
         "Name": "Rajinder Kumar Garg",
@@ -154,9 +182,9 @@
         "Occupation": "Consultant",
         "InsituteName": "Skillnet Solution India Pvt. Ltd.",
         "WebsiteLink": "www.skillnetinc.com",
-        "Skill ": "Technical Project Management",
+        "Skill": "Technical Project Management",
         "Batch": "1997-2000",
-        "Image" : "images/rajindergarg.JPG"
+        "Image" : "/images/rajindergarg.JPG"
     },
     {
         "Name": "Solomon",
@@ -168,24 +196,11 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Aksum University",
         "WebsiteLink": "www.aku.edu.et",
-        "Skill ": "Natural Language Processing",
+        "Skill": "Natural Language Processing",
         "Batch": 2023,
-        "Image" : "images/SolomonGebremariam.JPG"
+        "Image" : "/images/SolomonGebremariam.JPG"
     },
-    {
-        "Name": "Dr. Pooja Mohan",
-        "FatherName": "Mr. Narain Suneja",
-        "PhoneNo": 9855344888,
-        "Address": "Sector 48, Chandigarh",
-        "Email ": "pooja.mohan@ggdsd.ac.in",
-        "Profession": "Teaching",
-        "Occupation": "Assistant Professor",
-        "InsituteName": "GGDSD COLLEGE CHANDIGARH",
-        "WebsiteLink": "www.ggdsd.ac.in",
-        "Skill ": "Networks",
-        "Batch": 2017,
-        "Image" : "images/poojamohan.jpg"
-    },
+    
     {
         "Name": "Manisha Rani",
         "FatherName": "Sant Ram",
@@ -196,7 +211,7 @@
         "Occupation": "Motherhood",
         "InsituteName": "At home",
         "Batch": "2019-2023",
-        "Image" : "images/ManishaBhandari.jpeg"
+        "Image" : "/images/ManishaBhandari.jpeg"
     },
     {
         "Name": "Satpal Singh",
@@ -208,9 +223,9 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "University College Chunni Kalan",
         "WebsiteLink": "www.punjabiuniversity.ac.in",
-        "Skill ": "WSN",
+        "Skill": "WSN",
         "Batch": 2024,
-        "Image" : "images/satpalSingh.jpeg"
+        "Image" : "/images/satpalSingh.jpeg"
     },
     {
         "Name": "Abhishek Sharma",
@@ -222,9 +237,9 @@
         "Occupation": "Software Developer",
         "InsituteName": "Zoxima Solutions",
         "WebsiteLink": "https:\/\/zoxima.com\/",
-        "Skill ": "Power Apps, Microsoft Dynamics, Power Automate, SSIS",
+        "Skill": "Power Apps, Microsoft Dynamics, Power Automate, SSIS",
         "Batch": 2023,
-        "Image": "images/AbhishekSharma.jpg"
+        "Image": "/images/AbhishekSharma.jpg"
     },
     {
         "Name": "Navjot singh",
@@ -236,9 +251,9 @@
         "Occupation": "Software developer",
         "InsituteName": "Blueaves E health pvt ltd",
         "WebsiteLink": "www.blueaves.com",
-        "Skill ": ".Net core",
+        "Skill": ".Net core",
         "Batch": 2023,
-        "Image" : "images/NavjotSingh(2).jpeg"
+        "Image" : "/images/NavjotSingh(2).jpeg"
     },
     {
         "Name": "Gurjot Singh Mahi",
@@ -250,9 +265,9 @@
         "Occupation": "Senior Specialist",
         "InsituteName": "LTIMindtree",
         "WebsiteLink": "www.ltimindtree.com",
-        "Skill ": "Artificial Intelligence",
+        "Skill": "Artificial Intelligence",
         "Batch": 2023,
-        "Image" : "images/GurjotSingh.jpg"
+        "Image" : "/images/GurjotSingh.jpg"
     },
     {
         "Name": "Mehak",
@@ -264,7 +279,7 @@
         "Occupation": "Quality Analysts",
         "InsituteName": "SafeAeon",
         "Batch": 2023,
-        "Image" : "images/mehakmahotra.jpeg"
+        "Image" : "/images/mehakmahotra.jpeg"
     },
     {
         "Name": "Mohit Kumar",
@@ -275,9 +290,23 @@
         "Profession": "Industry",
         "Occupation": "Software Engineer 2",
         "InsituteName": "Career Builder",
-        "Skill ": "Backend : NodeJS, NestJS, MongoDB, MySQL, Solr",
+        "Skill": "Backend : NodeJS, NestJS, MongoDB, MySQL, Solr",
         "Batch": 2019,
-        "Image" : "images/mohitkumar.jpg"
+        "Image" : "/images/mohitkumar.jpg"
+    },
+    {
+        "Name": "Jaspreet Kaur",
+        "FatherName": "Mewa Singh",
+        "PhoneNo": 4915901796669,
+        "Address": "Mehringdam 67 berlin germany",
+        "Email ": "preet22pallh@gmail.com",
+        "Profession": "Web developer",
+        "Occupation": "Web developer",
+        "InsituteName": "List and sell",
+        "Skill": "php sql and react",
+        "Batch": "2015-2018",
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/jaspreet-kaur-22b517173?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "Image" : "/images/Jaspreetkaur.jpeg"
     },
     {
         "Name": "Reetika Jaswal",
@@ -312,37 +341,9 @@
         "Profession": "Industry",
         "Occupation": "Project Engineer [Outsourced]",
         "InsituteName": "CERT IN",
-        "Skill ": "Cyber Security",
+        "Skill": "Cyber Security",
         "Batch": 2023,
         "Image" : ""
-    },
-    {
-        "Name": "DHEERAJ KUMAR",
-        "FatherName": "SATPAL",
-        "PhoneNo": 9569345922,
-        "Address": "Gurgaon",
-        "Email ": "dk185246@ncratleos.com",
-        "Profession": "Engineer",
-        "Occupation": "Oracle Apps DBA II",
-        "InsituteName": "NCR Corporation Gurgaon",
-        "Skill ": "Database administrator",
-        "Batch": 2017,
-        "Image" : ""
-    },
-    {
-        "Name": "Karan Bansal",
-        "FatherName": "Krishan Kumar",
-        "PhoneNo": 9530771318,
-        "Address": "House No-3167,Sector 71, Mohali",
-        "Email ": "bansalkaran988@gmail.com",
-        "Profession": "Industry",
-        "Occupation": "Associate Software Developer",
-        "InsituteName": "Bluebash Consulting Private Limited",
-        "WebsiteLink": "https:\/\/www.bluebash.co\/",
-        "Skill ": "Ruby on Rails, HTML, CSS, Bootstrap, React.Js, Ruby,Javascript",
-        "Batch": "2021-2023",
-        "LinkedIn": "https:\/\/www.linkedin .com\/in\/karan-bansal-1b0423174",
-        "Image" : "images/KaranBansal.jpeg"
     },
     {
         "Name": "Rubina",
@@ -354,7 +355,20 @@
         "Occupation": "Lecturer",
         "InsituteName": "Department of Technical Education and Industrial Training",
         "Batch": "2013-2015",
-        "Image" : "images/RubinaMadaan.jpeg"
+        "Image" : "/images/RubinaMadaan.jpeg"
+    },
+    {
+        "Name": "DHEERAJ KUMAR",
+        "FatherName": "SATPAL",
+        "PhoneNo": 9569345922,
+        "Address": "Gurgaon",
+        "Email ": "dk185246@ncratleos.com",
+        "Profession": "Engineer",
+        "Occupation": "Oracle Apps DBA II",
+        "InsituteName": "NCR Corporation Gurgaon",
+        "Skill": "Database administrator",
+        "Batch": 2017,
+        "Image" : ""
     },
     {
         "Name": "Jaskarandeep Punia",
@@ -366,10 +380,10 @@
         "Occupation": "Technology Lead - Canada",
         "InsituteName": "Infosys Limited",
         "WebsiteLink": "https:\/\/www.infosys.com\/",
-        "Skill ": "Data Analytics, Data Professional",
+        "Skill": "Data Analytics, Data Professional",
         "Batch": "2009-2015",
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/jaskarandeeppunia",
-        "Image" : "images/jaskarandeeppunia.jpg"
+        "Image" : "/images/jaskarandeeppunia.jpg"
     },
     {
         "Name": "Malook singh",
@@ -381,7 +395,7 @@
         "Occupation": "CSE",
         "InsituteName": "Ambuja Pvt.Ltd",
         "Batch": 2018,
-        "Image" : "images/MalookSingh.jpg"
+        "Image" : "/images/MalookSingh.jpg"
     },
     {
         "Name": "Kapil Dev Goyal",
@@ -393,9 +407,9 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Sant Baba Attar Singh Khalsa College Sandaur",
         "WebsiteLink": "sbassandaur.com",
-        "Skill ": "Natural Language Processing",
+        "Skill": "Natural Language Processing",
         "Batch": 2021,
-        "Image" : "images/kapildevgoyal.jpg"
+        "Image" : "/images/kapildevgoyal.jpg"
     },
     {
         "Name": "Dr. Annu Rani",
@@ -406,7 +420,7 @@
         "Profession": "Teaching",
         "Occupation": "Assistant Professor",
         "InsituteName": "Govt. College, Ropar",
-        "Skill ": "NLP, Data Structure, DBMS, Operating System, Technology for Differently abled Person",
+        "Skill": "NLP, Data Structure, DBMS, Operating System, Technology for Differently abled Person",
         "Batch": 2023,
         "Image" : ""
     },
@@ -419,7 +433,7 @@
         "Profession": "Industry",
         "Occupation": "Sr Team Lead",
         "InsituteName": "zoxima solutions pvt ltd",
-        "Skill ": "Microsoft power platform And Salesforce",
+        "Skill": "Microsoft power platform And Salesforce",
         "Batch": "2015-2018",
         "Image" : ""
     },
@@ -432,9 +446,9 @@
         "Profession": "Industry",
         "Occupation": "Sr. Software Engineer",
         "InsituteName": "TDV Capital Partners",
-        "Skill ": "Backend (Node.js, Typescript, AWS)",
+        "Skill": "Backend (Node.js, Typescript, AWS)",
         "Batch": 2018,
-        "Image": "images/amritpalkaur.jpeg"
+        "Image": "/images/amritpalkaur.jpeg"
     },
     {
         "Name": "Avneet Kaur",
@@ -446,22 +460,10 @@
         "Occupation": "Branch Manager",
         "InsituteName": "Fairstone Bank",
         "WebsiteLink": "https:\/\/loan.fairstone.ca",
-        "Skill ": "Banking",
+        "Skill": "Banking",
         "Batch": 2016,
         "LinkedIn": "http:\/\/linkedin.com\/in\/avneet-kaur-b6043758",
-        "Image" : "images/AvneetKaur.jpeg"
-    },
-    {
-        "Name": "Ashita Kamboj",
-        "FatherName": "Madan Lal Kamboj",
-        "PhoneNo": 9653131750,
-        "Address": "Ludhiana",
-        "Email ": "ashitakamboj1234@gmail.com",
-        "Profession": "Government Job",
-        "Occupation": "Revenue Patwari",
-        "InsituteName": "Department of Revenue, Rehabilitation and Disaster Management",
-        "Batch": "2015-2018",
-        "Image" : "images/AshitaKamboj.jpg"
+        "Image" : "/images/AvneetKaur.jpeg"
     },
     {
         "Name": "Ganesh Kumar Sethi",
@@ -473,9 +475,9 @@
         "Occupation": "Associate Professor",
         "InsituteName": "Multani Mal Modi College Patiala",
         "WebsiteLink": "modicollege.com",
-        "Skill ": "Image Processing",
+        "Skill": "Image Processing",
         "Batch": 2017,
-        "Image" : "images/GaneshSethi.jpg"
+        "Image" : "/images/GaneshSethi.jpg"
     },
     {
         "Name": "Dr. Pravneet Kaur",
@@ -487,7 +489,7 @@
         "Occupation": "HOD CSE",
         "InsituteName": "IET, Bhaddal Technical Campus, Ropar",
         "WebsiteLink": "https:\/\/www.ietbhaddal.edu.in\/",
-        "Skill ": "SOFTWARE ENGINEERING, RDBMS, AI",
+        "Skill": "SOFTWARE ENGINEERING, RDBMS, AI",
         "Batch": 2022,
         "Image" : ""
     },
@@ -501,25 +503,11 @@
         "Occupation": "Associate Professor",
         "InsituteName": "Mata Gujri College, Fatehgarh Sahib",
         "WebsiteLink": "www.matagujricollege.org",
-        "Skill ": "Web Development",
+        "Skill": "Web Development",
         "Batch": 2022,
-        "Image" : "images/Dr.MukeshGarg.jpg"
+        "Image" : "/images/Dr.MukeshGarg.jpg"
     },
-    {
-        "Name": "Dr. Gurwinder Singh",
-        "FatherName": "S. Jarnail Singh",
-        "PhoneNo": 9530586851,
-        "Address": "#Village Cholti Kheri, Post Office Brass, Teh. & Distt. Fatehgarh Sahib, Punjab, India-140602",
-        "Email ": "Gurwindersingh.balahara@gmail.com",
-        "Profession": "Teaching",
-        "Occupation": "Assistant Professor",
-        "InsituteName": "Department of Computer Application, Chandigarh School of Business; Division of Research & Innovation, Chandigarh Group of Colleges Jhanjeri, Mohali, Punjab, India-140307",
-        "WebsiteLink": "https:\/\/www.cgc.ac.in\/",
-        "Skill ": "Agriculture land use classification, Remote Sensing, Machine Learning, Deep Learning",
-        "Batch": "May-23",
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/dr-gurwinder-singh-balahara-b18760210\/",
-        "Image" : "images/dr.gurwindersingh.jpg"
-    },
+    
     {
         "Name": "Dr.Geetika Bhardwaj",
         "FatherName": "Mahesh Bhardwaj",
@@ -530,9 +518,9 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Guru Nanak Engineering College",
         "WebsiteLink": "https:\/\/www.gndec.ac.in\/",
-        "Skill ": "Machine learning , Databases,",
+        "Skill": "Machine learning , Databases,",
         "Batch": 2023,
-        "Image" : "images/geetikabhardwaj.jpg"
+        "Image" : "/images/geetikabhardwaj.jpg"
     },
     {
         "Name": "Gurpreet Singh",
@@ -543,23 +531,25 @@
         "Profession": "Research",
         "Occupation": "Senior Research Fellow",
         "InsituteName": "Thapar University, Patiala",
-        "Skill ": "Deep learning, Image Processing",
+        "Skill": "Deep learning, Image Processing",
         "Batch": "2015-2018",
-        "Image" : "images/gurpreetsingh.png"
+        "Image" : "/images/gurpreetsingh.png"
     },
+   
     {
-        "Name": "Jaspreet Kaur",
-        "FatherName": "Mewa Singh",
-        "PhoneNo": 4915901796669,
-        "Address": "Mehringdam 67 berlin germany",
-        "Email ": "preet22pallh@gmail.com",
-        "Profession": "Web developer",
-        "Occupation": "Web developer",
-        "InsituteName": "List and sell",
-        "Skill ": "php sql and react",
-        "Batch": "2015-2018",
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/jaspreet-kaur-22b517173?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "Image" : "images/Jaspreetkaur.jpeg"
+        "Name": "Dr. Gurwinder Singh",
+        "FatherName": "S. Jarnail Singh",
+        "PhoneNo": 9530586851,
+        "Address": "#Village Cholti Kheri, Post Office Brass, Teh. & Distt. Fatehgarh Sahib, Punjab, India-140602",
+        "Email ": "Gurwindersingh.balahara@gmail.com",
+        "Profession": "Teaching",
+        "Occupation": "Assistant Professor",
+        "InsituteName": "Department of Computer Application, Chandigarh School of Business; Division of Research & Innovation, Chandigarh Group of Colleges, Jhanjeri",
+        "WebsiteLink": "https:\/\/www.cgc.ac.in\/",
+        "Skill": "Agriculture land use classification, Remote Sensing, Machine Learning, Deep Learning",
+        "Batch": "May-23",
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/dr-gurwinder-singh-balahara-b18760210\/",
+        "Image" : "/images/dr.gurwindersingh.jpg"
     },
     {
         "Name": "Neerja Garg",
@@ -571,22 +561,51 @@
         "Occupation": "Principal Scientist & Head IMCS Depatment",
         "InsituteName": "CSIR-Central Scientific Instruments Organisation (CSIR-CSIO)",
         "WebsiteLink": "https:\/\/www.csio.res.in ",
-        "Skill ": "Computer Vision, DL\/ML applications, Spectral Image Processing",
+        "Skill": "Computer Vision, DL\/ML applications, Spectral Image Processing",
         "Batch": 2012,
-        "Image" : "images/neerajgarg.jpg"
+        "Image" : "/images/neerajgarg.jpg"
     },
     {
-        "Name": "Harash kumar",
-        "FatherName": "Tarsem kumar",
-        "PhoneNo": 8054610648,
-        "Address": "Pathankot",
-        "Email ": "harsharora2020@gmail.com",
-        "Profession": "Teaching",
-        "Occupation": "Assistant Professor",
-        "InsituteName": "SRPA Adarsh Bhartiya College pathankot",
-        "Skill ": "UGC NET",
-        "Batch": "2011-2014",
+        "Name": "Karan Bansal",
+        "FatherName": "Krishan Kumar",
+        "PhoneNo": 9530771318,
+        "Address": "House No-3167,Sector 71, Mohali",
+        "Email ": "bansalkaran988@gmail.com",
+        "Profession": "Industry",
+        "Occupation": "Associate Software Developer",
+        "InsituteName": "Bluebash Consulting Private Limited",
+        "WebsiteLink": "https:\/\/www.bluebash.co\/",
+        "Skill": "Ruby on Rails, HTML, CSS, Bootstrap, React.Js, Ruby,Javascript",
+        "Batch": "2021-2023",
+        "LinkedIn": "https:\/\/www.linkedin .com\/in\/karan-bansal-1b0423174",
+        "Image" : "/images/KaranBansal.jpeg"
+    },
+    {
+        "Name": "Rubia Gupta",
+        "FatherName": "Rajesh Gupta",
+        "PhoneNo": 15136148470,
+        "Address": "7755 keller rd, 45243",
+        "Email ": "rubiagoyal89@gmail.com",
+        "Profession": "Study",
+        "Occupation": "Student",
+        "InsituteName": "Law School",
+        "Skill": "Intellectual property law, i honed my computer applications skills throughout my education at Punjabi University, and my try will be to incorporate my previous studies with my current law education.",
+        "Batch": 2013,
         "Image" : ""
+    },
+    {
+        "Name": "Surjit Kumar",
+        "FatherName": "Sh. Desh Raj",
+        "PhoneNo": 8894119899,
+        "Address": "VPO Jhabola Teh Jhandutta Distt Bilaspur Himachal Pradesh",
+        "Email ": "kumar.surjit26@gmail.com",
+        "Profession": "Teaching",
+        "Occupation": "Lecturer Computer Science(School Cadre)",
+        "InsituteName": "Higher Education Department Himachal Pradesh",
+        "WebsiteLink": "education.hp.gov.in",
+        "Skill": "PHP, Databases, Networking, C, C++",
+        "Batch": "2008-2011",
+        "Image" : "/images/SurjitKumar.jpg"
     },
     {
         "Name": "Swapnil Sharma",
@@ -598,10 +617,10 @@
         "Occupation": "Director",
         "InsituteName": "Pine Labs Pvt Ltd",
         "WebsiteLink": "www.pinelabs.com",
-        "Skill ": "Management",
+        "Skill": "Management",
         "Batch": "2000-2004",
         "LinkedIn": "www.linkedin.com\/in\/swapnil-s-57282413",
-        "Image" : "images/SwapnilSharma.webp"
+        "Image" : "/images/SwapnilSharma.webp"
     },
     {
         "Name": "Karanbir Singh",
@@ -614,7 +633,7 @@
         "InsituteName": "Punjab Agricultural University Ludhiana",
         "WebsiteLink": "www.pau.edu",
         "Batch": "2014-15",
-        "Image" : "images/karanbirsingh.jpg"
+        "Image" : "/images/karanbirsingh.jpg"
     },
     {
         "Name": "Manpreet Singh Gill",
@@ -628,7 +647,7 @@
         "WebsiteLink": "www.adcmastuana.org",
         "Batch": 2005,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/manpreet-singh-948779167",
-        "Image" : "images/Prof.ManpreetSinghGill.jpeg"
+        "Image" : "/images/Prof.ManpreetSinghGill.jpeg"
     },
     {
         "Name": "Akshay Kumar",
@@ -641,7 +660,7 @@
         "InsituteName": "Pureway Esolutions Pvt Ltd",
         "WebsiteLink": "www.purewaywholesale.com",
         "Batch": "2018-2020",
-        "Image": "images/AkshayKumar.jpg"
+        "Image": "/images/AkshayKumar.jpg"
     },
     {
         "Name": "Satveer Kaur",
@@ -655,7 +674,7 @@
         "WebsiteLink": "www.khalsacollegepatiala.org",
         "Batch": 2015,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/satveer-kaur-58158b110?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "Image": "images/SatveerKaurAulakh.jpg"
+        "Image": "/images/SatveerKaurAulakh.jpg"
     },
     {
         "Name": "Gagandeep Kaur",
@@ -667,7 +686,7 @@
         "Occupation": "Package consultant",
         "InsituteName": "IBM",
         "Batch": "2006-2009",
-        "Image" : "images/GagandeepKaur.jpg"
+        "Image" : "/images/GagandeepKaur.jpg"
     },
     {
         "Name": "Deepak kumar",
@@ -691,25 +710,25 @@
         "Occupation": "Head, PG Dept of Computer Science",
         "InsituteName": "Sikh National College, Banga",
         "WebsiteLink": "www.sncbanga.ac.in",
-        "Skill ": "Teaching Programming Languages (Python)",
+        "Skill": "Teaching Programming Languages (Python)",
         "Batch": "1999-2001",
         "Image" : ""
     },
     {
-        "Name": "Lisha Middha",
-        "FatherName": "Late. Inder kumar Middha",
-        "PhoneNo": 8005503265,
-        "Address": "Ganganagar, Rajasthan",
-        "Email ": "Lishamidha151@gmail.com",
-        "Profession": "Industry",
-        "Occupation": "Fullstack developer",
-        "InsituteName": "Spirent",
-        "WebsiteLink": "www.spirent.com",
-        "Skill ": "Golang, kubernetes, docker, scripting, sql, react, nodejs",
-        "Batch": 2020,
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/lisha100",
-        "Image" : "images/LishaMidha.jpg"
+        "Name": "Dr. Pooja Mohan",
+        "FatherName": "Mr. Narain Suneja",
+        "PhoneNo": 9855344888,
+        "Address": "Sector 48, Chandigarh",
+        "Email ": "pooja.mohan@ggdsd.ac.in",
+        "Profession": "Teaching",
+        "Occupation": "Assistant Professor",
+        "InsituteName": "GGDSD COLLEGE CHANDIGARH",
+        "WebsiteLink": "www.ggdsd.ac.in",
+        "Skill": "Networks",
+        "Batch": 2017,
+        "Image" : "/images/poojamohan.jpg"
     },
+    
     {
         "Name": "Vandana Sindhi",
         "FatherName": "Puran Chand Sindhi",
@@ -719,10 +738,10 @@
         "Profession": "Teaching",
         "Occupation": "Asst. Prof( guest faculty)",
         "InsituteName": "University college ghanaur",
-        "Skill ": "Programming languages, Presentation skills",
+        "Skill": "Programming languages, Presentation skills",
         "Batch": "2014-2017",
         "LinkedIn": "https:\/\/in.linkedin.com\/in\/vandana-sindhi",
-        "Image" : "images/VandanaThisSide!!.jpeg"
+        "Image" : "/images/VandanaThisSide!!.jpeg"
     },
     {
         "Name": "Dr Umrinder Pal Singh",
@@ -734,7 +753,7 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "GHG Khalsa College Gurusar Sadhar, Ludhiana",
         "WebsiteLink": "http:\/\/ghgcollegesadhar.org\/",
-        "Skill ": "Artificial Intelligence, NLP, Machine Learning, Deep Learning",
+        "Skill": "Artificial Intelligence, NLP, Machine Learning, Deep Learning",
         "Batch": 2017,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/umrinderpal",
         "Image" : ""
@@ -749,10 +768,10 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "SSD Women's Institute of Technology, Bathinda",
         "WebsiteLink": "ssdwit.org",
-        "Skill ": "Python, Data science, Machine learning, Data structure",
+        "Skill": "Python, Data science, Machine learning, Data structure",
         "Batch": 2021,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/dr-monika-bansal-45637571?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "Image" : "images/monikabansall.jpg"
+        "Image" : "/images/monikabansall.jpg"
     },
     {
         "Name": "Dr. Cherry Mangla",
@@ -766,7 +785,7 @@
         "WebsiteLink": "https:\/\/concordia.ab.ca\/",
         "Batch": "2014-2017",
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/cherrymangla\/",
-        "Image" : "images/CherryMangla.jpg"
+        "Image" : "/images/CherryMangla.jpg"
     },
     {
         "Name": "Dr. Komal Sharma",
@@ -778,10 +797,10 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Sri Aurobindo College of commerce and management, Ludhiana",
         "WebsiteLink": "Saccm.in",
-        "Skill ": "DIP",
+        "Skill": "DIP",
         "Batch": 2023,
         "LinkedIn": "https:\/\/www.linkedin.com\/feed\/",
-        "Image" : "images/koma'.png"
+        "Image" : "/images/koma'.png"
     },
     {
         "Name": "Neha Roy",
@@ -793,10 +812,10 @@
         "Occupation": "Team Lead",
         "InsituteName": "Accenture",
         "WebsiteLink": "Www.Accenture.com",
-        "Skill ": "Data and analytics, Data visualization with Power BI",
+        "Skill": "Data and analytics, Data visualization with Power BI",
         "Batch": 2019,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/neha-roy-2011",
-        "Image" : "images/nehaRoy.jpg"
+        "Image" : "/images/nehaRoy.jpg"
     },
     {
         "Name": "Dr. Sapna Dhiman",
@@ -808,9 +827,9 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Govt. Bikram College of Commerce, Patiala",
         "WebsiteLink": "Http:\/\/gbcpatiala.ac.in",
-        "Skill ": "Digital Image Processing",
+        "Skill": "Digital Image Processing",
         "Batch": "2012-2019",
-        "Image" : "images/Dr.SapnaDhiman.jpg"
+        "Image" : "/images/Dr.SapnaDhiman.jpg"
     },
     {
         "Name": "Harjeet Kaur",
@@ -834,7 +853,7 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "University College Miranpur, Patiala",
         "WebsiteLink": "ucmiranpur.ac.in",
-        "Skill ": "Machine Translation",
+        "Skill": "Machine Translation",
         "Batch": 2023,
         "Image" : ""
     },
@@ -848,7 +867,7 @@
         "Occupation": "Assistant professor",
         "InsituteName": "PIT NANDGARH",
         "Batch": 2018,
-        "Image" : "images/inderjeetkaur.PDF"
+        "Image" : "/images/InderjeetKaur.png"
     },
     {
         "Name": "Dr. Arwinder Singh",
@@ -861,7 +880,7 @@
         "InsituteName": "University College, Ghanaur, Punjabi University, Patiala",
         "Batch": "2010-2013",
         "LinkedIn": "Arwinder Singh",
-        "Image" : "images/ArwinderSingh.jpg"
+        "Image" : "/images/ArwinderSingh.jpg"
     },
     {
         "Name": "Ravi Kumar",
@@ -873,10 +892,10 @@
         "Occupation": "Constable (Data Analyst)",
         "InsituteName": "Punjab Police Technical Support Staff",
         "WebsiteLink": "https:\/\/www.punjabpolice.gov.in\/",
-        "Skill ": "Data Analyst",
+        "Skill": "Data Analyst",
         "Batch": 2022,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/ravinyv19",
-        "Image" : "images/ravikumar.jpg"
+        "Image" : "/images/ravikumar.jpg"
     },
     {
         "Name": "Lovedeep Kaur",
@@ -887,10 +906,10 @@
         "Profession": "Industry",
         "Occupation": "SOFTWARE DEVELOPER",
         "InsituteName": "Analytic IT Services",
-        "Skill ": "HTML,CSS, PHP,C\/C++,Codeignter,Laravel,YII2, Bootstrap, Javascript ,RDBMS,MYSQl",
+        "Skill": "HTML,CSS, PHP,C\/C++,Codeignter,Laravel,YII2, Bootstrap, Javascript ,RDBMS,MYSQl",
         "Batch": "2019-2022",
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/deepp10342",
-        "Image" : "images/LovedeepKaur.jpg"
+        "Image" : "/images/LovedeepKaur.jpg"
     },
     {
         "Name": "Ruth Oteng",
@@ -904,7 +923,7 @@
         "WebsiteLink": "www.ambpremiumgroup.com",
         "Batch": 2023,
         "LinkedIn": "ruth-teng-61b2181a",
-        "Image" : "images/RuthOteng.JPG"
+        "Image" : "/images/RuthOteng.JPG"
     },
     {
         "Name": "Ankur Setia",
@@ -915,9 +934,9 @@
         "Profession": "Industry",
         "Occupation": "Sr. Analyst",
         "InsituteName": "Bank of America",
-        "Skill ": "Business Intelligence",
+        "Skill": "Business Intelligence",
         "Batch": 2007,
-        "Image" : "images/AnkurSetia.jpg"
+        "Image" : "/images/AnkurSetia.jpg"
     },
     {
         "Name": "Akhil Puri",
@@ -929,10 +948,10 @@
         "Occupation": "Senior Project Manager",
         "InsituteName": "Scotiabank",
         "WebsiteLink": "Www.Scotiabank.com",
-        "Skill ": "Project and Program Management, Programming",
+        "Skill": "Project and Program Management, Programming",
         "Batch": 2006,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/akhilonline",
-        "Image": "images/AkhilPuri.jpeg"
+        "Image": "/images/AkhilPuri.jpeg"
     },
     {
         "Name": "Rohit mehta",
@@ -943,7 +962,7 @@
         "Profession": "Industry",
         "Occupation": "Solution Architect",
         "InsituteName": "Hertz Corporation",
-        "Skill ": "Solution creation",
+        "Skill": "Solution creation",
         "Batch": 2002,
         "LinkedIn": "Tomehta",
         "Image" : ""
@@ -957,7 +976,7 @@
         "Profession": "Industry",
         "Occupation": "Software Dev Engineer IV",
         "InsituteName": "Generac Power Systems",
-        "Skill ": "Backend Dev, Java, Spring Boot, AWS, Devops",
+        "Skill": "Backend Dev, Java, Spring Boot, AWS, Devops",
         "Batch": "2009-2012",
         "LinkedIn": "http:\/\/sahiljain.net",
         "Image" : ""
@@ -972,9 +991,9 @@
         "Occupation": "Lecturer Computer Science(School Cadre)",
         "InsituteName": "Higher Education Department Himachal Pradesh",
         "WebsiteLink": "education.hp.gov.in",
-        "Skill ": "PHP,Databases,Networking,C,C++",
+        "Skill": "PHP,Databases,Networking,C,C++",
         "Batch": "2008-2011",
-        "Image" : "images/SurjitKumar.jpg"
+        "Image" : "/images/SurjitKumar.jpg"
     },
     {
         "Name": "Mr. Jayanti Mittal",
@@ -986,10 +1005,10 @@
         "Occupation": "Architect",
         "InsituteName": "BCT",
         "WebsiteLink": "https:\/\/www.bahwancybertek.com\/",
-        "Skill ": "TIBCO - Integration",
+        "Skill": "TIBCO - Integration",
         "Batch": 2007,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/jayantimittal\/",
-        "Image" : "images/jayantimittal.jpg"
+        "Image" : "/images/jayantimittal.jpg"
     },
     {
         "Name": "Priyanka Jarial",
@@ -1001,7 +1020,7 @@
         "Occupation": "Asst .Prof",
         "InsituteName": "Department of CSE, Punjabi University Patiala",
         "WebsiteLink": "Punjabi University Patiala",
-        "Skill ": "DIP, Networks",
+        "Skill": "DIP, Networks",
         "Batch": "2009-2011",
         "LinkedIn": "No",
         "Image" : ""
@@ -1019,20 +1038,7 @@
         "LinkedIn": "Search my name on linkedin",
         "Image" : ""
     },
-    {
-        "Name": "Vicky Garg",
-        "FatherName": "Laxmi Narayan",
-        "PhoneNo": "+1 4697749743",
-        "Address": "1348 Colby Drive Lewisville USA",
-        "Email ": "vickyg@plasmacomp.com",
-        "Profession": "Industry",
-        "Occupation": "Digital Solution Architect",
-        "InsituteName": "Plasma Computing Group Inc",
-        "WebsiteLink": "Https:\/\/plasmacomp.com",
-        "Skill ": "Angular MySql Oracle .Net",
-        "Batch": 2007,
-        "Image" : "images/vickyGarg.jpeg"
-    },
+    
     {
         "Name": "Rajdavinder Singh Boparai",
         "FatherName": "S. Jagdish Singh",
@@ -1043,10 +1049,10 @@
         "Occupation": "Associate Professor",
         "InsituteName": "Chitkara University, Punjab",
         "WebsiteLink": "https:\/\/www.chitkara.edu.in\/",
-        "Skill ": "Data Mining using ML, C++ Programming",
+        "Skill": "Data Mining using ML, C++ Programming",
         "Batch": "2007-2009",
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/rajdavinder-singh-boparai-a634856a",
-        "Image" : "images/RajdavinderSinghBoparai.jpg"
+        "Image" : "/images/RajdavinderSinghBoparai.jpg"
     },
     {
         "Name": "Kiranjeet Kaur",
@@ -1058,7 +1064,7 @@
         "Occupation": "Assistant professor",
         "InsituteName": "SVIET,",
         "Batch": "2015-2017",
-        "Image" : "images/kiranSidhu.png"
+        "Image" : "/images/kiranSidhu.png"
     },
     {
         "Name": "Sandeep Chaudhary",
@@ -1069,10 +1075,10 @@
         "Profession": "Own Business \/ Startup",
         "Occupation": "President",
         "InsituteName": "BitHorizon Limited",
-        "Skill ": "Program Management, Data Management and AI",
+        "Skill": "Program Management, Data Management and AI",
         "Batch": 1997,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/sandeep-chaudhary-pmp-6a8250141?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "Image" : "images/SandeepChaudhary.jpeg"
+        "Image" : "/images/SandeepChaudhary.jpeg"
     },
     {
         "Name": "Balraj Kumar",
@@ -1084,7 +1090,7 @@
         "Occupation": "Associate Professor & Asst. Dean",
         "InsituteName": "Lovely Professional University, Phagwara, Punjab",
         "WebsiteLink": "https:\/\/www.lpu.in\/",
-        "Skill ": "Recommender Systems, Machine Learning, Gamification and Software Engineering",
+        "Skill": "Recommender Systems, Machine Learning, Gamification and Software Engineering",
         "Batch": 2023,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/balraj-kumar-84a792187\/",
         "Image" : ""
@@ -1099,10 +1105,10 @@
         "Occupation": "Team Leader",
         "InsituteName": "Basware India Pvt. Ltd.",
         "WebsiteLink": "basware.com",
-        "Skill ": "Leadership, People management, Technical Manager, Negotiator",
+        "Skill": "Leadership, People management, Technical Manager, Negotiator",
         "Batch": 2014,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/bikramjit-singh-300b4194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "Image" : "images/BikramjitSingh.jpeg"
+        "Image" : "/images/BikramjitSingh.jpeg"
     },
     {
         "Name": "Jyoti Sharma",
@@ -1125,9 +1131,9 @@
         "Profession": "Tution centre",
         "Occupation": "Teacher",
         "InsituteName": "At home",
-        "Skill ": "Python",
+        "Skill": "Python",
         "Batch": 2023,
-        "Image" : "images/Parwinder224.jpg"
+        "Image" : "/images/Parwinder224.jpg"
     },
     {
         "Name": "KAMAL DEEP GAGG",
@@ -1139,7 +1145,7 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Chitkara University",
         "Batch": "2015-2021",
-        "Image" : "images/KamalDeepGarg.jpg"
+        "Image" : "/images/KamalDeepGarg.jpg"
     },
     {
         "Name": "Gursimran Kaur",
@@ -1151,10 +1157,10 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Thapar Institute of Engineering and Technology",
         "WebsiteLink": "https:\/\/www.thapar.edu\/",
-        "Skill ": "Natural Language Processing,Artificial Intelligence,Machine Learning",
+        "Skill": "Natural Language Processing,Artificial Intelligence,Machine Learning",
         "Batch": "2013-2016",
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/gursimran-kaur-23514432a\/",
-        "Image" : "images/gursimarankaur.jpeg"
+        "Image" : "/images/gursimarankaur.jpeg"
     },
     {
         "Name": "Rajesh Bhatia",
@@ -1179,7 +1185,7 @@
         "Occupation": "Associate professor",
         "InsituteName": "DAV University, Jalandhar",
         "WebsiteLink": "Www.davuniversity.org",
-        "Skill ": "AI and Machine Learning, NLP",
+        "Skill": "AI and Machine Learning, NLP",
         "Batch": "2006-2008",
         "Image" : ""
     },
@@ -1192,9 +1198,9 @@
         "Profession": "Teaching",
         "Occupation": "Lecturer (School) Computer Science",
         "InsituteName": "DEPARTMENT OF Higher Education HP",
-        "Skill ": "M-Tech Computer Science and Engineering",
+        "Skill": "M-Tech Computer Science and Engineering",
         "Batch": "2011-2013",
-        "Image" : "images/AnkurMehay.jpg"
+        "Image" : "/images/AnkurMehay.jpg"
     },
     {
         "Name": "Karamjeet singh",
@@ -1206,9 +1212,9 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Thapar institute of engineering and technology",
         "WebsiteLink": "www.thapar.edu",
-        "Skill ": "Applied mathematics, ML and Deep learning",
+        "Skill": "Applied mathematics, ML and Deep learning",
         "Batch": 20082018,
-        "Image" : "images/karamjeetsinghmakar.jpg"
+        "Image" : "/images/karamjeetsinghmakar.jpg"
     },
     {
         "Name": "Mohit Manchanda",
@@ -1233,7 +1239,7 @@
         "Occupation": "Senior Software Engineer Developer",
         "InsituteName": "Caelius Consulting",
         "WebsiteLink": "https:\/\/www.caeliusconsulting.com",
-        "Skill ": "Mulesoft Intergration, Spring Boot, spring mvc,",
+        "Skill": "Mulesoft Intergration, Spring Boot, spring mvc,",
         "Batch": 2022,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/rajwinder-kaur-a4379922a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "Image" : ""
@@ -1248,9 +1254,9 @@
         "Occupation": "Assistant. Professor",
         "InsituteName": "Laureate Institute of Management and information technology, Jwala G",
         "WebsiteLink": "https:\/\/laureateimit.com\/",
-        "Skill ": "HP SET",
+        "Skill": "HP SET",
         "Batch": 2008,
-        "Image" : "images/BhuvneshKumar.jpg"
+        "Image" : "/images/BhuvneshKumar.jpg"
     },
     {
         "Name": "Dr. Ajit Kumar",
@@ -1262,7 +1268,7 @@
         "Occupation": "Associate Professor",
         "InsituteName": "Multani Mal Modi College Patiala",
         "WebsiteLink": "www.modicollege.com",
-        "Skill ": "Computer Science",
+        "Skill": "Computer Science",
         "Batch": "2011-2014",
         "Image" : ""
     },
@@ -1275,7 +1281,7 @@
         "Profession": "Study",
         "Occupation": "Student",
         "InsituteName": "Law School",
-        "Skill ": "I am studying law now, i have been always interested in intellectual property law, i honed my computer applications skills throughout my education at Punjabi University, and my try will be to incorporate my previous studies with my current law education.",
+        "Skill": "Intellectual property law, i honed my computer applications skills throughout my education at Punjabi University, and my try will be to incorporate my previous studies with my current law education.",
         "Batch": 2013,
         "Image" : ""
     },
@@ -1289,7 +1295,7 @@
         "Occupation": "Founder & Director",
         "InsituteName": "AI TECHNOSYS",
         "WebsiteLink": "www.aitechnosys.com",
-        "Skill ": "Website Designing & Development, Mobile Apps, SEO.",
+        "Skill": "Website Designing & Development, Mobile Apps, SEO.",
         "Batch": "2018 -2020",
         "LinkedIn": "er.aashishsharma",
         "Image" : ""
@@ -1329,7 +1335,7 @@
         "Profession": "Teaching",
         "Occupation": "Mansa",
         "InsituteName": "Mata sundari University girls college mansa",
-        "Skill ": "Two year",
+        "Skill": "Two year",
         "Batch": "2015-2018",
         "Image" : ""
     },
@@ -1345,7 +1351,7 @@
         "WebsiteLink": "https:\/\/allheartweb.com\/",
         "Batch": "2021-2023",
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/rajwinderkaur2514",
-        "Image" : "images/RajwinderKaur.JPG"
+        "Image" : "/images/RajwinderKaur.JPG"
     },
     {
         "Name": "Rajwant Singh",
@@ -1370,7 +1376,7 @@
         "InsituteName": "QA source",
         "Batch": "2013-2015",
         "LinkedIn": "shaveta.lamba",
-        "Image" : "images/shavetalamba.jpg"
+        "Image" : "/images/shavetalamba.jpg"
     },
     {
         "Name": "Parveen Kumar",
@@ -1382,7 +1388,7 @@
         "Occupation": "Managing Director",
         "InsituteName": "Malwa iti burar",
         "Batch": "2010-2013",
-        "Image" : "images/parveenkumar.jpg"
+        "Image" : "/images/parveenkumar.jpg"
     },
     {
         "Name": "Divya Gupta",
@@ -1405,7 +1411,7 @@
         "Profession": "Teaching",
         "Occupation": "Assistant professor of computer applications",
         "InsituteName": "Tara Vivek College Gajjanmajra",
-        "Skill ": "1.5 years",
+        "Skill": "1.5 years",
         "Batch": "May-18",
         "Course": "MCA",
         "Image" : ""
@@ -1419,10 +1425,10 @@
         "Profession": "Teaching",
         "Occupation": "Research Assistant",
         "InsituteName": "Thapar University Patiala",
-        "Skill ": "Data Science",
+        "Skill": "Data Science",
         "Batch": 2016,
         "Course": "M.TECH",
-        "Image" : "images/VarunSodhi.jpg"
+        "Image" : "/images/VarunSodhi.jpg"
     },
     {
         "Name": "MANJINDER KAUR",
@@ -1435,7 +1441,7 @@
         "InsituteName": "Department of governance reforms",
         "Batch": 2015,
         "Course": "M.TECH",
-        "Image" : "images/ManjinderKaur.jpg"
+        "Image" : "/images/ManjinderKaur.jpg"
     },
     {
         "Name": "Pushpinder Singh",
@@ -1446,10 +1452,10 @@
         "Profession": "Teaching",
         "Occupation": "Assistant Professor",
         "InsituteName": "University College Ghanaur (Patiala)",
-        "Skill ": "Image Processing, OCR, Mobile Applications",
+        "Skill": "Image Processing, OCR, Mobile Applications",
         "Batch": 2023,
         "Course": "PHD",
-        "Image" : "images/PushpinderSingh.jpeg"
+        "Image" : "/images/PushpinderSingh.jpeg"
     },
     {
         "Name": "Vaneet Pal kaur",
@@ -1460,7 +1466,7 @@
         "Profession": "Industry",
         "Occupation": "Senior Manager",
         "InsituteName": "CHEORS",
-        "Skill ": "Health Economics and Outcome Research",
+        "Skill": "Health Economics and Outcome Research",
         "Batch": 2014,
         "Course": "M Pharmacy",
         "Image" : ""
@@ -1500,12 +1506,56 @@
         "Profession": "Industry",
         "Occupation": "Deputy Manager",
         "InsituteName": "Reliance Jio Infocomm Ltd.",
-        "Skill ": "Automation Testing and DevOps",
+        "Skill": "Automation Testing and DevOps",
         "Batch": "2012-2015",
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/mandeep-singh-87b08927?trk=contact-info",
         "Course": "MCA",
-        "Image" : "images/MandeepSingh.jpeg"
+        "Image" : "/images/MandeepSingh.jpeg"
     },
+    {
+        "Name": "Lovepreet Singh",
+        "FatherName": "Gurbinder Singh",
+        "PhoneNo": 9592400116,
+        "Address": "#Barnala",
+        "Email ": "pucbarnala@pbi.ac.in",
+        "Profession": "Teaching",
+        "Occupation": "Assistant Professor",
+        "InsituteName": "University college barnala",
+        "Batch": "2010-2013",
+        "Course": "MCA",
+        "Image" : "/images/lovepreetsingh.jpg"
+    },
+    {
+        "Name": "Shivani Wadhwa",
+        "FatherName": "Mr. Darshan kumar Wadhwa",
+        "PhoneNo": 9988121252,
+        "Address": "#1946, Near KK high school, Rajpura town",
+        "Email ": "shivani.wadhwa@chitkara.edu.in",
+        "Profession": "Teaching",
+        "Occupation": "Assistant Professor",
+        "InsituteName": "Chitkara University",
+        "WebsiteLink": "https:\/\/g.co\/kgs\/RJZKdVS",
+        "Skill": "Latex Expert, blockchain expert",
+        "Batch": 2024,
+        "LinkedIn": "https:\/\/www.linkedin.com\/in\/dr-shivani-wadhwa-571a64216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "Course": "PHD",
+        "Image" : "/images/shivaniwadhwa.jpeg"
+    },
+    {
+        "Name": "Yashmeen Kaur",
+        "FatherName": "Sher singh",
+        "PhoneNo": "+61 470 432 534",
+        "Address": "7 valencia street, weir views, VIC, Australia 3338",
+        "Email ": "yashmeenkaur825@gmail.com",
+        "Profession": "Industry",
+        "Occupation": "Technical Business Analyst",
+        "InsituteName": "Abrantix Pty Ltd",
+        "Skill": "Business Analysis\/ Data Analysis\/ Project Management",
+        "Batch": 2016,
+        "Course": "MCA",
+        "Image" : "/images/yashmeenkaur.jpeg"
+    },
+    
     {
         "Name": "Rohit Dhingra",
         "FatherName": "Yashpal Dhingra",
@@ -1515,7 +1565,7 @@
         "Profession": "Industry",
         "Occupation": "Senior AI consultant",
         "InsituteName": "Metlife",
-        "Skill ": "AI , RPA",
+        "Skill": "AI , RPA",
         "Batch": 2016,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/rohit-dhingra-79223a157",
         "Course": "MCA",
@@ -1533,6 +1583,33 @@
         "Batch": "2015-2018",
         "Course": "MCA",
         "Image" : ""
+    },
+    {
+        "Name": "Neelam",
+        "FatherName": "Vijay Kumar",
+        "PhoneNo": 9041043103,
+        "Address": "Sunam dist. Sangrur",
+        "Email ": "nr13026@gmail.com",
+        "Profession": "Not working",
+        "Occupation": "Home",
+        "InsituteName": "Neelam",
+        "Batch": "2018-2019",
+        "Course": "MCA",
+        "Image" : "/images/Neelam.jpg"
+    },
+    {
+        "Name": "Vicky Garg",
+        "FatherName": "Laxmi Narayan",
+        "PhoneNo": "+1 4697749743",
+        "Address": "1348 Colby Drive Lewisville USA",
+        "Email ": "vickyg@plasmacomp.com",
+        "Profession": "Industry",
+        "Occupation": "Digital Solution Architect",
+        "InsituteName": "Plasma Computing Group Inc",
+        "WebsiteLink": "Https:\/\/plasmacomp.com",
+        "Skill": "Angular MySql Oracle .Net",
+        "Batch": 2007,
+        "Image" : "/images/vickyGarg.jpeg"
     },
     {
         "Name": "Nitin Garg",
@@ -1557,7 +1634,7 @@
         "Occupation": "Assistant Professor",
         "InsituteName": "Shri LBS Arya Mahila College Barnala",
         "WebsiteLink": "www.lbscollegebnl.com",
-        "Skill ": "Programming",
+        "Skill": "Programming",
         "Batch": "2012-2015",
         "Course": "MCA",
         "Image" : ""
@@ -1572,7 +1649,7 @@
         "Occupation": "HOD",
         "InsituteName": "Akal college for women Khamanon",
         "WebsiteLink": "https:\/\/www.akalacademy.in\/",
-        "Skill ": "DBMS,C++,Java good Communication skills as well as administrative experience",
+        "Skill": "DBMS,C++,Java good Communication skills as well as administrative experience",
         "Batch": "2008-2011",
         "Course": "MCA",
         "Image" : ""
@@ -1626,7 +1703,7 @@
         "Profession": "Teaching",
         "Occupation": "Computer faculty",
         "InsituteName": "SOE phillaur",
-        "Skill ": "In computer",
+        "Skill": "In computer",
         "Batch": "2009-2011",
         "Course": "MCA",
         "Image" : ""
@@ -1751,19 +1828,6 @@
         "Image" : ""
     },
     {
-        "Name": "Mandeep Singh",
-        "FatherName": "Dharampal Singh",
-        "PhoneNo": 919888525885,
-        "Address": "Bremen, Germany",
-        "Email ": "mandeep5885@gmail.com",
-        "Profession": "Industry",
-        "Occupation": "Frontend Developer",
-        "InsituteName": "Wamoco Gmbh",
-        "Batch": "2013-2015",
-        "Course": "MCA",
-        "Image" : "images/Mandeep Singh.jpeg"
-    },
-    {
         "Name": "Nitesh Kumar",
         "FatherName": "Sh.Deputy Kumar",
         "PhoneNo": 9780300875,
@@ -1773,11 +1837,11 @@
         "Occupation": "Risk Manager",
         "InsituteName": "Bank of India",
         "WebsiteLink": "https:\/\/bankofindia.co.in\/",
-        "Skill ": "Credit Rating in Financial Sector",
+        "Skill": "Credit Rating in Financial Sector",
         "Batch": 2015,
         "LinkedIn": "https:\/\/www.linkedin.com\/in\/nitesh-singla-346a48123",
         "Course": "M.TECH",
-        "Image" : "images/niteshsingla.jpg"
+        "Image" : "/images/niteshsingla.jpg"
     },
     {
         "Name": "Ifra",
@@ -1793,62 +1857,6 @@
         "Image" : ""
     },
     {
-        "Name": "Lovepreet Singh",
-        "FatherName": "Gurbinder Singh",
-        "PhoneNo": 9592400116,
-        "Address": "#Barnala",
-        "Email ": "pucbarnala@pbi.ac.in",
-        "Profession": "Teaching",
-        "Occupation": "Assistant Professor",
-        "InsituteName": "University college barnala",
-        "Batch": "2010-2013",
-        "Course": "MCA",
-        "Image" : "images/lovepreetsingh.jpg"
-    },
-    {
-        "Name": "Shivani Wadhwa",
-        "FatherName": "Mr. Darshan kumar Wadhwa",
-        "PhoneNo": 9988121252,
-        "Address": "#1946, Near KK high school, Rajpura town",
-        "Email ": "shivani.wadhwa@chitkara.edu.in",
-        "Profession": "Teaching",
-        "Occupation": "Assistant Professor",
-        "InsituteName": "Chitkara University",
-        "WebsiteLink": "https:\/\/g.co\/kgs\/RJZKdVS",
-        "Skill ": "Latex Expert, blockchain expert",
-        "Batch": 2024,
-        "LinkedIn": "https:\/\/www.linkedin.com\/in\/dr-shivani-wadhwa-571a64216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "Course": "PHD",
-        "Image" : "images/shivaniwadhwa.jpeg"
-    },
-    {
-        "Name": "Yashmeen Kaur",
-        "FatherName": "Sher singh",
-        "PhoneNo": "+61 470 432 534",
-        "Address": "7 valencia street, weir views, VIC, Australia 3338",
-        "Email ": "yashmeenkaur825@gmail.com",
-        "Profession": "Industry",
-        "Occupation": "Technical Business Analyst",
-        "InsituteName": "Abrantix Pty Ltd",
-        "Skill ": "Business Analysis\/ Data Analysis\/ Project Management",
-        "Batch": 2016,
-        "Course": "MCA",
-        "Image" : "images/yashmeenkaur.jpeg"
-    },
-    {
-        "Name": "Neelam",
-        "FatherName": "Vijay Kumar",
-        "PhoneNo": 9041043103,
-        "Address": "Sunam dist. Sangrur",
-        "Email ": "nr13026@gmail.com",
-        "Profession": "No working",
-        "Occupation": "Home",
-        "InsituteName": "Neelam",
-        "Batch": "2018-2019",
-        "Course": "MCA",
-        "Image" : "images/Neͥelͣaͫᴍ.jpg"
-    },
-    {
         "Name": "Jagveer Singh Nirmaan",
         "FatherName": "S. Nachhattar Singh",
         "PhoneNo": 9463554413,
@@ -1859,6 +1867,31 @@
         "InsituteName": "Department of Social Justice and Empowerment",
         "Batch": 2017,
         "Course": "M.TECH",
+        "Image" : ""
+    },
+    {
+        "Name": "Akash kumar",
+        "FatherName": "Ram Naval",
+        "PhoneNo": 6283880253,
+        "Address": "patiala",
+        "Email ": "akashkumar917350@gmail.com",
+        "Profession": "Industry",
+        "Occupation": "Data Scientist",
+        "InsituteName": "Offshore software solutions",
+        "Skill": "Data Science",
+        "Image" : ""
+    },
+    {
+        "Name": "Harash kumar",
+        "FatherName": "Tarsem kumar",
+        "PhoneNo": 8054610648,
+        "Address": "Pathankot",
+        "Email ": "harsharora2020@gmail.com",
+        "Profession": "Teaching",
+        "Occupation": "Assistant Professor",
+        "InsituteName": "SRPA Adarsh Bhartiya College pathankot",
+        "Skill": "UGC NET",
+        "Batch": "2011-2014",
         "Image" : ""
     }
 ]

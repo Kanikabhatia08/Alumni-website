@@ -1,30 +1,38 @@
 [
     {
-        "title": "Lorem Ipsum 1",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "title": "Expert Talk",
+        "description": "Role of AI and Data Science for future green revolution in India",
         "position": "right",
         "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800"
+        "textColor": "text-gray-800",
+        "image1": "/images/Event1.jpg",
+        "image2": "/images/guestsEvent1.jpg"
     },
     {
-        "title": "Lorem Ipsum 2",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "title": " Alumni Meet",
+        "description": "Prominent alumni among various alumni visited department were Mr. Sushil Khurana, Mr. Ravinder Pal Singh Ahuja, Mr. Rashpal, Mr. Jitesh Pubreja, Mr. Gurdeep Singh, Dr. Neeraj Sharma.",
         "position": "left",
         "bgColor": "bg-red-400",
-        "textColor": "text-white"
+        "textColor": "text-white",
+        "image1": "/images/Event2.jpg",
+        "image2": "/images/guestsEvent2.jpg"
     },
     {
-        "title": "Lorem Ipsum 3",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "title": "Teachers day celebration",
+        "description": "We hope all of you had a wonderful year in the department and we're so excited for what the future holds for you! The Department wishes good luck to all the students!",
         "position": "right",
         "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800"
+        "textColor": "text-gray-800",
+        "image1": "/images/Event4.jpg",
+        "image2": "/images/guestsEvent4.jpg"
     },
     {
-        "title": "Lorem Ipsum 4",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+        "title": "Orientation 2023",
+        "description": "An orientation program is organised on 17th August 2023 at the Computer Science Department of Punjabi University Patiala for new students who had just begun their first semesters of MCA and BCA Honours. This activity was intended to make these new students feel at ease and provide them crucial information. The special guests included the placement coordinator, the hostel wardens, and the head of the computer science department. These influential individuals cordially greeted the new students. They discussed a variety of significant topics. The department, the hostel where they may stay, and how to get ready for future employment were all discussed with the students. Some of the glimpses are as follows.",
         "position": "left",
         "bgColor": "bg-red-400",
-        "textColor": "text-white"
+        "textColor": "text-white",
+        "image1": "/images/Event3.jpg",
+        "image2": "/images/guestsEvent3.jpg"
     }
 ]

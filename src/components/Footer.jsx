@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../images/logo.png'
 import { FiMail } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -13,7 +12,7 @@ export const Footer = () => {
                 <div class="lg:flex justify-between">
                     <div class="sm:flex gap-5 items-center ">
                         <a href="">
-                            <img src={logo} class="" alt="Logo" />
+                            <img src='/images/logo.png' class="" alt="Logo" />
                         </a>
                         <p className='w-full lg:w-[65%] mt-4 sm:mt-0 3xl:text-xl '>"Founded in 1962, Punjabi University, Patiala, is a leading institution promoting Punjabi language, culture, and education. It offers a wide range of academic programs and is committed to excellence in research and student development."</p>
                     </div>

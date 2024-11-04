@@ -1,8 +1,4 @@
 import React from 'react'
-import logo from '../images/logo.png'
-import banner from '../images/banner.png'
-import sir from "../images/vishalSir.webp"
-import hod from "../images/Gagandeep-Kaur.png"
 import ParallaxSection from '../components/ParallaxSection'
 
 export const Home = () => {
@@ -10,7 +6,7 @@ export const Home = () => {
         <div className='  w-full bg-no-repeat h-full mt-20 flex flex-col gap-40' >
             <div className='relative w-full h-full'>
                 <div className='w-full mt-20'>
-                    <img src={banner} alt='students' className='w-full' />
+                    <img src='/images/banner.png' alt='students' className='w-full' />
                 </div>
                 <div className='absolute inset-0 flex flex-col justify-start pt-9 items-center text-center bg-opacity-50 bg-white'>
                     <h1
@@ -36,7 +32,7 @@ export const Home = () => {
             <div className='max-w-[85%] mx-auto flex flex-col gap-32'>
                 <div className=' flex gap-10 lg:gap-20 items-center md:items-start  '>
                     <div className='w-full hidden md:flex '>
-                        <img src={logo} alt='Punjabi University' className='w-full' />
+                        <img src='/images/logo.png' alt='Punjabi University' className='w-full' />
                     </div>
                     <div className='lg:flex flex flex-col gap-9 items-center md:items-start'>
                         <h3 className='text-4xl font-mons uppercase font-extrabold text-darkBlue '>
@@ -65,7 +61,7 @@ export const Home = () => {
                         </p>
                     </div>
                     <div className='hidden md:flex items-start h-[20%] w-[22%]'>
-                        <img src={hod} alt='Punjabi University' className='w-full h-full' />
+                        <img src='/images/Gagandeep-Kaur.png' alt='Punjabi University' className='w-full h-full' />
                     </div>
                 </div>
             </div>
