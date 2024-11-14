@@ -18,7 +18,7 @@ export const Navbar = () => {
     const isActive = (path) => location.pathname === path;
 
     return (
-        <div className='py-2 fixed bg-fixed w-full bg-[#ffffff] z-10 navbar duration-700'>
+        <div className='py-2 fixed bg-fixed w-full bg-[#ffffff] z-50 navbar duration-700'>
             <nav className='flex justify-between items-center max-w-[85%] mx-auto text-lg'>
                 <div className='w-16'>
                     <img src='/images/logo.png' alt='Punjabi University' />

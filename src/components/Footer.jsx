@@ -14,7 +14,7 @@ export const Footer = () => {
                         <a href="">
                             <img src='/images/logo.png' class="" alt="Logo" />
                         </a>
-                        <p className='w-full lg:w-[65%] mt-4 sm:mt-0 3xl:text-xl '>"Founded in 1962, Punjabi University, Patiala, is a leading institution promoting Punjabi language, culture, and education. It offers a wide range of academic programs and is committed to excellence in research and student development."</p>
+                        <p className='w-full lg:w-[65%] mt-4 sm:mt-0 3xl:text-xl text-justify'>"Founded in 1962, Punjabi University, Patiala, is a leading institution promoting Punjabi language, culture, and education. It offers a wide range of academic programs and is committed to excellence in research and student development."</p>
                     </div>
 
                     <div class="flex gap-20 w-full justify-start mt-10 lg:mt-0 lg:justify-end font-mons">
