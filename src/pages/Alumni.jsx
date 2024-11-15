@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import data from '../data/aluminiData.json';
+import { Link } from 'react-router-dom';
 
 export default function Alumni() {
     const [searchTerm, setSearchTerm] = useState(""); // State to track search input
@@ -127,6 +128,11 @@ export default function Alumni() {
                                     {item.Skill && (
                                         <p className="font-bold">
                                             Skills: <span className="font-normal">{item.Skill}</span>
+                                        </p>
+                                    )}
+                                    {item.LinkedIn && (
+                                        <p className="font-bold">
+                                            LinkedIn: <Link to={item.LinkedIn}><span className="font-normal">{item.Name}</span></Link>
                                         </p>
                                     )}
                                 </div>
