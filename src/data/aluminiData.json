@@ -535,7 +535,19 @@
         "Batch": "2015-2018",
         "Image" : "/images/gurpreetsingh.png"
     },
-   
+    {
+        "Name": "Karanbir Singh",
+        "FatherName": "Paramjit Singh",
+        "PhoneNo": 9465542909,
+        "Address": "Village Bijapur Kothe, Khanna, Ludhiana",
+        "Email ": "ksottal89@gmail.com",
+        "Profession": "Industry",
+        "Occupation": "Business executive",
+        "InsituteName": "Punjab Agricultural University Ludhiana",
+        "WebsiteLink": "www.pau.edu",
+        "Batch": "2014-15",
+        "Image" : "/images/karanbirsingh.jpg"
+    },
     {
         "Name": "Dr. Gurwinder Singh",
         "FatherName": "S. Jarnail Singh",
@@ -580,19 +592,7 @@
         "LinkedIn": "https:\/\/www.linkedin .com\/in\/karan-bansal-1b0423174",
         "Image" : "/images/KaranBansal.jpeg"
     },
-    {
-        "Name": "Rubia Gupta",
-        "FatherName": "Rajesh Gupta",
-        "PhoneNo": 15136148470,
-        "Address": "7755 keller rd, 45243",
-        "Email ": "rubiagoyal89@gmail.com",
-        "Profession": "Study",
-        "Occupation": "Student",
-        "InsituteName": "Law School",
-        "Skill": "Intellectual property law, i honed my computer applications skills throughout my education at Punjabi University, and my try will be to incorporate my previous studies with my current law education.",
-        "Batch": 2013,
-        "Image" : ""
-    },
+    
     {
         "Name": "Surjit Kumar",
         "FatherName": "Sh. Desh Raj",
@@ -622,19 +622,7 @@
         "LinkedIn": "www.linkedin.com\/in\/swapnil-s-57282413",
         "Image" : "/images/SwapnilSharma.webp"
     },
-    {
-        "Name": "Karanbir Singh",
-        "FatherName": "Paramjit Singh",
-        "PhoneNo": 9465542909,
-        "Address": "Village Bijapur Kothe, Khanna, Ludhiana",
-        "Email ": "ksottal89@gmail.com",
-        "Profession": "Industry",
-        "Occupation": "Business executive",
-        "InsituteName": "Punjab Agricultural University Ludhiana",
-        "WebsiteLink": "www.pau.edu",
-        "Batch": "2014-15",
-        "Image" : "/images/karanbirsingh.jpg"
-    },
+    
     {
         "Name": "Manpreet Singh Gill",
         "FatherName": "Balvir Singh Gill",
@@ -728,7 +716,6 @@
         "Batch": 2017,
         "Image" : "/images/poojamohan.jpg"
     },
-    
     {
         "Name": "Vandana Sindhi",
         "FatherName": "Puran Chand Sindhi",
