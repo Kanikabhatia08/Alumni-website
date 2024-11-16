@@ -3,11 +3,11 @@ import data from '../data/aluminiData.json';
 import { Link } from 'react-router-dom';
 
 export default function Alumni() {
-    const [searchTerm, setSearchTerm] = useState(""); // State to track search input
+    const [searchTerm, setSearchTerm] = useState("");
     const [filteredData, setFilteredData] = useState([]);
-    const [searchClicked, setSearchClicked] = useState(false); // Track if search button is clicked
-    const [currentIndex, setCurrentIndex] = useState(0); // Track current carousel index
-    const inputRef = useRef(null); // Create a reference for the search input field
+    const [searchClicked, setSearchClicked] = useState(false);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const inputRef = useRef(null);
 
     const slides = [
         { id: 1, image: 'images/slider1.jpg' },
@@ -17,7 +17,6 @@ export default function Alumni() {
         { id: 5, image: 'images/slider5.jpg' },
     ];
 
-    // Filter alumni data based on search term
     useEffect(() => {
         if (searchTerm.trim() !== "") {
             const results = data.filter((item) =>
@@ -29,18 +28,17 @@ export default function Alumni() {
         }
     }, [searchTerm]);
 
-    // Carousel auto-slide functionality
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-        }, 3000); // Auto-slide every 3 seconds
+        }, 3000);
         return () => clearInterval(interval);
     }, [slides.length]);
 
     const handleSearch = (e) => {
-        e.preventDefault(); // Prevent form submission to maintain hover effect
-        setSearchClicked(true); // Trigger search when Enter or button is clicked
-        inputRef.current.blur(); // Remove focus from the input to remove the typing cursor
+        e.preventDefault();
+        setSearchClicked(true);
+        inputRef.current.blur();
     };
 
     const handleReset = () => {
@@ -50,41 +48,47 @@ export default function Alumni() {
 
     const handleGoToAllData = () => {
         setSearchTerm("");
-        setSearchClicked(false); // Reset the search and show all data
+        setSearchClicked(false);
     };
 
     const handleFocus = () => {
-        setSearchClicked(true); // Keep the search bar in focus to allow typing again
+        setSearchClicked(true);
     };
 
     return (
-        <div className="w-full bg-gray-50 pt-14">
-            
-                <div className="relative hidden md:block w-full h-screen overflow-hidden mb-10 mt-6">
-                    {slides.map((slide, index) => (
-                        <div
-                            key={slide.id}
-                            className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
-                        >
-                            <img src={slide.image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
-                        </div>
-                    ))}
-                    {/* Navigation Buttons */}
-                    <div className="absolute inset-0 flex justify-between items-center">
-                        <button
-                            className="text-white bg-black bg-opacity-50 p-2 rounded-full ml-4"
-                            onClick={() => setCurrentIndex(currentIndex === 0 ? slides.length - 1 : currentIndex - 1)}
-                        >
-                            &#10094;
-                        </button>
-                        <button
-                            className="text-white bg-black bg-opacity-50 p-2 rounded-full mr-4"
-                            onClick={() => setCurrentIndex((currentIndex + 1) % slides.length)}
-                        >
-                            &#10095;
-                        </button>
+        <div className="w-full mt-20">
+            <div className="relative hidden md:block scale-x-125 max-h-full h-screen">
+                {slides.map((slide, index) => (
+                    <div
+                        key={slide.id}
+                        className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100' : 'opacity-0'
+                            }`}
+                    >
+                        <img
+                            src={slide.image}
+                            alt={`Slide ${index + 1}`}
+                            className="w-full h-full object-contain" // Switch between `object-cover` and `object-contain` as needed
+                        />
                     </div>
+                ))}
+                {/* Navigation Buttons */}
+                <div className="absolute inset-0 flex justify-between items-center">
+                    <button
+                        className="text-white bg-black bg-opacity-50 p-2 rounded-full ml-4"
+                        onClick={() =>
+                            setCurrentIndex(currentIndex === 0 ? slides.length - 1 : currentIndex - 1)
+                        }
+                    >
+                        &#10094;
+                    </button>
+                    <button
+                        className="text-white bg-black bg-opacity-50 p-2 rounded-full mr-4"
+                        onClick={() => setCurrentIndex((currentIndex + 1) % slides.length)}
+                    >
+                        &#10095;
+                    </button>
                 </div>
+            </div>
 
             {/* All Alumni Heading Section */}
             <div className="w-full py-6 text-center">
