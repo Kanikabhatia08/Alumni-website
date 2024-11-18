@@ -1618,13 +1618,14 @@
         "Address": "St. No. 1, patel nagar, Barnala",
         "Email ": "vishalgoyalb@gmail.com",
         "Profession": "Teaching",
-        "Occupation": "Assistant Professor",
+        "Occupation": "Professor, Department of Computer Science, Punjabi University",
         "InsituteName": "Shri LBS Arya Mahila College Barnala",
         "WebsiteLink": "www.lbscollegebnl.com",
-        "Skill": "Programming",
+        "Skill": "Programming, E-Learning, Research, and Teaching",
         "Batch": "2012-2015",
         "Course": "MCA",
-        "Image" : ""
+        "Image" : "",
+        "LinkedIn": "https://www.linkedin.com/in/vishal-goyal-0012516/"
     },
     {
         "Name": "Mahavir Singh",

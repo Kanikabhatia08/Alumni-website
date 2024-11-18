@@ -18,7 +18,7 @@ const ParallaxSection = () => {
             speed: 0,
           },
         ]}
-        className="h-[80vh]"
+        className="h-[90vh]"
       >
         <div className="absolute inset-0 flex items-center justify-center">
           <div className='flex justify-between items-center'>

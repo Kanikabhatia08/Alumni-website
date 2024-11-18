@@ -47,17 +47,19 @@ export const Home = () => {
                         <h3 className='text-4xl font-mons text-center md:text-right font-bold text-darkBlue mt-4'>
                             Words of<span className='font-extrabold'> WISDOM</span>
                         </h3>
-                        <p className='text-justify flex'>
+                        <p className='text-justify '>
                             Dear alumni,<br />
 
                             We extend our heartfelt congratulations to each one of you who has carved a successful path in the IT sector. Your dedication, innovation, and resilience have not only brought you personal success but have also added immense pride to the Department of Computer Science at Punjabi University, Patiala. Each of you represents the spirit of our institution, and seeing you excel in your careers fills us with joy and admiration. Your achievements set a powerful example for current students, showing them what can be accomplished through hard work and passion.
 
                             We consider you invaluable members of our university community and are grateful for the inspiration you provide. Remember, you are always welcome to return, share your knowledge, and reconnect with us. We look forward to celebrating many more milestones with you in the future.
                             <br /><br />
+                            <p className='font-semibold'>
                             Dr. Gagandeep<br />
                             Head & Professor<br />
                             Department of computer Science<br />
                             Punjabi University, Patiala
+                            </p>
                         </p>
                     </div>
                     <div className='hidden md:flex items-start h-[20%] w-[22%]'>
