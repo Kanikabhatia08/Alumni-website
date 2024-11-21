@@ -1,4 +1,6 @@
-function TeamCard({ img, name, title, institution }) {
+import { Link } from "react-router-dom";
+
+function TeamCard({ img, name, title, institution, linkedIn }) {
     return (
         <div className="rounded-lg bg-[#FAFAFA] shadow-md">
             <div className="p-6 text-center">
@@ -7,7 +9,7 @@ function TeamCard({ img, name, title, institution }) {
                     alt={name}
                     className="size-40 mx-auto mb-6 rounded-full object-cover"
                 />
-                <h5 className="text-lg font-medium ">{name}</h5>
+                <h5 className={`text-lg font-medium ${linkedIn? 'hover:underline': ''} `}><Link to={linkedIn} target="blank">{name}</Link></h5>
                 <p className="text-base font-semibold text-gray">{title}</p>
                 <p className="mb-4 text-base font-semibold text-gray">{institution}</p>
 
@@ -19,15 +21,16 @@ function TeamCard({ img, name, title, institution }) {
 
 const members = [
     {
-        img: "/images/vipinKumar.jpg",
-        name: "Mr. Vipin kumar",
-        title: "Technical Assistant",
-        institution: "Department of Computer Science, Punjabi University, Patiala",
-    },
-    {
         img: "/images/vishalSir.jpg",
         name: "Dr. Vishal Goyal",
         title: "Proffesor",
+        institution: "Department of Computer Science, Punjabi University, Patiala",
+        linkedIn: "https://www.linkedin.com/in/vishal-goyal-0012516/",
+    },
+    {
+        img: "/images/vipinKumar.jpg",
+        name: "Mr. Vipin kumar",
+        title: "Technical Assistant",
         institution: "Department of Computer Science, Punjabi University, Patiala",
     },
     {
@@ -35,24 +38,30 @@ const members = [
         name: "Kanika Bhatia",
         title: "Student",
         institution: "MCA, Department of Computer Science",
+        linkedIn: "https://www.linkedin.com/in/kanika-bhatia08/",
     },
     {
         img: "/images/abhinash.jpg",
         name: "Abhinash",
         title: "Student",
         institution: "MCA, Department of Computer Science",
+        linkedIn: "https://www.linkedin.com/in/abhinash99/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+
     },
     {
         img: "/images/harman.jpg",
         name: "Harmandeep Singh",
         title: "Student",
         institution: "MCA, Department of Computer Science",
+        linkedIn: "https://www.linkedin.com/in/harmandeep-singh-saggu-8562a12b4/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
         img: "/images/purvak.jpg",
-        name: "Purvak",
+        name: "Purvak Jindal",
         title: "Student",
         institution: "MCA, Department of Computer Science",
+        linkedIn: "https://www.linkedin.com/in/purvak-jindal-610869333/",
+
     }
 ];
 

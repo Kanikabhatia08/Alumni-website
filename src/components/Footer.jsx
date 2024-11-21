@@ -3,6 +3,8 @@ import { FiMail } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 export const Footer = () => {
@@ -20,12 +22,15 @@ export const Footer = () => {
                     <div class="flex gap-20 w-full justify-start mt-10 lg:mt-0 lg:justify-end font-mons">
                         <div>
                             <h2 class="mb-6 text-lg 3xl:text-2xl  font-semibold uppercase ">Explore</h2>
-                            <ul class=" font-medium 3xl:text-xl">
-                                <li class="mb-4">
+                            <ul class=" font-medium 3xl:text-xl flex flex-col gap-4">
+                                <li>
                                     <a href="#" class="hover:underline">Home</a>
                                 </li>
                                 <li>
                                     <a href="/Alumni" class="hover:underline">Alumni</a>
+                                </li>
+                                <li>
+                                    <a href="/Events" class="hover:underline">Events</a>
                                 </li>
                             </ul>
                         </div>
@@ -34,12 +39,20 @@ export const Footer = () => {
                             <ul class="font-medium 3xl:text-xl  ">
                                 <li class="mb-4 flex items-center gap-2">
                                     <FiMail />
-                                    dcs@pbi.ac.in
+                                    <span>csepupalumni@gmail.com</span>
                                 </li>
-                                <li className='flex items-center gap-2'>
+                                <li className='mb-4 flex items-center gap-2'>
                                     <FaPhoneAlt />
-                                    +91-175-3046313
+                                    <span>+91-175-3046313</span>
                                 </li>
+                                
+                                <li className=''>
+                                    <Link to="https://punjabiuniversity.ac.in/pages/DepartmentPunjabi.aspx?dsenc=19" target='blank' className='flex items-center gap-2'>
+                                    <FaLink />
+                                    <span>Punjabi University, Patiala</span>
+                                    </Link>
+                                </li>
+                                
                             </ul>
                         </div>
 

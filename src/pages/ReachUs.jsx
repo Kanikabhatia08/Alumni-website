@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
-export const ContactUs = () => {
+export const ReachUs = () => {
     const form = useRef();
     const [popup, setPopup] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);

@@ -34,8 +34,8 @@ export const Navbar = () => {
                         <li className={`hover:underline hover:text-darkBlue decoration-2 ${isActive('/Events') ? 'underline text-darkBlue' : ''}`}>
                             <Link to='/Events'>Events</Link>
                         </li>
-                        <li className={`hover:underline hover:text-darkBlue decoration-2 ${isActive('/ContactUs') ? 'underline text-darkBlue' : ''}`}>
-                            <Link to='/ContactUs'>Contact Us</Link>
+                        <li className={`hover:underline hover:text-darkBlue decoration-2 ${isActive('/ReachUs') ? 'underline text-darkBlue' : ''}`}>
+                            <Link to='/ReachUs'>Reach Us</Link>
                         </li>
                     </ul>
                 </div>
