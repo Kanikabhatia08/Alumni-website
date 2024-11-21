@@ -46,6 +46,7 @@ module.exports = {
     fontFamily:{
       "mons" :"'Montserrat', sans-serif",
       "playfair": "'Playfair Display', serif",
+      "poppins": "'Poppins', sans-serif",
     },
     backgroundImage: {
       'hero-pattern': "url('images/banner.jpg')",
@@ -55,3 +56,9 @@ module.exports = {
   },
   plugins: [],
 }
+
+// copywrite center, social in contact us
+// footer
+// font poppoisosrng
+// linkedin underline
+// reach out b,i,u linkedin ke liye
