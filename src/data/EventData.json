@@ -10,7 +10,7 @@
     },
     {
         "title": "Expert Talk",
-        "description": "Role of AI and Data Science for future green revolution in India",
+        "description": "The Department of Computer Science at Punjabi University recently hosted an expert talk on the topic, 'Role of AI and Data Science for Future Green Revolution in India.' The session highlighted how cutting-edge technologies like Artificial Intelligence and Data Science can revolutionize Indian agriculture, enabling sustainable farming practices, precision agriculture, and efficient resource management. The speaker emphasized the potential of AI-powered solutions in predicting crop yields, optimizing irrigation, and reducing wastage, paving the way for a greener and more prosperous future. The talk also shed light on the importance of integrating technology with traditional farming methods to address challenges like climate change and food security.",
         "position": "right",
         "bgColor": "bg-gray-400",
         "textColor": "text-gray-800",
@@ -45,9 +45,18 @@
         "image2": "/images/teachersDay2024.jpg"
     },
     {
+        "title": "FYIP Teachers day celebration",
+        "description": "Happy Teachers' Day! The FYIP MCS 2nd-year students at the Department of Computer Science, Punjabi University, extend heartfelt gratitude to all the teachers for their guidance, inspiration, and unwavering support. Your dedication shapes our future, and we are truly grateful for your efforts.",
+        "position": "right",
+        "bgColor": "bg-gray-400",
+        "textColor": "text-gray-800",
+        "image1": "/images/fyip.jpg",
+        "image2": "/images/teachersDay2024.jpg"
+    },
+    {
         "title": "Orientation 2024",
         "description": "On 8th August 2024, the Department of Computer Science at Punjabi University Patiala organized an engaging Orientation Programme to welcome and guide new students. The event featured the presence of the Head of Department (HOD), faculty members, and the Placement Coordinator, who collectively introduced students to the department’s academic structure, policies, and career opportunities. Students from BCA, MCA, and FYIP courses participated enthusiastically, gaining insights into the curriculum, research opportunities, and placement processes. The session also provided an overview of departmental facilities and support systems, emphasizing the importance of skill development and collaboration. This orientation not only familiarized students with the academic environment but also inspired them to embrace the opportunities ahead, fostering a sense of community and purpose.",
-        "position": "right",
+        "position": "left",
         "bgColor": "bg-red-400",
         "textColor": "text-white",
         "image1": "/images/orientation2024.jpg",
@@ -56,7 +65,7 @@
     {
         "title": "Orientation 2023",
         "description": "An orientation program is organised on 17th August 2023 at the Computer Science Department of Punjabi University Patiala for new students who had just begun their first semesters of MCA and BCA Honours. This activity was intended to make these new students feel at ease and provide them crucial information. The special guests included the placement coordinator, the hostel wardens, and the head of the computer science department. These influential individuals cordially greeted the new students. They discussed a variety of significant topics. The department, the hostel where they may stay, and how to get ready for future employment were all discussed with the students. Some of the glimpses are as follows.",
-        "position": "left",
+        "position": "right",
         "bgColor": "bg-red-400",
         "textColor": "text-white",
         "image1": "/images/Event3.jpg",

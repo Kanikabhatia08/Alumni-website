@@ -39,6 +39,9 @@ module.exports = {
     colors:{
       "blue": '#005b96',
       "darkBlue": "#2E5090",
+      "lightBlue": "#aec8e2",
+      "hoverBlue": "#eaf1fe",
+      "gray": "#757575"
     },
     fontFamily:{
       "mons" :"'Montserrat', sans-serif",

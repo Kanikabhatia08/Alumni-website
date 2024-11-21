@@ -12,10 +12,9 @@ const Events = () => {
   };
 
   const isTruncated = (text) => {
-    // Helper to determine truncation (optional customization)
-    const maxLines = 5;
-    const lineHeight = 1.5; // Assume line height of 1.5 for calculations
-    const maxHeight = maxLines * lineHeight * 16; // Convert to pixels (assuming 16px font-size)
+    const maxLines = 3;
+    const lineHeight = 1.5;
+    const maxHeight = maxLines * lineHeight * 16;
     const div = document.createElement('div');
     div.style.position = 'absolute';
     div.style.visibility = 'hidden';
@@ -66,13 +65,13 @@ const Events = () => {
                 >
                   {expanded[index] || !isTruncated(item.description)
                     ? item.description
-                    : `${item.description.slice(0, 300)}...`} {/* Limit characters */}
-                  {isTruncated(item.description) && (
+                    : `${item.description.slice(0, 225)}`} {/* Limit characters */}
+                  {item.description.length > 250 && isTruncated(item.description) && (
                     <span
                       onClick={() => toggleReadMore(index)}
                       className="text-darkBlue cursor-pointer ml-2"
                     >
-                      {expanded[index] ? 'Read Less' : 'Read More'}
+                      {expanded[index] ? 'Read Less' : '...Read More'}
                     </span>
                   )}
                 </p>

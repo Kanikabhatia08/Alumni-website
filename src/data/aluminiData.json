@@ -731,6 +731,22 @@
         "Image" : "/images/VandanaThisSide!!.jpeg"
     },
     {
+        "Name": "Vishal Goyal",
+        "FatherName": "Harish Goyal",
+        "PhoneNo": 9501096111,
+        "Address": "",
+        "Email ": "",
+        "Profession": "Teaching",
+        "Occupation": "Professor, Department of Computer Science",
+        "InsituteName": "Punjabi University Patiala",
+        "WebsiteLink": "",
+        "Skill": "Teaching, Research, E-learning",
+        "Batch": "2012-2015",
+        "Course": "MCA",
+        "Image" : "/images/vishalSir.webp",
+        "LinkedIn": "https://www.linkedin.com/in/vishal-goyal-0012516/"
+    },
+    {
         "Name": "Dr Umrinder Pal Singh",
         "FatherName": "Dr Makhan Singh",
         "PhoneNo": 9914996719,
@@ -1618,14 +1634,13 @@
         "Address": "St. No. 1, patel nagar, Barnala",
         "Email ": "vishalgoyalb@gmail.com",
         "Profession": "Teaching",
-        "Occupation": "Professor, Department of Computer Science, Punjabi University",
+        "Occupation": "Assistant Professor, Shri LBS Arya Mahila College Barnala",
         "InsituteName": "Shri LBS Arya Mahila College Barnala",
         "WebsiteLink": "www.lbscollegebnl.com",
-        "Skill": "Programming, E-Learning, Research, and Teaching",
+        "Skill": "Teaching",
         "Batch": "2012-2015",
         "Course": "MCA",
-        "Image" : "",
-        "LinkedIn": "https://www.linkedin.com/in/vishal-goyal-0012516/"
+        "Image" : "/images/VishalGoyal.JPG"
     },
     {
         "Name": "Mahavir Singh",

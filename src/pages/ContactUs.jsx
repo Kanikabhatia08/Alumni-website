@@ -1,13 +1,36 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactUs = () => {
     const form = useRef();
     const [popup, setPopup] = useState(false);
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+    const [selectedOption, setSelectedOption] = useState('How Alumni Can Help Us'); // Default dropdown title
+    const dropdownOptions = [
+        'Monitory Contribution',
+        'Workshop',
+        'Counselling',
+        'Industrial Visit',
+        'Mentoring Projects',
+        'Placements',
+        'Internships',
+    ];
 
     const sendEmail = (e) => {
         e.preventDefault();
 
+        // Ensure the dropdown has a valid selection
+        if (selectedOption === 'How Alumni Can Help Us') {
+            alert('Please select an option from the dropdown!');
+            return; // Prevent form submission if no option is selected
+        }
+
+        // Check if the form is valid before submitting
+        if (!form.current.checkValidity()) {
+            return; // Prevent submission if form is invalid
+        }
+
+        // Send email using EmailJS
         emailjs
             .sendForm('service_apu5zy4', 'template_46a3urb', form.current, {
                 publicKey: '5PrHo6XQmfc1vb4mT',
@@ -19,7 +42,7 @@ export const ContactUs = () => {
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
-                },
+                }
             );
     };
 
@@ -28,6 +51,26 @@ export const ContactUs = () => {
         setPopup(false);
         window.location.reload(); // Refresh the page
     };
+
+    // Handle dropdown option selection
+    const handleDropdownSelect = (option) => {
+        setSelectedOption(option);
+        setDropdownOpen(false);
+    };
+
+    // Close dropdown when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (form.current && !form.current.contains(event.target)) {
+                setDropdownOpen(false);
+            }
+        };
+        document.addEventListener('click', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('click', handleClickOutside);
+        };
+    }, []);
 
     return (
         <div className="max-w-[85%] mx-auto mt-28">
@@ -49,7 +92,7 @@ export const ContactUs = () => {
                             <input
                                 type="text"
                                 id="fName"
-                                className="shadow-sm bg-gray-50 rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-[#aec8e2]"
+                                className="shadow-sm bg-gray-50 rounded-lg hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="First Name"
                                 name="from_fname"
                                 required
@@ -57,7 +100,7 @@ export const ContactUs = () => {
                             <input
                                 type="text"
                                 id="lName"
-                                className="shadow-sm bg-gray-50 rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-[#aec8e2]"
+                                className="shadow-sm bg-gray-50 rounded-lg hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Last Name"
                                 name="from_lname"
                                 required
@@ -67,17 +110,58 @@ export const ContactUs = () => {
                             <input
                                 type="email"
                                 id="email"
-                                className="shadow-sm rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-[#aec8e2]"
+                                className="shadow-sm rounded-lg hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Email"
                                 name="from_email"
                                 required
                             />
                         </div>
+                        <div className="relative mb-5">
+                            <button
+                                type="button"
+                                onClick={() => setDropdownOpen(!dropdownOpen)}
+                                className={`w-full bg-lightBlue hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue text-darkBlue rounded-lg p-3.5 3xl:p-5 3xl:text-xl text-center flex justify-between items-center`}
+                            >
+                                {selectedOption}
+                                <svg
+                                    className="w-2.5 h-2.5 ms-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 10 6"
+                                >
+                                    <path
+                                        stroke="currentColor"
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth="2"
+                                        d="m1 1 4 4 4-4"
+                                    />
+                                </svg>
+                            </button>
+                            {dropdownOpen && (
+                                <div className="absolute z-10 bg-lightBlue rounded-lg shadow w-full ">
+                                    <ul className=" text-darkBlue">
+                                        {dropdownOptions.map((option, index) => (
+                                            <li key={index}>
+                                                <button
+                                                    type="button"
+                                                    onClick={() => handleDropdownSelect(option)}
+                                                    className="block w-full text-left px-4 py-2.5 hover:bg-hoverBlue"
+                                                >
+                                                    {option}
+                                                </button>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
+                        </div>
                         <div className="flex items-start mb-5">
                             <textarea
                                 id="message"
                                 rows="7"
-                                className="resize-none block p-3.5 w-full shadow-sm rounded-lg 3xl:p-5 3xl:text-xl focus:ring-darkBlue focus:border-darkBlue placeholder:text-darkBlue bg-[#aec8e2]"
+                                className="resize-none block p-3.5 w-full shadow-sm rounded-lg 3xl:p-5 3xl:text-xl hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Leave a message..."
                                 name="message"
                                 required
@@ -87,9 +171,11 @@ export const ContactUs = () => {
                             <input
                                 type="submit"
                                 value="Send"
-                                className="text-[#ffffff] bg-[#2E5090] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-md px-5 py-2.5 3xl:px-8 3xl:py-4 xl:text-xl text-center"
+                                className="text-[#ffffff] bg-darkblue font-medium rounded-lg text-md px-5 py-2.5 3xl:px-8 3xl:py-4 xl:text-xl text-center"
                             />
                         </div>
+                        {/* Hidden input to include selected option in the email */}
+                        <input className='hidden' name="selected_option" value={selectedOption} />
                     </form>
                 </div>
             </div>

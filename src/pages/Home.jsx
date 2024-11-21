@@ -1,5 +1,6 @@
 import React from 'react'
 import ParallaxSection from '../components/ParallaxSection'
+import { Team } from '../components/Team'
 
 export const Home = () => {
     return (
@@ -71,6 +72,8 @@ export const Home = () => {
             <div>
                 <ParallaxSection />
             </div>
+
+            <Team/>
 
         </div>
     )
