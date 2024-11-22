@@ -14,6 +14,7 @@ export const ReachUs = () => {
         'Mentoring Projects',
         'Placements',
         'Internships',
+        'Other',
     ];
 
     const sendEmail = (e) => {
@@ -171,7 +172,7 @@ export const ReachUs = () => {
                             <input
                                 type="submit"
                                 value="Send"
-                                className="text-[#ffffff] bg-darkblue font-medium rounded-lg text-md px-5 py-2.5 3xl:px-8 3xl:py-4 xl:text-xl text-center"
+                                className="text-[#ffffff] cursor-pointer bg-darkBlue font-medium rounded-lg text-md px-5 py-2.5 3xl:px-8 3xl:py-4 xl:text-xl text-center"
                             />
                         </div>
                         {/* Hidden input to include selected option in the email */}

@@ -57,7 +57,7 @@ export default function Alumni() {
 
     return (
         <div className="w-full mt-20">
-            <div className="relative hidden md:block scale-x-125 max-h-full h-screen">
+            <div className="relative hidden md:block  max-h-full h-screen">
                 {slides.map((slide, index) => (
                     <div
                         key={slide.id}
