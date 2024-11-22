@@ -24,7 +24,7 @@ export const Navbar = () => {
                     <img src='/images/logo.png' alt='Punjabi University' />
                 </div>
                 <div>
-                    <ul className="flex gap-8 font-semibold underline-offset-8">
+                    <ul className="flex gap-8 font-medium items-center underline-offset-8">
                         <li className={`hover:underline hover:text-darkBlue decoration-2 ${isActive('/') ? 'underline text-darkBlue' : ''}`}>
                             <Link to='/'>Home</Link>
                         </li>
@@ -36,6 +36,9 @@ export const Navbar = () => {
                         </li>
                         <li className={`hover:underline hover:text-darkBlue decoration-2 ${isActive('/ReachUs') ? 'underline text-darkBlue' : ''}`}>
                             <Link to='/ReachUs'>Reach Us</Link>
+                        </li>
+                        <li>
+                            <Link to='https://docs.google.com/forms/d/e/1FAIpQLSf5mj2-fGe6UcxUhdUt2iRK26F8WD1Gk9Br0PdvJofuQkeA9w/viewform' target='blank'><button className='bg-darkBlue hover:bg-[#222363] text-[#fff] font-semibold rounded-lg py-2 px-3'>Register Now!</button></Link>
                         </li>
                     </ul>
                 </div>

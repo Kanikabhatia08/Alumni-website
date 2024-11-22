@@ -35,7 +35,7 @@ const Events = () => {
 
       <div className="relative wrap overflow-hidden p-10 h-full">
         <div
-          className="border-2-2 absolute border-opacity-20 border-gray-700 h-full border"
+          className="border-2-2 absolute border-opacity-20 h-full border"
           style={{ left: '50%' }}
         ></div>
         {eventData.map((item, index) => (
@@ -54,13 +54,13 @@ const Events = () => {
             >
               <div>
                 <h3
-                  className="mb-3 font-bold text-2xl"
+                  className="mb-3 font-semibold text-xl"
                   style={{ color: item.textColor }}
                 >
                   {item.title}
                 </h3>
                 <p
-                  className="text-lg leading-snug tracking-wide text-justify"
+                  className=" leading-snug tracking-wide text-justify"
                   style={{ color: item.textColor }}
                 >
                   {expanded[index] || !isTruncated(item.description)

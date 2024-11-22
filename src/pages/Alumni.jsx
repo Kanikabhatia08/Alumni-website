@@ -113,20 +113,23 @@ export default function Alumni() {
             </div>
 
             {/* Alumni List Section */}
-            <div className="max-w-[85%] mx-auto my-24">
+            <div className="max-w-[90%] md:max-w-[85%] mx-auto my-10 md:my-24">
                 {filteredData.length > 0 ? (
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
                         {filteredData.map((item, index) => (
-                            <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
-                                <div className="h-[60%]">
+                            <div
+                                key={index}
+                                className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
+                            >
+                                <div className="h-96">
                                     <img
                                         src={item.Image || '/images/user.jpg'}
                                         alt={item.Name}
-                                        className="w-full h-full object-cover"
+                                        className="w-full h-full object-fit"
                                     />
                                 </div>
-                                <div className="p-4">
-                                    <h3 className="text-xl font-bold">{item.Name}</h3>
+                                <div className="p-4 text-sm md:text-base">
+                                    <h3 className="text-lg md:text-xl font-bold">{item.Name}</h3>
                                     <p className="text-gray-600">{item.Occupation}</p>
                                     <p className="text-gray-500">{item.InstituteName}</p>
                                     {item.Skill && (
@@ -152,7 +155,7 @@ export default function Alumni() {
                 )}
             </div>
 
-            {/* Button to Go to All Alumni Data */}
+            {/* Buttons */}
             {searchTerm && !searchClicked && (
                 <div className="text-center my-4">
                     <button
@@ -164,7 +167,6 @@ export default function Alumni() {
                 </div>
             )}
 
-            {/* Reset Data Button */}
             {searchClicked && searchTerm && (
                 <div className="text-center my-4">
                     <button

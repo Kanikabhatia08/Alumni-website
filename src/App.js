@@ -10,7 +10,7 @@ import { ReachUs } from './pages/ReachUs';
 
 function App() {
   return (
-    <div className='overflow-hidden ' >
+    <div className='overflow-hidden font-poppins' >
       <Navbar />
       <div className=' flex mx-auto z-0'>
         <Routes>

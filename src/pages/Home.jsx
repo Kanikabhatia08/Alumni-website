@@ -39,20 +39,21 @@ export const Home = () => {
                         <h3 className='text-4xl font-mons uppercase font-extrabold text-darkBlue '>
                             Our Story
                         </h3>
+                        <img src='/images/logo.png' alt='Punjabi Univesity' className='md:hidden size-40 flex mx-auto' />
+
                         <p className='items-center text-justify flex '>Punjabi University, Patiala, founded under Punjab Act No. 35 of 1961 and inaugurated by Dr. S. Radhakrishnan on June 24, 1962, stands as a beacon of educational excellence. Established with the aim of promoting the Punjabi language, art, and literature, the University has grown into the largest in the state. As we celebrate our rich history and remarkable achievements, we take pride in honoring our distinguished alumni who have made significant contributions to society. Our campus now supports a vibrant community of over 14,000 students across various disciplines, from Humanities and Arts to Sciences and Engineering. This website is dedicated to recognizing and celebrating the accomplishments of our alumni, who continue to inspire and lead in diverse fields around the world.</p>
                     </div>
                 </div>
 
-                <div className=' w-full flex gap-10 lg:gap-20  items-center md:items-end '>
+                <div className=' w-full flex gap-10 lg:gap-20  items-center '>
                     <div className='lg:flex flex flex-col gap-9 md:w-[70%] '>
                         <h3 className='text-4xl font-mons text-center md:text-right font-bold text-darkBlue mt-4'>
                             Words of<span className='font-extrabold'> WISDOM</span>
                         </h3>
+                        <img src='/images/HOD.jpg' alt='Dr. Gagandeep Kaur' className='md:hidden rounded-full size-40 flex mx-auto' />
                         <p className='text-justify '>
                             Dear alumni,<br />
-
                             We extend our heartfelt congratulations to each one of you who has carved a successful path in the IT sector. Your dedication, innovation, and resilience have not only brought you personal success but have also added immense pride to the Department of Computer Science at Punjabi University, Patiala. Each of you represents the spirit of our institution, and seeing you excel in your careers fills us with joy and admiration. Your achievements set a powerful example for current students, showing them what can be accomplished through hard work and passion.
-
                             We consider you invaluable members of our university community and are grateful for the inspiration you provide. Remember, you are always welcome to return, share your knowledge, and reconnect with us. We look forward to celebrating many more milestones with you in the future.
                             <br /><br />
                             <p className='font-semibold'>
@@ -63,8 +64,8 @@ export const Home = () => {
                             </p>
                         </p>
                     </div>
-                    <div className='hidden md:flex items-start h-[20%] w-[22%]'>
-                        <img src='/images/Gagandeep-Kaur.png' alt='Punjabi University' className='w-full h-full' />
+                    <div className='hidden md:flex items-center  md:h-[90%] md:w-[25%]'>
+                        <img src='/images/hodMaam.jpg' alt='Punjabi University' className='object-fit' />
                     </div>
                 </div>
             </div>

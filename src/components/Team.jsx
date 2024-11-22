@@ -9,9 +9,10 @@ function TeamCard({ img, name, title, institution, linkedIn }) {
                     alt={name}
                     className="size-40 mx-auto mb-6 rounded-full object-cover"
                 />
-                <h5 className={`text-lg font-medium ${linkedIn? 'hover:underline': ''} `}><Link to={linkedIn} target="blank">{name}</Link></h5>
+                <h5 className={`text-lg font-medium `}>{name}</h5>
                 <p className="text-base font-semibold text-gray">{title}</p>
-                <p className="mb-4 text-base font-semibold text-gray">{institution}</p>
+                <p className="mb-3 text-base font-semibold text-gray">{institution}</p>
+                <span className={` italic underline font-semibold text-sm ${linkedIn? 'hover:text-darkBlue': 'hidden'}`}><Link to={linkedIn} target="blank">Reach Us</Link></span>
 
                 
             </div>
@@ -37,14 +38,14 @@ const members = [
         img: "/images/kanika.jpg",
         name: "Kanika Bhatia",
         title: "Student",
-        institution: "MCA, Department of Computer Science",
+        institution: "MCA, Department of Computer Science, Punjabi University, Patiala",
         linkedIn: "https://www.linkedin.com/in/kanika-bhatia08/",
     },
     {
         img: "/images/abhinash.jpg",
         name: "Abhinash",
         title: "Student",
-        institution: "MCA, Department of Computer Science",
+        institution: "MCA, Department of Computer Science, Punjabi University, Patiala",
         linkedIn: "https://www.linkedin.com/in/abhinash99/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
     },
@@ -52,15 +53,15 @@ const members = [
         img: "/images/harman.jpg",
         name: "Harmandeep Singh",
         title: "Student",
-        institution: "MCA, Department of Computer Science",
+        institution: "MCA, Department of Computer Science, Punjabi University, Patiala",
         linkedIn: "https://www.linkedin.com/in/harmandeep-singh-saggu-8562a12b4/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
         img: "/images/purvak.jpg",
         name: "Purvak Jindal",
         title: "Student",
-        institution: "MCA, Department of Computer Science",
-        linkedIn: "https://www.linkedin.com/in/purvak-jindal-610869333/",
+        institution: "MCA, Department of Computer Science, Punjabi University, Patiala",
+        linkedIn: "https://www.linkedin.com/in/purvak-jindal-6741682a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
     }
 ];
@@ -70,7 +71,7 @@ export function Team() {
         <section className="max-w-[90%] w-full flex mx-auto px-8 lg:pb-28">
             <div className="container mx-auto">
                 <div className="mb-16 text-center lg:mb-28">
-                    <h1 className="my-2 text-2xl font-bold text-darkBlue lg:text-4xl">
+                    <h1 className="my-2 text-2xl font-mons font-bold text-darkBlue lg:text-4xl">
                     The Driving Force <br/>Our Dedicated Team of Experts
                     </h1>
                     <p className="mx-auto max-w-4xl ">

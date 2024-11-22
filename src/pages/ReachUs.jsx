@@ -84,7 +84,7 @@ export const ReachUs = () => {
                     </div>
                     {/* Form */}
                     <form
-                        className="w-full md:w-[45%] xl:w-[50%] text-md my-10 font-semibold"
+                        className="w-full md:w-[45%] xl:w-[50%] text-md my-10 font-medium"
                         onSubmit={sendEmail}
                         ref={form}
                     >
