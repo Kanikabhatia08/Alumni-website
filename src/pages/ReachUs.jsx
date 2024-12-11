@@ -16,10 +16,11 @@ export const ReachUs = () => {
         'Internships',
         'Other',
     ];
+    // console.log(selectedOption)
+    console.log(new FormData(form.current)); 
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         // Ensure the dropdown has a valid selection
         if (selectedOption === 'How Alumni Can Help Us') {
             alert('Please select an option from the dropdown!');
@@ -30,7 +31,7 @@ export const ReachUs = () => {
         if (!form.current.checkValidity()) {
             return; // Prevent submission if form is invalid
         }
-
+        console.log(selectedOption)
         // Send email using EmailJS
         emailjs
             .sendForm('service_apu5zy4', 'template_46a3urb', form.current, {
@@ -93,7 +94,7 @@ export const ReachUs = () => {
                             <input
                                 type="text"
                                 id="fName"
-                                className="shadow-sm bg-gray-50 rounded-lg hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
+                                className="shadow-sm bg-gray-50 rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="First Name"
                                 name="from_fname"
                                 required
@@ -101,7 +102,7 @@ export const ReachUs = () => {
                             <input
                                 type="text"
                                 id="lName"
-                                className="shadow-sm bg-gray-50 rounded-lg hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
+                                className="shadow-sm bg-gray-50 rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Last Name"
                                 name="from_lname"
                                 required
@@ -111,7 +112,7 @@ export const ReachUs = () => {
                             <input
                                 type="email"
                                 id="email"
-                                className="shadow-sm rounded-lg hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
+                                className="shadow-sm rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Email"
                                 name="from_email"
                                 required
@@ -121,7 +122,7 @@ export const ReachUs = () => {
                             <button
                                 type="button"
                                 onClick={() => setDropdownOpen(!dropdownOpen)}
-                                className={`w-full bg-lightBlue hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue text-darkBlue rounded-lg p-3.5 3xl:p-5 3xl:text-xl text-center flex justify-between items-center`}
+                                className={`w-full bg-lightBlue focus:ring-darkBlue focus:border-darkBlue text-darkBlue rounded-lg p-3.5 3xl:p-5 3xl:text-xl text-center flex justify-between items-center`}
                             >
                                 {selectedOption}
                                 <svg
@@ -162,7 +163,7 @@ export const ReachUs = () => {
                             <textarea
                                 id="message"
                                 rows="7"
-                                className="resize-none block p-3.5 w-full shadow-sm rounded-lg 3xl:p-5 3xl:text-xl hover:bg-hoverBlue focus:ring-darkBlue focus:border-darkBlue placeholder:text-darkBlue bg-lightBlue"
+                                className="resize-none block p-3.5 w-full shadow-sm rounded-lg 3xl:p-5 3xl:text-xl focus:ring-darkBlue focus:border-darkBlue placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Leave a message..."
                                 name="message"
                                 required
@@ -176,7 +177,8 @@ export const ReachUs = () => {
                             />
                         </div>
                         {/* Hidden input to include selected option in the email */}
-                        <input className='hidden' name="selected_option" value={selectedOption} />
+                        <input className='hidden' name="selected_option" id='selected_option' value={selectedOption} />
+                        
                     </form>
                 </div>
             </div>
