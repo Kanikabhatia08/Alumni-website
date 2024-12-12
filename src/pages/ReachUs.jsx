@@ -1,11 +1,18 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ReachUs = () => {
-    const form = useRef();
+    const [formData, setFormData] = useState({
+        from_fname: '',
+        from_lname: '',
+        from_email: '',
+        message: '',
+        selected_option: 'How Alumni Can Help Us', // Default dropdown title
+    });
+
     const [popup, setPopup] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
-    const [selectedOption, setSelectedOption] = useState('How Alumni Can Help Us'); // Default dropdown title
+
     const dropdownOptions = [
         'Monitory Contribution',
         'Workshop',
@@ -16,28 +23,43 @@ export const ReachUs = () => {
         'Internships',
         'Other',
     ];
-    // console.log(selectedOption)
-    console.log(new FormData(form.current)); 
+
+    // Handle input changes
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevState) => ({
+            ...prevState,
+            [name]: value,
+        }));
+    };
+
+    // Handle dropdown option selection
+    const handleDropdownSelect = (option) => {
+        setFormData((prevState) => ({
+            ...prevState,
+            selected_option: option,
+        }));
+        setDropdownOpen(false);
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
+
         // Ensure the dropdown has a valid selection
-        if (selectedOption === 'How Alumni Can Help Us') {
+        if (formData.selected_option === 'How Alumni Can Help Us') {
             alert('Please select an option from the dropdown!');
             return; // Prevent form submission if no option is selected
         }
 
-        // Check if the form is valid before submitting
-        if (!form.current.checkValidity()) {
-            return; // Prevent submission if form is invalid
+        // Validate form fields
+        if (!formData.from_fname || !formData.from_lname || !formData.from_email || !formData.message) {
+            alert('Please fill out all required fields!');
+            return;
         }
-        console.log(selectedOption)
+
         // Send email using EmailJS
-        emailjs
-            .sendForm('service_apu5zy4', 'template_46a3urb', form.current, {
-                publicKey: '5PrHo6XQmfc1vb4mT',
-            })
-            .then(
+        emailjs.send('service_apu5zy4', 'template_g7qzrrj', formData, '5PrHo6XQmfc1vb4mT')
+                    .then(
                 () => {
                     console.log('SUCCESS!');
                     setPopup(true); // Show popup on success
@@ -51,19 +73,19 @@ export const ReachUs = () => {
     // Close the popup and refresh the page
     const handleClosePopup = () => {
         setPopup(false);
-        window.location.reload(); // Refresh the page
-    };
-
-    // Handle dropdown option selection
-    const handleDropdownSelect = (option) => {
-        setSelectedOption(option);
-        setDropdownOpen(false);
+        setFormData({
+            from_fname: '',
+            from_lname: '',
+            from_email: '',
+            message: '',
+            selected_option: 'How Alumni Can Help Us',
+        });
     };
 
     // Close dropdown when clicking outside
     useEffect(() => {
         const handleClickOutside = (event) => {
-            if (form.current && !form.current.contains(event.target)) {
+            if (!event.target.closest('.dropdown')) {
                 setDropdownOpen(false);
             }
         };
@@ -77,9 +99,7 @@ export const ReachUs = () => {
     return (
         <div className="max-w-[85%] mx-auto mt-28">
             <div>
-                <h1 className="text-6xl font-extrabold font-mons py-4 text-darkBlue">
-                    Get in Touch!
-                </h1>
+                <h1 className="text-6xl font-extrabold font-mons py-4 text-darkBlue">Get in Touch!</h1>
                 <div className="flex mx-auto justify-between">
                     <div className="size-[45%] lg:size-[40%] hidden md:flex mt-10 lg:mt-0 items-center">
                         <img src="images/contactUs.jpg" alt="contactUs" className="size-full" />
@@ -88,7 +108,6 @@ export const ReachUs = () => {
                     <form
                         className="w-full md:w-[45%] xl:w-[50%] text-md my-10 font-medium"
                         onSubmit={sendEmail}
-                        ref={form}
                     >
                         <div className="mb-5 flex gap-5">
                             <input
@@ -97,6 +116,8 @@ export const ReachUs = () => {
                                 className="shadow-sm bg-gray-50 rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="First Name"
                                 name="from_fname"
+                                value={formData.from_fname}
+                                onChange={handleInputChange}
                                 required
                             />
                             <input
@@ -105,6 +126,8 @@ export const ReachUs = () => {
                                 className="shadow-sm bg-gray-50 rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Last Name"
                                 name="from_lname"
+                                value={formData.from_lname}
+                                onChange={handleInputChange}
                                 required
                             />
                         </div>
@@ -115,16 +138,18 @@ export const ReachUs = () => {
                                 className="shadow-sm rounded-lg focus:ring-darkBlue focus:border-darkBlue block w-full p-3.5 3xl:p-5 3xl:text-xl placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Email"
                                 name="from_email"
+                                value={formData.from_email}
+                                onChange={handleInputChange}
                                 required
                             />
                         </div>
-                        <div className="relative mb-5">
+                        <div className="relative mb-5 dropdown">
                             <button
                                 type="button"
                                 onClick={() => setDropdownOpen(!dropdownOpen)}
                                 className={`w-full bg-lightBlue focus:ring-darkBlue focus:border-darkBlue text-darkBlue rounded-lg p-3.5 3xl:p-5 3xl:text-xl text-center flex justify-between items-center`}
                             >
-                                {selectedOption}
+                                {formData.selected_option}
                                 <svg
                                     className="w-2.5 h-2.5 ms-3"
                                     aria-hidden="true"
@@ -166,6 +191,8 @@ export const ReachUs = () => {
                                 className="resize-none block p-3.5 w-full shadow-sm rounded-lg 3xl:p-5 3xl:text-xl focus:ring-darkBlue focus:border-darkBlue placeholder:text-darkBlue bg-lightBlue"
                                 placeholder="Leave a message..."
                                 name="message"
+                                value={formData.message}
+                                onChange={handleInputChange}
                                 required
                             ></textarea>
                         </div>
@@ -176,9 +203,6 @@ export const ReachUs = () => {
                                 className="text-[#ffffff] cursor-pointer bg-darkBlue font-medium rounded-lg text-md px-5 py-2.5 3xl:px-8 3xl:py-4 xl:text-xl text-center"
                             />
                         </div>
-                        {/* Hidden input to include selected option in the email */}
-                        <input className='hidden' name="selected_option" id='selected_option' value={selectedOption} />
-                        
                     </form>
                 </div>
             </div>
@@ -199,5 +223,6 @@ export const ReachUs = () => {
                 </div>
             )}
         </div>
+    
     );
 };

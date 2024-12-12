@@ -65,7 +65,7 @@ export const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr class=" border-gray-200 sm:mx-auto lg:my-8" />
+                <hr class=" border-gray-200 sm:mx-auto my-8" />
                 <div class="flex justify-center">
                     <span class="text-xs 3xl:text-base  ">©2023 <a href="#" class="hover:underline">Punjabi University</a>. All Rights Reserved.
                     </span>
