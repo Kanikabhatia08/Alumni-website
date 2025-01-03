@@ -106,7 +106,7 @@ export default function Alumni() {
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                             onFocus={handleFocus} // Keep the input focused to allow typing
-                            className="w-[50%] px-4 py-2 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className=" w-[80%] md:w-[50%] px-4 py-2 border border-gray-300 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                         />
                     </form>
                 </div>
@@ -115,13 +115,13 @@ export default function Alumni() {
             {/* Alumni List Section */}
             <div className="max-w-[90%] md:max-w-[85%] mx-auto my-10 md:my-24">
                 {filteredData.length > 0 ? (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
                         {filteredData.map((item, index) => (
                             <div
                                 key={index}
                                 className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
                             >
-                                <div className="h-96">
+                                <div className="md:h-96">
                                     <img
                                         src={item.Image || '/images/user.jpg'}
                                         alt={item.Name}

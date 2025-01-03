@@ -24,7 +24,7 @@ const members = [
     {
         img: "/images/vishalSir.jpg",
         name: "Dr. Vishal Goyal",
-        title: "Proffesor",
+        title: "Professor",
         institution: "Department of Computer Science, Punjabi University, Patiala",
         linkedIn: "https://www.linkedin.com/in/vishal-goyal-0012516/",
     },

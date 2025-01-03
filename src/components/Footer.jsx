@@ -57,7 +57,7 @@ export const Footer = () => {
                                     <a href="https://www.linkedin.com/school/punjabi-university-patiala/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white" target='blank'>
                                         <FaLinkedin />
                                     </a>
-                                    <a href="https://www.instagram.com/pbiunipatiala/profilecard/?igsh=emYyY3FueW1lbmxy" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                                    <a href="https://www.instagram.com/pbiunipatiala/profilecard/?igsh=emYyY3FueW1lbmxy" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5" target='blank'>
                                         <FaInstagram />
                                     </a>
                                 </div>

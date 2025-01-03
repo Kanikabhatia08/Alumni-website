@@ -1,4 +1,5 @@
 import React from 'react';
+import { GiHamburgerMenu } from "react-icons/gi";
 import { Link, useLocation } from 'react-router-dom';
 
 export const Navbar = () => {
@@ -23,8 +24,11 @@ export const Navbar = () => {
                 <div className='w-16'>
                     <img src='/images/logo.png' alt='Punjabi University' />
                 </div>
+                <div className='absolute top-7 right-5 flex items-center md:hidden'>
+                    <GiHamburgerMenu />
+                </div>
                 <div>
-                    <ul className="flex gap-8 font-medium items-center underline-offset-8">
+                    <ul className="hidden md:flex gap-8 font-medium items-center underline-offset-8">
                         <li className={`hover:underline hover:text-darkBlue decoration-2 ${isActive('/') ? 'underline text-darkBlue' : ''}`}>
                             <Link to='/'>Home</Link>
                         </li>
