@@ -47,7 +47,6 @@ const members = [
         title: "Student",
         institution: "MCA, Department of Computer Science, Punjabi University, Patiala",
         linkedIn: "https://www.linkedin.com/in/abhinash99/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-
     },
     {
         img: "/images/harman.jpg",
@@ -62,7 +61,6 @@ const members = [
         title: "Student",
         institution: "MCA, Department of Computer Science, Punjabi University, Patiala",
         linkedIn: "https://www.linkedin.com/in/purvak-jindal-6741682a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-
     }
 ];
 

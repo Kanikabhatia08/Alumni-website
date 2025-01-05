@@ -41,32 +41,26 @@ const Events = () => {
                 style={{ color: item.textColor }}>
                 {item.title}
               </h3>
-              <p
-                  className=" leading-snug tracking-wide text-justify"
-                  style={{ color: item.textColor }}
-                >
-                  {expanded[index] || !isTruncated(item.description)
-                    ? item.description
-                    : `${item.description.slice(0, 225)}`} {/* Limit characters */}
-                  {item.description.length > 250 && isTruncated(item.description) && (
-                    <span
-                      onClick={() => toggleReadMore(index)}
-                      className="text-darkBlue cursor-pointer ml-2"
-                    >
-                      {expanded[index] ? 'Read Less' : '...Read More'}
-                    </span>
-                  )}
-                </p>
+              <p className=" leading-snug tracking-wide text-justify" style={{ color: item.textColor }}>
+                {expanded[index] || !isTruncated(item.description)
+                  ? item.description
+                  : `${item.description.slice(0, 225)}`} {/* Limit characters */}
+                {item.description.length > 250 && isTruncated(item.description) && (
+                  <span
+                    onClick={() => toggleReadMore(index)}
+                    className="text-darkBlue cursor-pointer ml-2"
+                  >
+                    {expanded[index] ? 'Read Less' : '...Read More'}
+                  </span>
+                )}
+              </p>
             </div>
             <img className="size-screen mb-5" src={item.image1 ? item.image1 : '/images/user.jpg'}
               alt={item.Name} />
-
           </div>
         ))}
-
-
       </div>
-      <div className="hidden sm:block relative wrap overflow-hidden p-10 h-full">
+      <div className="hidden sm:block relative wrap overflow-hidden p-10 pb-32 h-full">
         <div
           className="border-2-2 absolute border-opacity-20 h-full border"
           style={{ left: '50%' }}

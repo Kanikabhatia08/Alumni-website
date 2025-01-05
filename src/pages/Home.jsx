@@ -10,10 +10,7 @@ export const Home = () => {
                     <img src='/images/banner.png' alt='students' className='w-full' />
                 </div>
                 <div className='absolute inset-0 flex flex-col justify-start pt-9 items-center text-center bg-opacity-50 bg-white'>
-                    <h1
-                        className='text-4xl md:text-6xl lg:text-8xl leading-none font-extrabold font-mons uppercase text-[#0091CD] 
-            animate-fadeInTop'
-                    >
+                    <h1 className='text-4xl md:text-6xl lg:text-8xl leading-none font-extrabold font-mons uppercase text-[#0091CD] animate-fadeInTop'>
                         Celebrating <br />Excellence
                     </h1>
                     <h3 className='lg:text-3xl italic font-bold text-[#000] mt-4'>
@@ -40,7 +37,6 @@ export const Home = () => {
                             Our Story
                         </h3>
                         <img src='/images/logo.png' alt='Punjabi Univesity' className='md:hidden size-40 flex mx-auto' />
-
                         <p className='items-center text-justify flex '>Punjabi University, Patiala, founded under Punjab Act No. 35 of 1961 and inaugurated by Dr. S. Radhakrishnan on June 24, 1962, stands as a beacon of educational excellence. Established with the aim of promoting the Punjabi language, art, and literature, the University has grown into the largest in the state. As we celebrate our rich history and remarkable achievements, we take pride in honoring our distinguished alumni who have made significant contributions to society. Our campus now supports a vibrant community of over 14,000 students across various disciplines, from Humanities and Arts to Sciences and Engineering. This website is dedicated to recognizing and celebrating the accomplishments of our alumni, who continue to inspire and lead in diverse fields around the world.</p>
                     </div>
                 </div>
@@ -57,10 +53,10 @@ export const Home = () => {
                             We consider you invaluable members of our university community and are grateful for the inspiration you provide. Remember, you are always welcome to return, share your knowledge, and reconnect with us. We look forward to celebrating many more milestones with you in the future.
                             <br /><br />
                             <p className='font-semibold'>
-                            Dr. Gagandeep<br />
-                            Head & Professor<br />
-                            Department of computer Science<br />
-                            Punjabi University, Patiala
+                                Dr. Gagandeep<br />
+                                Head & Professor<br />
+                                Department of computer Science<br />
+                                Punjabi University, Patiala
                             </p>
                         </p>
                     </div>
@@ -74,7 +70,7 @@ export const Home = () => {
                 <ParallaxSection />
             </div>
 
-            <Team/>
+            <Team />
 
         </div>
     )
