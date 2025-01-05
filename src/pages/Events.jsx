@@ -33,19 +33,33 @@ const Events = () => {
       <h1 className="text-4xl font-bold text-center mt-3 text-darkBlue">Events Timeline</h1>
       <h3 className="font-bold text-center text-2xl">Department of Computer Science</h3>
 
-      <div className='sm:hidden max-w-[80%] justify-center flex flex-col mx-auto'>
+      <div className='sm:hidden justify-center p-10 flex flex-col mx-auto'>
         {eventData.map((item, index) => (
-          <div key={index} className='flex flex-col gap-5' >
-
-              <img className="size-screen" src={item.image1 ? item.image1 : '/images/user.jpg'}
-                  alt={item.Name}/>
-                <div classname="flex flex-col justify-between p-4 leading-normal">
-                  <h3 className="mb-3 font-semibold text-xl"
+          <div key={index} className='flex flex-col gap-3' >
+            <div classname="flex flex-col justify-between leading-normal">
+              <h3 className="mb-3 mt-10 font-semibold text-xl"
+                style={{ color: item.textColor }}>
+                {item.title}
+              </h3>
+              <p
+                  className=" leading-snug tracking-wide text-justify"
                   style={{ color: item.textColor }}
                 >
-                  {item.title}</h3>
-                  <p classname="mb-3 font-normal text-justify">{item.description}</p>
-                </div>
+                  {expanded[index] || !isTruncated(item.description)
+                    ? item.description
+                    : `${item.description.slice(0, 225)}`} {/* Limit characters */}
+                  {item.description.length > 250 && isTruncated(item.description) && (
+                    <span
+                      onClick={() => toggleReadMore(index)}
+                      className="text-darkBlue cursor-pointer ml-2"
+                    >
+                      {expanded[index] ? 'Read Less' : '...Read More'}
+                    </span>
+                  )}
+                </p>
+            </div>
+            <img className="size-screen mb-5" src={item.image1 ? item.image1 : '/images/user.jpg'}
+              alt={item.Name} />
 
           </div>
         ))}
