@@ -7,13 +7,14 @@ export const Home = () => {
         <div className='  w-full bg-no-repeat h-full mt-20 flex flex-col gap-40' >
             <div className='relative w-full h-full'>
                 <div className='w-full mt-20'>
-                    <img src='/images/banner.png' alt='students' className='w-full' />
+                    <img src='/images/banner.png' alt='students' className='w-full hidden md:block' />
+                    <img src='/images/banner-mobile.png' alt='students' className='w-full md:hidden' />
                 </div>
                 <div className='absolute inset-0 flex flex-col justify-start pt-9 items-center text-center bg-opacity-50 bg-white'>
-                    <h1 className='text-4xl md:text-6xl lg:text-8xl leading-none font-extrabold font-mons uppercase text-[#0091CD] animate-fadeInTop'>
+                    <h1 className=' text-4xl xs:text-5xl sm:text-6xl lg:text-8xl leading-none font-extrabold font-mons uppercase text-[#0091CD] animate-fadeInTop'>
                         Celebrating <br />Excellence
                     </h1>
-                    <h3 className='lg:text-3xl italic font-bold text-[#000] mt-4'>
+                    <h3 className=' xs:text-xl sm:text-2xl lg:text-3xl italic font-bold text-[#000] mt-4'>
                         {Array.from(`"Honoring Our Distinguished Alumni"`).map((char, index) => (
                             <span
                                 key={index}
@@ -27,7 +28,7 @@ export const Home = () => {
                 </div>
             </div>
 
-            <div className='max-w-[85%] mx-auto flex flex-col gap-32'>
+            <div className='max-w-[95%] md:max-w-[85%] mx-auto flex flex-col gap-32'>
                 <div className=' flex gap-10 lg:gap-20 items-center md:items-start  '>
                     <div className='w-full hidden md:flex '>
                         <img src='/images/logo.png' alt='Punjabi University' className='w-full' />

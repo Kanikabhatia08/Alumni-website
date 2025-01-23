@@ -41,11 +41,11 @@ export const Navbar = () => {
 
     return (
         <div className='py-2 fixed bg-fixed w-full bg-[#ffffff] z-50 navbar duration-700'>
-            <nav className='flex justify-between items-center max-w-[85%] mx-auto text-lg'>
+            <nav className='flex justify-between items-center max-w-[95%] md:max-w-[85%] mx-auto text-lg'>
                 <div className='w-16'>
                     <img src='/images/logo.png' alt='Punjabi University' />
                 </div>
-                <div className='absolute top-7 right-5 flex items-center md:hidden'>
+                <div className=' md:hidden'>
                     <button onClick={toggleMenu} className='text-2xl'>
                         <GiHamburgerMenu />
                     </button>
@@ -78,8 +78,8 @@ export const Navbar = () => {
                     </div>
                 )}
                 {/* Desktop Menu */}
-                <div>
-                    <ul className="hidden md:flex gap-8 font-medium items-center underline-offset-8">
+                <div className='hidden md:flex'>
+                    <ul className="flex gap-8 font-medium items-center underline-offset-8">
                         <li className={`hover:underline hover:text-darkBlue decoration-2 ${isActive('/') ? 'underline text-darkBlue' : ''}`}>
                             <Link to='/'>Home</Link>
                         </li>

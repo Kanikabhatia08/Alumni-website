@@ -4,6 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      'xs': '420px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       keyframes: {
         fadeInTop: {
@@ -33,27 +41,24 @@ module.exports = {
       animation: {
         fadeInTop: 'fadeInTop 1.5s ease-out forwards',
         typedLetter: 'typedLetter 0.1s forwards',
-        typewriter: 'typewriter 4s steps(40) 1s 1 normal both, blink 0.75s step-end infinite', 
+        typewriter: 'typewriter 4s steps(40) 1s 1 normal both, blink 0.75s step-end infinite',
+      },
+      colors: {
+        "blue": '#005b96',
+        "darkBlue": "#2E5090",
+        "lightBlue": "#aec8e2",
+        "hoverBlue": "#eaf1fe",
+        "gray": "#757575",
+      },
+      fontFamily: {
+        "mons": "'Montserrat', sans-serif",
+        "playfair": "'Playfair Display', serif",
+        "poppins": "'Poppins', sans-serif",
+      },
+      backgroundImage: {
+        'hero-pattern': "url('images/banner.jpg')",
       },
     },
-    colors:{
-      "blue": '#005b96',
-      "darkBlue": "#2E5090",
-      "lightBlue": "#aec8e2",
-      "hoverBlue": "#eaf1fe",
-      "gray": "#757575"
-    },
-    fontFamily:{
-      "mons" :"'Montserrat', sans-serif",
-      "playfair": "'Playfair Display', serif",
-      "poppins": "'Poppins', sans-serif",
-    },
-    backgroundImage: {
-      'hero-pattern': "url('images/banner.jpg')",
-    },
-
-    
   },
   plugins: [],
-}
-
+};

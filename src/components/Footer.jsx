@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 export const Footer = () => {
     return (
         <footer class="bg-darkBlue text-[#fff]  mt-12">
-            <div class="mx-auto w-full max-w-[85%] p-4 py-5 pt-10">
+            <div class="mx-auto max-w-[95%] md:max-w-[85%] py-5 pt-10">
                 <div class="lg:flex justify-between items-center">
                     <div class="flex flex-col gap-4">
                         <a href="">
@@ -21,7 +21,7 @@ export const Footer = () => {
                     <div class="sm:flex gap-20 w-full justify-start mt-10 lg:mt-0 lg:justify-end font-mons">
                         <div>
                             <h2 class="mb-6 text-lg 3xl:text-2xl font-semibold uppercase ">Explore</h2>
-                            <ul class=" font-medium 3xl:text-xl flex flex-col gap-4">
+                            <ul class=" font-medium 3xl:text-xl flex flex-col gap-2 md:gap-4">
                                 <li>
                                     <a href="#" class="hover:underline">Home</a>
                                 </li>
@@ -38,7 +38,7 @@ export const Footer = () => {
                         </div>
                         <div>
                             <h2 class="mb-6 text-lg 3xl:text-2xl mt-10 sm:mt-0 font-semibold uppercase">Contact us</h2>
-                            <ul class="font-medium flex flex-col gap-4 3xl:text-xl  ">
+                            <ul class="font-medium flex flex-col gap-2 md:gap-4 3xl:text-xl  ">
                                 <li class="flex items-center gap-2">
                                     <FiMail />
                                     <span>csepupalumni@gmail.com</span>
@@ -57,7 +57,7 @@ export const Footer = () => {
                                     <a href="https://www.linkedin.com/school/punjabi-university-patiala/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white" target='blank'>
                                         <FaLinkedin />
                                     </a>
-                                    <a href="https://www.instagram.com/pbiunipatiala/profilecard/?igsh=emYyY3FueW1lbmxy" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5" target='blank'>
+                                    <a href="https://www.instagram.com/pbiunipatiala/profilecard/?igsh=emYyY3FueW1lbmxy" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-2 md:ms-5" target='blank'>
                                         <FaInstagram />
                                     </a>
                                 </div>

@@ -66,17 +66,17 @@ const members = [
 
 export function Team() {
     return (
-        <section className="max-w-[90%] w-full flex mx-auto px-8 lg:pb-28">
-            <div className="container mx-auto">
+        <section className="max-w-[95%] md:max-w-[85%] w-full flex mx-auto lg:pb-28">
+            <div className=" mx-auto">
                 <div className="mb-16 text-center lg:mb-28">
                     <h1 className="my-2 text-2xl font-mons font-bold text-darkBlue lg:text-4xl">
                     The Driving Force <br/>Our Dedicated Team of Experts
                     </h1>
-                    <p className="mx-auto max-w-4xl ">
+                    <p className="w-full ">
                     From visionary leaders to creative thinkers and technical experts, every member of our team is dedicated to delivering innovative solutions and exceptional service that drives our success.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 gap-6 md:grid-cols-2 justify-center lg:grid-cols-3">
+                <div className="w-[90%] mx-auto grid grid-cols-1 gap-6 md:grid-cols-2 justify-center lg:grid-cols-3">
                     {members.map((props, key) => (
                         <TeamCard key={key} {...props} />
                     ))}
