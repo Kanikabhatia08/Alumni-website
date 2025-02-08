@@ -1,5 +1,14 @@
 [
     {
+        "title": "Lohri Celebration 2025",
+        "description": "The Department of Computer Science, Punjabi University, Patiala, recently celebrated the vibrant festival of Lohri with great enthusiasm and joy. Faculty members and students came together to mark the occasion with traditional bonfires, music, and dance, creating a lively and festive atmosphere. The event was a wonderful opportunity for everyone to connect, share cultural values, and strengthen the bond within the department. The celebrations were filled with laughter, happiness, and the warmth of togetherness, making it a memorable day for all attendees. Such events not only highlight the cultural heritage but also foster a sense of unity and belonging among the department members. We look forward to more such joyous celebrations in the future!",
+        "position": "right",
+        "bgColor": "bg-gray-400",
+        "textColor": "text-gray-800",
+        "image1": "/images/lohri.jpg",
+        "image2": "/images/gitEvent2.jpg"
+    },
+    {
         "title": "Version control using Git and Github",
         "description": "The Department of Computer Science, Punjabi University Patiala, successfully organized a seminar on “Version Control using Git and GitHub” on 19th September 2024, led by Er. Jitesh Pubreja. The seminar was attended by the Head of the Department, Dr. Gagandeep Kaur, faculty members, research scholars, and students from the BCA, MCA, and FYIP programs. This seminar offered an in-depth exploration of version control systems, emphasizing the significance of Git and GitHub in modern software development and collaborative project management. Participants gained a strong foundation through detailed theoretical discussions and interactive practical demonstrations, which provided hands-on experience in managing repositories, branching, merging, and collaborative workflows. The event, held in the Multilingual Lab, 3rd Floor, from 2:15 PM to 4:00 PM, was highly appreciated for its engaging content and practical insights, equipping attendees with essential skills for efficient and professional project management.",
         "position": "left",

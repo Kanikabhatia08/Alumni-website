@@ -29,7 +29,7 @@ const Events = () => {
   };
 
   return (
-    <div className="container bg-gray-200 mx-auto mt-20 w-full h-full">
+    <div className="max-w-full mx-auto mt-20 w-full h-full">
       <h1 className="text-4xl font-bold text-center mt-3 text-darkBlue">Events Timeline</h1>
       <h3 className="font-bold text-center text-2xl">Department of Computer Science</h3>
 

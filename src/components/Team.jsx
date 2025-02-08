@@ -70,7 +70,7 @@ export function Team() {
             <div className=" mx-auto">
                 <div className="mb-16 text-center lg:mb-28">
                     <h1 className="my-2 text-2xl font-mons font-bold text-darkBlue lg:text-4xl">
-                    The Driving Force <br/>Our Dedicated Team of Experts
+                    The Driving Force <br/>Our Dedicated Team of Experts (Session 2024-26)
                     </h1>
                     <p className="w-full ">
                     From visionary leaders to creative thinkers and technical experts, every member of our team is dedicated to delivering innovative solutions and exceptional service that drives our success.
