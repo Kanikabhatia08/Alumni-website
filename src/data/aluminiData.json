@@ -200,6 +200,19 @@
         "Batch": 2023,
         "Image" : "/images/SolomonGebremariam.JPG"
     },
+    {
+        "Batch": 2007,
+        "Name": "Anuradha Sehgal",
+        "FatherName": "Jagdish Kumar Sehgal",
+        "Email": "Anuradha13@gmail.com",
+        "Address": "N701, JMD Gardens, Sector 33, Gurugram",
+        "Location": "Gurugram",
+        "JobType": "Private Job",
+        "PhoneNo": "9560633204",
+        "Company": "Accenture",
+        "Skills": ["Java", "SpringBoot", "Microservices", "Data Engineering"],
+        "HighestQualification": "M.Tech."
+    },
     
     {
         "Name": "Manisha Rani",
@@ -212,6 +225,75 @@
         "InsituteName": "At home",
         "Batch": "2019-2023",
         "Image" : "/images/ManishaBhandari.jpeg"
+    },
+    {
+        "Batch": 2013,
+        "Name": "Ankur Mehay",
+        "FatherName": "Madan Lal",
+        "Email": "mehayankur@gmail.com",
+        "Address": "Friends Colony, Arya Nagar, Una, HP",
+        "Location": "UNA",
+        "Occupation": "Govt Job",
+        "PhoneNo": "98059-02931",
+        "HighestQualification": "M.Tech."
+    },
+    {
+        "Batch": "2015-2018",
+        "Name": "Ramandeep Kaur",
+        "FatherName": "Malkit Singh",
+        "Email": "rk912473@gmail.com",
+        "Address": "Samadh Bhai",
+        "Location": "Moga",
+        "Occupation": "Private Job",
+        "PhoneNo": "9888809015",
+        "WebsiteLink": "http://gcfdk.org",
+        "Skill": "Computer Network, Java",
+        "HighestQualification": "Master of Computer Science",
+        "Image" : "/images/Ramandeep Kaur.jpg"
+    },
+    {
+        "HighestQualification": "M.Tech (Artificial Intelligence & Data Science)",
+        "Certified": "Yes",
+        "Name": "Jaswinder Kaur",
+        "FatherName": "Avtar Singh",
+        "Email": "jaswinder.kaur@bbsbec.ac.in",
+        "Address": "Vill Chehal",
+        "Location": "Patiala",
+        "Occupation": "Semi-Govt Employee",
+        "PhoneNo": "8146340296",
+        "WebsiteLink": "Bbsbec.ac.in",
+        "Skill": "Data Science, Artificial Intelligence",
+        "Image" : "/images/Jaswinder Dhaliwal.jpeg"
+    },
+    {
+        "Year": 2010,
+        "Certified": "Yes",
+        "Name": "Jagwinder Singh",
+        "FatherName": "Jaswant Singh",
+        "Email": "jsingh@iapptechnologiesllp.com",
+        "Address": "Plot E 276 iapp technologies LLP",
+        "Location": "Mohali",
+        "Occupation": "Businessman",
+        "PhoneNo": "8196917900",
+        "LinkedIn": "https://www.linkedin.com/in/jagwinder-singh-iapp-technologies/",
+        "WebsiteLink": "https://iapptechnologies.com/",
+        "Designation": "Product Owner",
+        "HighestQualification": "Master of Computer Science",
+        "Company": "iappTechnologies LLP",
+        "Image" : "/images/Jagwinder.jpeg"
+    },
+    {
+        "Year": 2019,
+        "Certified": "Yes",
+        "Name": "Meenakshi Sharma",
+        "FatherName": "Sh. K. B. Sharma",
+        "Email": "sharma.minaxi@gmail.com",
+        "Address": "Kno 1 Hari Vihar",
+        "Location": "Pathankot",
+        "Occupation": "Private Job",
+        "PhoneNo": "9463967817",
+        "HighestQualification": "PHD",
+        "Image" : "/images/MeenakshiSharma.jpg"
     },
     {
         "Name": "Satpal Singh",
