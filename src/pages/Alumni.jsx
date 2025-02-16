@@ -121,7 +121,7 @@ export default function Alumni() {
                                 key={index}
                                 className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
                             >
-                                <div className="md:h-96">
+                                <div className="md:h-80">
                                     <img
                                         src={item.Image || '/images/user.jpg'}
                                         alt={item.Name}
@@ -130,7 +130,21 @@ export default function Alumni() {
                                 </div>
                                 <div className="p-4 text-sm md:text-base">
                                     <h3 className="text-lg md:text-xl font-bold">{item.Name}</h3>
-                                    <p className="text-gray-600">{item.Occupation}</p>
+                                    {item.Course && (
+                                        <p className="font-bold">
+                                            Course: <span className="font-normal">{item.Course}</span>
+                                        </p>
+                                    )}
+                                    {item.Batch && (
+                                        <p className="font-bold">
+                                            Batch: <span className="font-normal">{item.Batch}</span>
+                                        </p>
+                                    )}
+                                    {item.Occupation && (
+                                        <p className="font-bold">
+                                            Occupation: <span className="font-normal">{item.Occupation}</span>
+                                        </p>
+                                    )}
                                     <p className="text-gray-500">{item.InstituteName}</p>
                                     {item.Skill && (
                                         <p className="font-bold">
@@ -139,7 +153,7 @@ export default function Alumni() {
                                     )}
                                     {item.LinkedIn && (
                                         <p className="font-bold">
-                                            LinkedIn: <Link to={item.LinkedIn}><span className="font-normal">{item.Name}</span></Link>
+                                            LinkedIn: <Link to={item.LinkedIn}><span className="font-normal underline text-blue">{item.Name}</span></Link>
                                         </p>
                                     )}
                                 </div>
