@@ -20,7 +20,7 @@ export default function Alumni() {
     useEffect(() => {
         if (searchTerm.trim() !== "") {
             const results = data.filter((item) =>
-                item.Name.toLowerCase().includes(searchTerm.toLowerCase())
+                item.Name && item.Name.toLowerCase().includes(searchTerm.toLowerCase()) // Ensure Name is defined
             );
             setFilteredData(results);
         } else {
