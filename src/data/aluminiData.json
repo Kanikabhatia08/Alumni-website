@@ -557,6 +557,17 @@
         "Image": "/images/Dr.MukeshGarg.jpg"
     },
     {
+        "Name": "Ankur Mehay",
+        "FatherName": "Madan La",
+        "PhoneNo": 9805902931,
+        "Address": "Friends colony Arya Nagar HP, UNA",
+        "Email ": "pmehayankur@gmail.com",
+        "Course": "M.Tech",
+        "Occupation": "Govt Job",
+        "Batch": 2013,
+        "Image": "/images/AnkurMehay.jpg"
+    },
+    {
         "Name": "Dr.Geetika Bhardwaj",
         "FatherName": "Mahesh Bhardwaj",
         "PhoneNo": 9888888035,

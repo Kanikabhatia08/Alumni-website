@@ -57,7 +57,7 @@ export default function Alumni() {
 
     return (
         <div className="w-full mt-20">
-            <div className="relative hidden md:block  max-h-full h-screen">
+            <div className="relative hidden md:block max-h-full h-screen">
                 {slides.map((slide, index) => (
                     <div
                         key={slide.id}
@@ -121,7 +121,7 @@ export default function Alumni() {
                                 key={index}
                                 className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
                             >
-                                <div className="md:h-80">
+                                <div className="h-64 md:h-72 lg:h-80">
                                     <img
                                         src={item.Image || '/images/user.jpg'}
                                         alt={item.Name}
@@ -185,7 +185,7 @@ export default function Alumni() {
                 <div className="text-center my-4">
                     <button
                         onClick={handleReset}
-                        className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
+                        className="px-6 py-2 bg-blue text-white rounded-md hover:bg-blue-600"
                     >
                         Reset
                     </button>
