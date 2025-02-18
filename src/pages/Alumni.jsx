@@ -145,7 +145,6 @@ export default function Alumni() {
                                             Occupation: <span className="font-normal">{item.Occupation}</span>
                                         </p>
                                     )}
-                                    <p className="text-gray-500">{item.InstituteName}</p>
                                     {item.Skill && (
                                         <p className="font-bold">
                                             Skills: <span className="font-normal">{item.Skill}</span>
