@@ -24,11 +24,10 @@ export default function Alumni() {
                 item.Name?.toLowerCase().includes(searchTerm.toLowerCase())
             );
             setFilteredData(results);
-            setVisibleCount(25); // Reset visible count on new search
         } else {
             setFilteredData(data);
-            setVisibleCount(25);
         }
+        setVisibleCount(25); // Reset visible count when search term changes
     }, [searchTerm]);
 
     useEffect(() => {
@@ -41,6 +40,12 @@ export default function Alumni() {
     const handleSearch = (e) => {
         e.preventDefault();
         inputRef.current.blur();
+    };
+
+    const handleReset = () => {
+        setSearchTerm("");
+        setVisibleCount(25); // Reset visible count on reset
+        inputRef.current.focus();
     };
 
     const loadMore = useCallback(() => {
@@ -104,18 +109,25 @@ export default function Alumni() {
                 <h2 className="text-3xl font-semibold">All Alumni</h2>
             </div>
 
-            {/* Search */}
+            {/* Search & Reset */}
             <div className="w-full">
                 <div className="max-w-[85%] mx-auto">
-                    <form onSubmit={handleSearch} className="flex justify-center items-center">
+                    <form onSubmit={handleSearch} className="flex justify-center items-center gap-4">
                         <input
                             ref={inputRef}
                             type="text"
                             placeholder="Search Alumni by Name..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
-                            className="w-[80%] md:w-[50%] px-4 py-2 border border-gray-300 rounded-lg shadow-md focus:ring-2 focus:ring-blue-500"
+                            className="w-[70%] md:w-[50%] px-4 py-2 border border-gray-300 rounded-lg shadow-md "
                         />
+                        <button
+                            type="button"
+                            onClick={handleReset}
+                            className="px-4 py-2 bg-blue text-white rounded-lg shadow-md hover:bg-darkBlue"
+                        >
+                            Reset
+                        </button>
                     </form>
                 </div>
             </div>
