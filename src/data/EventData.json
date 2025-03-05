@@ -3,8 +3,6 @@
         "title": "Exam Strategy Session",
         "description": "The Department of Computer Science, Punjabi University Patiala, successfully organized a seminar to train students on effective techniques for solving exam questions quickly and efficiently. The session aimed to help students manage their time effectively during competitive exams and develop a focused approach to solving problems. Studemts were also trained in time management skills to ensure they can attempt all questions within the givent ime frame. The two hour session ended with a Q&A segment, where students interacted with the faculty members to clarify any doubts regarding the same.",
         "position": "left",
-        "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800",
         "image1": "/images/Seminar1.jpg",
         "image2": "/images/Seminar3.jpg"
     },
@@ -12,8 +10,6 @@
         "title": "Lohri Celebration 2025",
         "description": "The Department of Computer Science, Punjabi University, Patiala, recently celebrated the vibrant festival of Lohri with great enthusiasm and joy. Faculty members and students came together to mark the occasion with traditional bonfires, music, and dance, creating a lively and festive atmosphere. The event was a wonderful opportunity for everyone to connect, share cultural values, and strengthen the bond within the department. The celebrations were filled with laughter, happiness, and the warmth of togetherness, making it a memorable day for all attendees. Such events not only highlight the cultural heritage but also foster a sense of unity and belonging among the department members. We look forward to more such joyous celebrations in the future!",
         "position": "right",
-        "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800",
         "image1": "/images/lohri.jpg",
         "image2": "/images/gitEvent2.jpg"
     },
@@ -21,8 +17,6 @@
         "title": "Version control using Git and Github",
         "description": "The Department of Computer Science, Punjabi University Patiala, successfully organized a seminar on “Version Control using Git and GitHub” on 19th September 2024, led by Er. Jitesh Pubreja. The seminar was attended by the Head of the Department, Dr. Gagandeep Kaur, faculty members, research scholars, and students from the BCA, MCA, and FYIP programs. This seminar offered an in-depth exploration of version control systems, emphasizing the significance of Git and GitHub in modern software development and collaborative project management. Participants gained a strong foundation through detailed theoretical discussions and interactive practical demonstrations, which provided hands-on experience in managing repositories, branching, merging, and collaborative workflows. The event, held in the Multilingual Lab, 3rd Floor, from 2:15 PM to 4:00 PM, was highly appreciated for its engaging content and practical insights, equipping attendees with essential skills for efficient and professional project management.",
         "position": "left",
-        "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800",
         "image1": "/images/gitEvent1.jpg",
         "image2": "/images/gitEvent2.jpg"
     },
@@ -30,8 +24,6 @@
         "title": "Expert Talk",
         "description": "The Department of Computer Science at Punjabi University recently hosted an expert talk on the topic, 'Role of AI and Data Science for Future Green Revolution in India.' The session highlighted how cutting-edge technologies like Artificial Intelligence and Data Science can revolutionize Indian agriculture, enabling sustainable farming practices, precision agriculture, and efficient resource management. The speaker emphasized the potential of AI-powered solutions in predicting crop yields, optimizing irrigation, and reducing wastage, paving the way for a greener and more prosperous future. The talk also shed light on the importance of integrating technology with traditional farming methods to address challenges like climate change and food security.",
         "position": "right",
-        "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800",
         "image1": "/images/Event1.jpg",
         "image2": "/images/guestsEvent1.jpg"
     },
@@ -39,8 +31,6 @@
         "title": "Cyber Security and Web Development",
         "description": "On 9th September 2024, the Department of Computer Science organized a seminar on “Cyber Security and Web Development” in collaboration with Kinetic Sage Technologies. The event was held in the Multilingual Lab on the 3rd floor and was led by two resource persons: Mr. Partiyaksh Sharma, a skilled web developer and SOC analyst, and Miss Anisha, an intern specializing in web development. The seminar was attended by the Head of the Department, Dr. Gagandeep Kaur, faculty members, research scholars, and students from the BCA, MCA, and FYIP programs. The seminar focused on providing both theoretical insights and practical knowledge in the fields of cyber security and web development, offering students a comprehensive understanding of the current trends and technologies in these domains.",
         "position": "left",
-        "bgColor": "bg-red-400",
-        "textColor": "text-white",
         "image1": "/images/cyberEvent.jpg",
         "image2": "/images/guestsEvent2.jpg"
     },
@@ -48,8 +38,6 @@
         "title": "Alumni Meet",
         "description": "Prominent alumni among various alumni visited department were Mr. Sushil Khurana, Mr. Ravinder Pal Singh Ahuja, Mr. Rashpal, Mr. Jitesh Pubreja, Mr. Gurdeep Singh, Dr. Neeraj Sharma.",
         "position": "right",
-        "bgColor": "bg-red-400",
-        "textColor": "text-white",
         "image1": "/images/Event2.jpg",
         "image2": "/images/guestsEvent2.jpg"
     },
@@ -57,8 +45,6 @@
         "title": "Teachers day celebration",
         "description": "On 19th November 2024, the students of the Department of Computer Science at Punjabi University Patiala organized a vibrant and memorable Teachers’ Day Programme to honor and express gratitude toward their teachers. The event was attended by the Head of Department (HOD), faculty members, and students from BCA, MCA, and FYIP courses, making it a joyous and inclusive celebration. The programme featured a variety of performances, including heartfelt speeches, cultural presentations, and fun activities, all designed to showcase the students’ appreciation for their teachers’ unwavering dedication and guidance. The event created a warm and celebratory atmosphere, fostering a deeper bond between students and faculty while highlighting the importance of mentorship and the pivotal role teachers play in shaping their students’ futures.",
         "position": "left",
-        "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800",
         "image1": "/images/teachersDay2024.jpg",
         "image2": "/images/teachersDay2024.jpg"
     },
@@ -66,8 +52,6 @@
         "title": "FYIP Teachers day celebration",
         "description": "Happy Teachers' Day! The FYIP MCS 2nd-year students at the Department of Computer Science, Punjabi University, extend heartfelt gratitude to all the teachers for their guidance, inspiration, and unwavering support. Your dedication shapes our future, and we are truly grateful for your efforts.",
         "position": "right",
-        "bgColor": "bg-gray-400",
-        "textColor": "text-gray-800",
         "image1": "/images/fyip.jpg",
         "image2": "/images/teachersDay2024.jpg"
     },
@@ -75,8 +59,6 @@
         "title": "Orientation 2024",
         "description": "On 8th August 2024, the Department of Computer Science at Punjabi University Patiala organized an engaging Orientation Programme to welcome and guide new students. The event featured the presence of the Head of Department (HOD), faculty members, and the Placement Coordinator, who collectively introduced students to the department’s academic structure, policies, and career opportunities. Students from BCA, MCA, and FYIP courses participated enthusiastically, gaining insights into the curriculum, research opportunities, and placement processes. The session also provided an overview of departmental facilities and support systems, emphasizing the importance of skill development and collaboration. This orientation not only familiarized students with the academic environment but also inspired them to embrace the opportunities ahead, fostering a sense of community and purpose.",
         "position": "left",
-        "bgColor": "bg-red-400",
-        "textColor": "text-white",
         "image1": "/images/orientation2024.jpg",
         "image2": "/images/orientation2024.jpg"
     },
@@ -84,8 +66,6 @@
         "title": "Orientation 2023",
         "description": "An orientation program is organised on 17th August 2023 at the Computer Science Department of Punjabi University Patiala for new students who had just begun their first semesters of MCA and BCA Honours. This activity was intended to make these new students feel at ease and provide them crucial information. The special guests included the placement coordinator, the hostel wardens, and the head of the computer science department. These influential individuals cordially greeted the new students. They discussed a variety of significant topics. The department, the hostel where they may stay, and how to get ready for future employment were all discussed with the students. Some of the glimpses are as follows.",
         "position": "right",
-        "bgColor": "bg-red-400",
-        "textColor": "text-white",
         "image1": "/images/Event3.jpg",
         "image2": "/images/guestsEvent3.jpg"
     }
