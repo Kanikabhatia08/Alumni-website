@@ -74,7 +74,7 @@
         "Skill": "REACT, JavaScript, Express.js, MongoDB, etc.",
         "Batch": 2025,
         "Course": "MCA",
-        "Image": "/images/ABHINASHh.jpg"
+        "Image": "/images/ABHINASH.jpeg"
     },
     {
         "Name": "Harmandeep Singh Saggu",
@@ -158,9 +158,9 @@
         "Email": "surajkumar141570@gmail.com",
         "Profession": "Private Job",
         "Occupation": "Private Job at Punjabi University Patiala",
-        "InstituteName": " ",
-        "WebsiteLink": " ",
-        "Skill": " ",
+        "InstituteName": "",
+        "WebsiteLink": "",
+        "Skill": "",
         "Course": "MCA",
         "Batch": "2023-2025",
         "Image": "/images/ssandy.jpeg"
@@ -175,7 +175,7 @@
         "ComapanyName": "Zestminds Technologies Private Limited",
         "InstituteName": "https://zestminds.com",
         "LinkedIn": "https://www.linkedin.com/in/shivam-sharma-zestminds",
-        "Skill": " ",
+        "Skill": "",
         "Course": "MCA",
         "Batch": 2010,
         "Image": "/images/Shivam Sharma.jpg"
@@ -220,7 +220,7 @@
         "ComapanyName": "Secure fice solutions",
         "InstituteName": "",
         "WebsiteLink": "",
-        "Skill": " ",
+        "Skill": "",
         "Batch": 2025,
         "Course": "MCA",
         "Image": "/images/Amarpal Singh.jpg"
@@ -233,9 +233,9 @@
         "Email": "reetbrar.224@gmail.com",
         "Profession": "Student",
         "Occupation": "Trainee",
-        "InstituteName": " ",
-        "WebsiteLink": " ",
-        "Skill": " ",
+        "InstituteName": "",
+        "WebsiteLink": "",
+        "Skill": "",
         "Batch": 2025,
         "Course": "MCA",
         "Image": "/images/Harpreet Brar.jpg"
@@ -263,8 +263,8 @@
         "Email": "simranjeetmehrok24@gmail.com",
         "Profession": "Internship",
         "Occupation": "Intern at Punjabi University Patiala, on Campus",
-        "InstituteName": " ",
-        "WebsiteLink": " ",
+        "InstituteName": "",
+        "WebsiteLink": "",
         "Skill": "Web Development",
         "Batch": 2025,
         "Image": "/images/Simran Mehrok.jpg"
@@ -277,9 +277,9 @@
         "Email": "kaurmanjot279@gmail.com",
         "Profession": "Internship",
         "Occupation": "Intern at Sensation Software solutions",
-        "InstituteName": " ",
-        "WebsiteLink": "No",
-        "Skill": "No",
+        "InstituteName": "",
+        "WebsiteLink": "",
+        "Skill": "",
         "Batch": 2025,
         "Image": "/images/Manjot Kaur.jpg"
     },
@@ -291,9 +291,9 @@
         "Email": "97priyanka777@gmail.com",
         "Profession": "Trainee",
         "Occupation": "Trainee at Solitaire Infosys Pvt.Ltd.",
-        "InstituteName": " ",
+        "InstituteName": "",
         "LinkedIn": "https://www.linkedin.com/in/priyanka-bloch-4a7771219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "Skill": " ",
+        "Skill": "",
         "Batch": 2025,
         "Course": "MCA",
         "Image": "/images/Priyanka.jpg"
@@ -306,7 +306,7 @@
         "Email": "amanpreet769624@gmail.com",
         "Profession": "Trainee",
         "Occupation": "Trainee at Blue Aves pvt. lmt.",
-        "InstituteName": " ",
+        "InstituteName": "",
         "LinkedIn": "https://www.linkedin.com/in/priyanka-bloch-4a7771219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "Skill": "HTML, CSS, JavaScript, React ",
         "Batch": 2025,
@@ -321,7 +321,7 @@
         "Email": "lakshmijha23@gmail.com",
         "Profession": "Trainee",
         "Occupation": "Trainee at Punjabi university, Patiala",
-        "InstituteName": " ",
+        "InstituteName": "",
         "WebsiteLink": "Punjabi university.com",
         "Skill": "C, C++, Python, Teaching",
         "Batch": 2025,
@@ -352,7 +352,7 @@
         "Email": "sharmaruchika2002@gmail.com",
         "Profession": "Not working",
         "Occupation": "",
-        "InstituteName": " ",
+        "InstituteName": "",
         "LinkedIn": "https://www.linkedin.com/in/ruchika-sharma-5614472b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "Skill": "Front end developer (HTML)(CSS)(JAVASCRIPT), python , SQL",
         "Batch": 2025,
@@ -2431,7 +2431,7 @@
     {
         "RegisterationNo": "717-16-1490",
         "AdmissionYear": "2019",
-        "Batch": " ",
+        "Batch": "",
         "Name": "ABHIMANYU BADLIA",
         "FatherName": "ANIL KUMAR",
         "Gender": "Male",
@@ -2529,7 +2529,7 @@
     {
         "RegisterationNo": "9797-2019-773",
         "AdmissionYear": "2019",
-        "Batch": " ",
+        "Batch": "",
         "Name": "TARJAN SINGH",
         "FatherName": "CHIRANJI LAL",
         "Gender": "Male",
@@ -2571,7 +2571,7 @@
     {
         "RegisterationNo": "9797-2019-776",
         "AdmissionYear": "2019",
-        "Batch": " ",
+        "Batch": "",
         "Name": "AMANPREET KAUR",
         "FatherName": "JASWINDER SINGH",
         "Gender": "Female",
@@ -3602,7 +3602,7 @@
         "City": "Patiala",
         "State": "Punjab",
         "PhoneNo": "6283653306",
-        "Email": " "
+        "Email": ""
     },
     {
         "RegisterationNo": "9797-2019-807",
@@ -5322,8 +5322,8 @@
         "Cat_Main": "Ethopian",
         "DOB": "1983-01-09",
         "Address": "Jigjiga, Ethiopia (BBSB Hostel)",
-        "STDCode": " ",
-        "Email": " "
+        "STDCode": "",
+        "Email": ""
     },
     {
         "RegisterationNo": "PU (P) 2013-1096",
@@ -5361,8 +5361,8 @@
         "Cat_Main": "Ethopian",
         "DOB": "1991-05-18",
         "Address": "Gonder, Ethiopia (BBSB Hostel)",
-        "STDCode": " ",
-        "Email": " "
+        "STDCode": "",
+        "Email": ""
     },
     {
         "RegisterationNo": "PU (P) 2013-1098",
@@ -6215,7 +6215,7 @@
         "Address": "H.NO. 218, URBAN ESTATE PHASE - I ,",
         "City": "PATIALA",
         "State": "PUNJAB",
-        "PhoneNo": " "
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-852",
@@ -6445,11 +6445,11 @@
         "Name": "JASVEER KAUR",
         "FatherName": "BALDEV SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-870",
@@ -6458,11 +6458,11 @@
         "Name": "PRABHJOT KAUR",
         "FatherName": "PARMJIT SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-871",
@@ -6471,11 +6471,11 @@
         "Name": "GURPREM KAUR",
         "FatherName": "JAGTAR SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-872",
@@ -6484,11 +6484,11 @@
         "Name": "PRATIBHA",
         "FatherName": "BALWAN SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-873",
@@ -6497,11 +6497,11 @@
         "Name": "SIMMY SHARMA",
         "FatherName": "ANIL KUMAR",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-874",
@@ -6510,11 +6510,11 @@
         "Name": "HARPREET SINGH",
         "FatherName": "HARDIAL SINGH",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-875",
@@ -6523,11 +6523,11 @@
         "Name": "JASPREET KAUR",
         "FatherName": "HARMAIL SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-876",
@@ -6536,11 +6536,11 @@
         "Name": "HARINDER KAUR",
         "FatherName": "KULDIP SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-877",
@@ -6549,11 +6549,11 @@
         "Name": "DAVINDERJEET KAUR",
         "FatherName": "BALVEER SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-878",
@@ -6562,11 +6562,11 @@
         "Name": "PARVEEN KUMAR",
         "FatherName": "DEWA RAM",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-879",
@@ -6575,11 +6575,11 @@
         "Name": "MANJOT KAUR",
         "FatherName": "MANPREET SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-880",
@@ -6588,11 +6588,11 @@
         "Name": "DAVINDER KAUR",
         "FatherName": "RANJEET SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-881",
@@ -6601,11 +6601,11 @@
         "Name": "JASPREET KAUR",
         "FatherName": "SEWA SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-882",
@@ -6614,11 +6614,11 @@
         "Name": "RAMANJIT KAUR",
         "FatherName": "SURINDER SINGH",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-883",
@@ -6627,11 +6627,11 @@
         "Name": "NEHA",
         "FatherName": "NARESH KUMAR CHAWLA",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-885",
@@ -6640,11 +6640,11 @@
         "Name": "HASHIM ABDI",
         "FatherName": "ABDI",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-887",
@@ -6653,11 +6653,11 @@
         "Name": "SARA SIME",
         "FatherName": "SIME",
         "GENDER": "FEMALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-892",
@@ -6666,11 +6666,11 @@
         "Name": "ABDELA AMAN WAYO",
         "FatherName": "AMAN WAYO",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-893",
@@ -6679,11 +6679,11 @@
         "Name": "ABDETA HUSSIEN GAMESA",
         "FatherName": "HUSSIEN GAMESA",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-896",
@@ -6692,11 +6692,11 @@
         "Name": "BETELEHEM ASSEFA YIMER",
         "FatherName": "ASSEFA",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-897",
@@ -6705,11 +6705,11 @@
         "Name": "JEMAL AYDERUS SHEIK OMER",
         "FatherName": "AYDERUS",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
-        "State": " ",
-        "PhoneNo": " "
+        "Category": "",
+        "Address": "",
+        "City": "",
+        "State": "",
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "PU(P)2016-903",
@@ -6718,9 +6718,9 @@
         "Name": "SISAYI WEGARI MEKONNEN",
         "FatherName": "WEGARI",
         "GENDER": "MALE",
-        "Category": " ",
-        "Address": " ",
-        "City": " ",
+        "Category": "",
+        "Address": "",
+        "City": "",
         "State": "",
         "PhoneNo":  ""
     },
@@ -6956,7 +6956,7 @@
         "Address": "H.NO. 218, URBAN ESTATE PHASE - I ,",
         "City": "PATIALA",
         "State": "PUNJAB",
-        "PhoneNo": " "
+        "PhoneNo": ""
     },
     {
         "RegisterationNo": "309-PU(P)2000",
@@ -49224,7 +49224,7 @@
         "Image": "",
         "LinkedIn": "",
         "State": "",
-        "UniversityRegNo": " "
+        "UniversityRegNo": ""
     },
     {
         "Name": "KULJEET SINGH",
@@ -49908,7 +49908,7 @@
         "Image": "",
         "LinkedIn": "",
         "State": "",
-        "UniversityRegNo": " "
+        "UniversityRegNo": ""
     },
     {
         "Name": "ARADHANA",
@@ -50539,7 +50539,7 @@
         "Image": "",
         "LinkedIn": "",
         "State": "",
-        "UniversityRegNo": " "
+        "UniversityRegNo": ""
     },
     {
         "Name": "SEEMA RANI",
@@ -50669,7 +50669,7 @@
     },
     {
         "Name": "ARUN MEHDI RATTA",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "314-R, MODEL TOWN",
         "Email": "",
@@ -50687,7 +50687,7 @@
     },
     {
         "Name": "AJAY GARG",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "ST,NO.5, SARABHA NAGAR",
         "Email": "",
@@ -50705,7 +50705,7 @@
     },
     {
         "Name": "AMBIKA KUMAR",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "H.NO.197,SECTOR 18A",
         "Email": "",
@@ -50777,7 +50777,7 @@
     },
     {
         "Name": "EKTA WALIA",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "MADAN PURI COLONY,CHITRANA ROAD",
         "Email": "",
@@ -50831,7 +50831,7 @@
     },
     {
         "Name": "GURTEJ SINGH",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "ST. NO. 14, SAHIBJADA JHUJAR SINGH NAGAR, BIBI WALA ROAD",
         "Email": "",
@@ -50905,7 +50905,7 @@
         "Name": "MANJOT",
         "FatherName": "DR. RAM KISHOR",
         "PhoneNo": "",
-        "Address": " ",
+        "Address": "",
         "Email": "",
         "Profession": "",
         "Occupation": "",
@@ -50921,7 +50921,7 @@
     },
     {
         "Name": "NIDHI GUPTA",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "H.NO.1078, SECTOR 37-B",
         "Email": "",
@@ -50957,7 +50957,7 @@
     },
     {
         "Name": "POONAM SINGH",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "278 R, MODAL TOWN ",
         "Email": "",
@@ -50975,7 +50975,7 @@
     },
     {
         "Name": "RAJAN VASHISHT",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "H.NO. 1147-B, SECTOR 46 B",
         "Email": "",
@@ -50993,7 +50993,7 @@
     },
     {
         "Name": "RAKESH PURI",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "H.NO.740, GALI NO. 13, PARTAP NAGAR",
         "Email": "",
@@ -51011,7 +51011,7 @@
     },
     {
         "Name": "RAKESH TAYAGI",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "H,NO. 1302, SECTOR 11",
         "Email": "",
@@ -51029,7 +51029,7 @@
     },
     {
         "Name": "RATTANDEEEP CHAWLA",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "QR.NO. 3, TYPE TC/A SANCHAR COLONY B R S NAGAR, BLOCK D",
         "Email": "",
@@ -51047,7 +51047,7 @@
     },
     {
         "Name": "RICHA SHARMA",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "E.43, UNIVERSITY CAMPUS",
         "Email": "",
@@ -51101,7 +51101,7 @@
     },
     {
         "Name": "SHALINI KHUNGAR",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "SUNDAR NAGAR GALI NO. 4",
         "Email": "",
@@ -51121,7 +51121,7 @@
         "Name": "SHAM SUNDER",
         "FatherName": "RAMESH CHAND GAUTAM",
         "PhoneNo": "",
-        "Address": " ",
+        "Address": "",
         "Email": "",
         "Profession": "",
         "Occupation": "",
@@ -51137,7 +51137,7 @@
     },
     {
         "Name": "SONIA MADAN",
-        "FatherName": " ",
+        "FatherName": "",
         "PhoneNo": "",
         "Address": "394/13 URBAN ESTATE",
         "Email": "",

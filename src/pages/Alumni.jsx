@@ -141,7 +141,7 @@ export default function Alumni() {
                                 key={index}
                                 className="bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
                             >
-                                <div className="h-64 md:h-72 lg:h-80">
+                                <div className="h-64 md:h-72 lg:h-96 ">
                                     <img
                                         src={item.Image || '/images/user.jpg'}
                                         alt={item.Name}
